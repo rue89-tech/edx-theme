@@ -1,0 +1,9 @@
+a:link,
+body,
+html {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.view-login, .view-passwordreset, .view-register, body {
+	background-color: $athens-gray;
+}

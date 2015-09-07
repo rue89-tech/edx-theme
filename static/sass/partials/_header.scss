@@ -1,0 +1,39 @@
+.view-login header.global-new > nav h1.logo a, .view-login header.global.slim > nav h1.logo a, .view-login header.global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.global.slim > nav h1.logo a, .view-passwordreset header.global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.global.slim > nav h1.logo a, .view-register header.global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.global.slim > nav h1.logo a, body header.global > nav h1.logo a {
+	background-image: url('../images/logo-rue89-h.svg');
+	height: 76px;
+	width: 359px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+body header.global {
+	background: $tuna url('../images/header-bg.jpg') repeat left top;
+}
+
+.view-login header.global-new > nav .nav-courseware, .view-login header.global.slim > nav .nav-courseware, .view-login header.global > nav .nav-courseware, .view-passwordreset header.global-new > nav .nav-courseware, .view-passwordreset header.global.slim > nav .nav-courseware, .view-passwordreset header.global > nav .nav-courseware, .view-register header.global-new > nav .nav-courseware, .view-register header.global.slim > nav .nav-courseware, .view-register header.global > nav .nav-courseware, body header.global-new > nav .nav-courseware, body header.global.slim > nav .nav-courseware, body header.global > nav .nav-courseware {
+	margin-top: 38px;
+}
+
+.view-login header.global-new > nav .nav-courseware a.cta-login, .view-login header.global-new > nav .nav-courseware a.cta-register, .view-login header.global.slim > nav .nav-courseware a.cta-login, .view-login header.global.slim > nav .nav-courseware a.cta-register, .view-login header.global > nav .nav-courseware a.cta-login, .view-login header.global > nav .nav-courseware a.cta-register, .view-passwordreset header.global-new > nav .nav-courseware a.cta-login, .view-passwordreset header.global-new > nav .nav-courseware a.cta-register, .view-passwordreset header.global.slim > nav .nav-courseware a.cta-login, .view-passwordreset header.global.slim > nav .nav-courseware a.cta-register, .view-passwordreset header.global > nav .nav-courseware a.cta-login, .view-passwordreset header.global > nav .nav-courseware a.cta-register, .view-register header.global-new > nav .nav-courseware a.cta-login, .view-register header.global-new > nav .nav-courseware a.cta-register, .view-register header.global.slim > nav .nav-courseware a.cta-login, .view-register header.global.slim > nav .nav-courseware a.cta-register, .view-register header.global > nav .nav-courseware a.cta-login, .view-register header.global > nav .nav-courseware a.cta-register, body header.global-new > nav .nav-courseware a.cta-login, body header.global-new > nav .nav-courseware a.cta-register, body header.global.slim > nav .nav-courseware a.cta-login, body header.global.slim > nav .nav-courseware a.cta-register, body header.global > nav .nav-courseware a.cta-login, body header.global > nav .nav-courseware a.cta-register {
+	width: auto;
+	min-width: 177px;
+	height: 58px;
+	padding-top: 14px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: -.01em;
+	color: $black;
+	text-transform: uppercase;
+	border-width: 1px 1px 4px;
+	border-style: solid;
+	border-color: $vivid-tangerine;
+	border-radius: 0;
+	background-color: $vivid-tangerine;
+	color: $white;
+	&:hover {
+		background-color: $white;
+		border-color: $vivid-tangerine;
+		color: $vivid-tangerine;
+	}
+}
