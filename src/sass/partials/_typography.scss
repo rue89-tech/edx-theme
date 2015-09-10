@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Oswald:400;|Montserrat:700);
 
-html {
+html,
+p {
 	font-family: 'Droid Sans', sans-serif !important;
+	color: $tuna;
 }
 
 .h1, h1,

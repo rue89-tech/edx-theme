@@ -21,8 +21,10 @@ html {
   border-style: solid !important;
   border-radius: 0 !important; }
 
-html {
-  font-family: 'Droid Sans', sans-serif !important; }
+html,
+p {
+  font-family: 'Droid Sans', sans-serif !important;
+  color: #35363f; }
 
 .h1, h1,
 .h2, h2,
@@ -270,16 +272,24 @@ body footer.global {
   background-color: #f0eff4;
   padding-top: 74px;
   padding-bottom: 0;
-  overflow: visible; }
+  overflow: visible;
+  height: auto;
+  margin-top: 0;
+  border: none;
+  box-shadow: none; }
   .content-wrapper section.course-info header.course-profile .intro-inner-wrapper {
-    background-color: #fff; }
+    background-color: #fff;
+    max-width: 1170px;
+    border: none;
+    box-shadow: none; }
     .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table {
       background-color: #fff;
       border-radius: 0; }
       .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro {
         width: 100%;
         float: none;
-        padding-top: 70px; }
+        padding-top: 70px;
+        display: block; }
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro hgroup {
           border: none; }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro hgroup h1 {
@@ -296,7 +306,8 @@ body footer.global {
           background-color: #ff9388;
           position: relative;
           top: 698px;
-          left: 791px;
+          left: 802px;
+          margin-right: 0;
           width: auto !important;
           min-width: 177px !important;
           height: 50px !important;
@@ -319,7 +330,10 @@ body footer.global {
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled, .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register {
             color: #fff;
             font-size: 18px;
+            letter-spacing: 0;
             padding: 0;
+            margin: 0;
+            width: 100%;
             border: none;
             background-color: transparent;
             opacity: 1; }
@@ -332,12 +346,14 @@ body footer.global {
         height: 580px;
         float: none;
         padding-right: 0;
+        padding-left: 0;
         display: block;
         margin-left: auto;
         margin-right: auto; }
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero {
           padding: 0;
-          height: 100%; }
+          height: 100%;
+          border: none; }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero img {
             min-height: 100%;
             min-width: 100%;
@@ -361,7 +377,10 @@ body footer.global {
               margin-top: -19px; }
 .content-wrapper section.course-info .details {
   width: 770px;
-  padding-right: 70px; }
+  padding-right: 70px;
+  margin-right: 0; }
+  .content-wrapper section.course-info .details nav[aria-label="Course About"] {
+    display: none; }
   .content-wrapper section.course-info .details .inner-wrapper section {
     margin-bottom: 60px; }
     .content-wrapper section.course-info .details .inner-wrapper section h1 {
@@ -424,32 +443,41 @@ body footer.global {
   padding-left: 0;
   padding-right: 0;
   margin-top: 100px; }
-  .content-wrapper section.course-info .course-sidebar .course-summary header {
-    border-bottom-color: #d7d6e4;
-    margin-bottom: 42px; }
-    .content-wrapper section.course-info .course-sidebar .course-summary header .social-sharing {
-      display: none; }
-  .content-wrapper section.course-info .course-sidebar .course-summary .important-dates {
-    background-color: #85f9d2;
-    color: rgba(19, 38, 27, 0.5);
-    padding: 32px 42px 52px;
-    position: relative; }
-    .content-wrapper section.course-info .course-sidebar .course-summary .important-dates::before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      border-top: 48px solid #fff;
-      border-left: 48px solid rgba(12, 244, 166, 0.5); }
-    .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .icon {
-      display: none; }
-    .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-title,
-    .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-text {
-      float: none; }
-    .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-title {
-      margin-top: 15px;
-      margin-bottom: 0; }
+  .content-wrapper section.course-info .course-sidebar .course-summary {
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none; }
+    .content-wrapper section.course-info .course-sidebar .course-summary header {
+      border-bottom-color: #d7d6e4;
+      margin-bottom: 42px; }
+      .content-wrapper section.course-info .course-sidebar .course-summary header .social-sharing {
+        display: none; }
+    .content-wrapper section.course-info .course-sidebar .course-summary .important-dates {
+      background-color: #85f9d2;
+      color: rgba(19, 38, 27, 0.5);
+      padding: 32px 42px 52px;
+      position: relative; }
+      .content-wrapper section.course-info .course-sidebar .course-summary .important-dates::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-top: 48px solid #fff;
+        border-left: 48px solid rgba(12, 244, 166, 0.5); }
+      .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li {
+        border: none;
+        margin-bottom: 0;
+        padding-bottom: 0; }
+        .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .icon {
+          display: none; }
+        .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-title,
+        .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-text {
+          float: none; }
+        .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-title {
+          margin-top: 15px;
+          margin-bottom: 0; }
 .content-wrapper section.course-info ul {
   list-style-type: none;
   padding-left: 35px;
@@ -489,7 +517,6 @@ body footer.global {
 .content-wrapper .course-profile + .container {
   background-color: #fff;
   margin-top: 0;
-  padding-left: 52px;
-  padding-right: 52px; }
+  padding: 0 52px; }
 
 /*# sourceMappingURL=rue89.css.map */

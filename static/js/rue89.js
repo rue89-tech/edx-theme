@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	$answer.addClass('answer').hide();
 	$item.on('click', function() {
 		$(this).toggleClass('open');
-		$(this).children().not('summary').toggle(400);
+		$(this).children().not('summary').slideToggle(400);
 	});
 });

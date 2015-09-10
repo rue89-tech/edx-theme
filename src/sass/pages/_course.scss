@@ -5,8 +5,13 @@
 		 	padding-top: 74px;
 		 	padding-bottom: 0;
 			overflow: visible;
+			height: auto;
+			margin-top: 0;
+			@include reset-border-shadow;
 			.intro-inner-wrapper {
 				background-color: $white;
+				max-width: 1170px;
+				@include reset-border-shadow;
 				.table {
 					background-color: $white;
 					border-radius: 0;
@@ -14,6 +19,7 @@
 						width: 100%;
 						float: none;
 						padding-top: 70px;
+						display: block;
 						hgroup {
 							border: none;
 							h1 {
@@ -30,7 +36,8 @@
 							background-color: $vivid-tangerine;
 							position: relative;
 							top: 698px;
-							left: 791px;
+							left: 802px;
+							margin-right: 0;
 							@include button;
 							@include button-color( $vivid-tangerine );
 							width: 296px !important;
@@ -38,7 +45,10 @@
 							& > span.register {
 								color: $white;
 								font-size: 18px;
+								letter-spacing: 0;
 								padding: 0;
+								margin: 0;
+								width: 100%;
 								border: none;
 								background-color: transparent;
 								opacity: 1;
@@ -55,10 +65,12 @@
 						height: 580px;
 						float: none;
 						padding-right: 0;
+						padding-left: 0;
 						@include block-center;
 						.hero {
 							padding: 0;
 							height: 100%;
+							border: none;
 							img {
 								min-height: 100%;
 								min-width: 100%;
@@ -91,6 +103,10 @@
 		.details {
 			width: 770px;
 			padding-right: 70px;
+			margin-right: 0;
+			nav[aria-label="Course About"] {
+				display: none;
+			}
 			.inner-wrapper {
 				section {
 					margin-bottom: 60px;
@@ -169,6 +185,9 @@
 			padding-right: 0;
 			margin-top: 100px;
 			.course-summary {
+				margin-bottom: 0;
+				padding: 0;
+				@include reset-border-shadow;
 				header {
 					border-bottom-color: $mischka;
 					margin-bottom: 42px;
@@ -191,6 +210,9 @@
 						border-left: 48px solid rgba( $spring-green, .5 );
 					}
 					li {
+						border: none;
+						margin-bottom: 0;
+						padding-bottom: 0;
 						.icon {
 							display: none;
 						}
@@ -257,7 +279,6 @@
 	.course-profile + .container {
 		background-color: $white;
 		margin-top: 0;
-		padding-left: 52px;
-		padding-right: 52px;
+		padding: 0 52px;
 	}
 }

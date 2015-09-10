@@ -28,3 +28,8 @@
 		color: $color !important;
 	}
 }
+
+@mixin reset-border-shadow {
+	border: none;
+	box-shadow: none;
+}
