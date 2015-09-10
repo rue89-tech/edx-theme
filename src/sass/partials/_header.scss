@@ -1,0 +1,31 @@
+.view-login header.global, .view-login header.global-new, .view-login header.global.slim, .view-passwordreset header.global, .view-passwordreset header.global-new, .view-passwordreset header.global.slim, .view-register header.global, .view-register header.global-new, .view-register header.global.slim, body header.global, body header.global-new, body header.global.slim {
+	background: $tuna url('../images/header-bg.jpg') repeat left top;
+	border-top: 10px solid $aquamarine;
+	height: 115px;
+}
+
+header.global h1.logo {
+	height: 55px;
+}
+
+.view-login header.global-new > nav h1.logo a, .view-login header.global.slim > nav h1.logo a, .view-login header.global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.global.slim > nav h1.logo a, .view-passwordreset header.global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.global.slim > nav h1.logo a, .view-register header.global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.global.slim > nav h1.logo a, body header.global > nav h1.logo a {
+	background-image: url('../images/logo-rue89-h.svg');
+	height: 55px;
+	width: 265px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+	.view-login header.global-new > nav h1.logo span, .view-login header.global.slim > nav h1.logo span, .view-login header.global > nav h1.logo span, .view-passwordreset header.global-new > nav h1.logo span, .view-passwordreset header.global.slim > nav h1.logo span, .view-passwordreset header.global > nav h1.logo span, .view-register header.global-new > nav h1.logo span, .view-register header.global.slim > nav h1.logo span, .view-register header.global > nav h1.logo span, body header.global-new > nav h1.logo span, body header.global.slim > nav h1.logo span, body header.global > nav h1.logo span {
+		background-image: none;
+	}
+
+.view-login header.global-new > nav .nav-courseware, .view-login header.global.slim > nav .nav-courseware, .view-login header.global > nav .nav-courseware, .view-passwordreset header.global-new > nav .nav-courseware, .view-passwordreset header.global.slim > nav .nav-courseware, .view-passwordreset header.global > nav .nav-courseware, .view-register header.global-new > nav .nav-courseware, .view-register header.global.slim > nav .nav-courseware, .view-register header.global > nav .nav-courseware, body header.global-new > nav .nav-courseware, body header.global.slim > nav .nav-courseware, body header.global > nav .nav-courseware {
+	margin-top: 15px;
+}
+
+.cta-login,
+.cta-register {
+	color: $white !important;
+	@include button-color($vivid-tangerine);
+}

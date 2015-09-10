@@ -1,0 +1,40 @@
+.view-login,
+.view-passwordreset,
+.view-register,
+body {
+	footer,
+	footer.global {
+		background: $tuna url('../images/header-bg.jpg') repeat left top;
+		height: 88px;
+		ul.links {
+			float: left;
+			li a,
+			li a:hover {
+				color: $athens-gray;
+			}
+		}
+		.copyright {
+			float: left;
+			margin-left: 10px;
+		}
+		.by-ionisx {
+			width: 126px;
+			height: 26px;
+			background: transparent url('../images/logo-rue89-h.svg') no-repeat left top;
+			background-size: 126px 26px;
+			a {
+				display: none;
+			}
+			&::after {
+				content: '';
+				position: absolute;
+				bottom: -45px;
+				left: -5px;
+				width: 126px;
+				height: 42px;
+				background: transparent url('https://files.edx.org/openedx-logos/edx-openedx-logo-tag-light.png') no-repeat left top;
+				background-size: 126px 42px;
+			}
+		}
+	}
+}

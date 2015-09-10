@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Oswald:400;|Montserrat:700);
+
+html {
+	font-family: 'Droid Sans', sans-serif !important;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+	text-transform: lowercase;
+	&:first-letter {
+		text-transform: capitalize;
+	}
+}
+
+.h1, h1,
+.h2, h2,
+.h6, h6 {
+	font-family: 'Oswald', sans-serif !important;
+}
+
+.h1, h1 {
+	font-size: 50px;
+	line-height: 66px;
+	letter-spacing: -.001em;
+}
+
+.h2, h2 {
+	font-size: 36px;
+	line-height: 30px;
+	letter-spacing : .0025em;
+}
+
+.h3, h3 {
+	font-family: 'Montserrat' !important;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 30px;
+	letter-spacing: .005em;
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+
+.h4, h4,
+.h5, h5 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.h5, h5 {
+	font-weight: 700;
+}
+
+.h6, h6 {
+	font-size: 27px;
+	line-height: 34px;
+	letter-spacing: -.001em;
+}
+
+div[align="justify"] {
+	text-align: left;
+}
