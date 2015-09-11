@@ -11,15 +11,19 @@ html {
   width: auto !important;
   min-width: 177px !important;
   height: 50px !important;
-  padding-top: 14px !important;
+  padding-top: 11px !important;
   font-family: 'Montserrat' !important;
   font-weight: 700 !important;
   font-size: 18px !important;
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
+  text-align: center;
+  color: #000;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important; }
+  .cta:active, .cta:focus {
+    box-shadow: none !important; }
 
 html,
 p {
@@ -83,6 +87,7 @@ div[align="justify"] {
 
 .view-login header.global, .view-login header.global-new, .view-login header.global.slim, .view-passwordreset header.global, .view-passwordreset header.global-new, .view-passwordreset header.global.slim, .view-register header.global, .view-register header.global-new, .view-register header.global.slim, body header.global, body header.global-new, body header.global.slim {
   background: #35363f url("../images/header-bg.jpg") repeat left top;
+  background-size: 50%;
   border-top: 10px solid #85f9d2;
   height: 115px; }
 
@@ -102,16 +107,261 @@ header.global h1.logo {
 .view-login header.global-new > nav .nav-courseware, .view-login header.global.slim > nav .nav-courseware, .view-login header.global > nav .nav-courseware, .view-passwordreset header.global-new > nav .nav-courseware, .view-passwordreset header.global.slim > nav .nav-courseware, .view-passwordreset header.global > nav .nav-courseware, .view-register header.global-new > nav .nav-courseware, .view-register header.global.slim > nav .nav-courseware, .view-register header.global > nav .nav-courseware, body header.global-new > nav .nav-courseware, body header.global.slim > nav .nav-courseware, body header.global > nav .nav-courseware {
   margin-top: 15px; }
 
+body header.global > nav .nav-global {
+  margin-top: 17px;
+  margin-left: 471px;
+  float: left; }
+  body header.global > nav .nav-global a {
+    color: #000;
+    text-transform: uppercase;
+    width: auto !important;
+    min-width: 177px !important;
+    height: 50px !important;
+    padding-top: 11px !important;
+    font-family: 'Montserrat' !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    letter-spacing: -.01em !important;
+    text-transform: uppercase !important;
+    text-align: center;
+    color: #000;
+    border-width: 1px 1px 4px !important;
+    border-style: solid !important;
+    border-radius: 0 !important;
+    border-color: #85f9d2 !important;
+    border-bottom-color: #0cc5a6 !important;
+    background-color: #85f9d2 !important;
+    padding-top: 10px !important; }
+    body header.global > nav .nav-global a:active, body header.global > nav .nav-global a:focus {
+      box-shadow: none !important; }
+    body header.global > nav .nav-global a:hover {
+      border-color: #0cc5a6 !important;
+      background-color: #fff !important;
+      color: #0cc5a6 !important; }
+
 .cta-login,
 .cta-register {
   color: #fff !important;
   border-color: #ff9388 !important;
+  border-bottom-color: #e27774 !important;
   background-color: #ff9388 !important; }
   .cta-login:hover,
   .cta-register:hover {
-    border-color: #ff9388 !important;
+    border-color: #e27774 !important;
     background-color: #fff !important;
-    color: #ff9388 !important; }
+    color: #e27774 !important; }
+
+.view-login header.global-new > nav ol.user, .view-login header.global.slim > nav ol.user, .view-login header.global > nav ol.user,
+.view-passwordreset header.global-new > nav ol.user,
+.view-passwordreset header.global.slim > nav ol.user,
+.view-passwordreset header.global > nav ol.user,
+.view-register header.global-new > nav ol.user,
+.view-register header.global.slim > nav ol.user,
+.view-register header.global > nav ol.user,
+body header.global-new > nav ol.user,
+body header.global.slim > nav ol.user,
+body header.global > nav ol.user {
+  margin-top: 17px; }
+  .view-login header.global-new > nav ol.user > li.primary:first-child, .view-login header.global.slim > nav ol.user > li.primary:first-child, .view-login header.global > nav ol.user > li.primary:first-child,
+  .view-passwordreset header.global-new > nav ol.user > li.primary:first-child,
+  .view-passwordreset header.global.slim > nav ol.user > li.primary:first-child,
+  .view-passwordreset header.global > nav ol.user > li.primary:first-child,
+  .view-register header.global-new > nav ol.user > li.primary:first-child,
+  .view-register header.global.slim > nav ol.user > li.primary:first-child,
+  .view-register header.global > nav ol.user > li.primary:first-child,
+  body header.global-new > nav ol.user > li.primary:first-child,
+  body header.global.slim > nav ol.user > li.primary:first-child,
+  body header.global > nav ol.user > li.primary:first-child {
+    display: none; }
+  .view-login header.global-new > nav ol.user > li.primary > a, .view-login header.global.slim > nav ol.user > li.primary > a, .view-login header.global > nav ol.user > li.primary > a,
+  .view-passwordreset header.global-new > nav ol.user > li.primary > a,
+  .view-passwordreset header.global.slim > nav ol.user > li.primary > a,
+  .view-passwordreset header.global > nav ol.user > li.primary > a,
+  .view-register header.global-new > nav ol.user > li.primary > a,
+  .view-register header.global.slim > nav ol.user > li.primary > a,
+  .view-register header.global > nav ol.user > li.primary > a,
+  body header.global-new > nav ol.user > li.primary > a,
+  body header.global.slim > nav ol.user > li.primary > a,
+  body header.global > nav ol.user > li.primary > a {
+    width: auto !important;
+    min-width: 177px !important;
+    height: 50px !important;
+    padding-top: 11px !important;
+    font-family: 'Montserrat' !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    letter-spacing: -.01em !important;
+    text-transform: uppercase !important;
+    text-align: center;
+    color: #000;
+    border-width: 1px 1px 4px !important;
+    border-style: solid !important;
+    border-radius: 0 !important;
+    border-color: #f0eff4 !important;
+    border-bottom-color: #8d8f9e !important;
+    background-color: #f0eff4 !important; }
+    .view-login header.global-new > nav ol.user > li.primary > a:active, .view-login header.global-new > nav ol.user > li.primary > a:focus, .view-login header.global.slim > nav ol.user > li.primary > a:active, .view-login header.global.slim > nav ol.user > li.primary > a:focus, .view-login header.global > nav ol.user > li.primary > a:active, .view-login header.global > nav ol.user > li.primary > a:focus,
+    .view-passwordreset header.global-new > nav ol.user > li.primary > a:active,
+    .view-passwordreset header.global-new > nav ol.user > li.primary > a:focus,
+    .view-passwordreset header.global.slim > nav ol.user > li.primary > a:active,
+    .view-passwordreset header.global.slim > nav ol.user > li.primary > a:focus,
+    .view-passwordreset header.global > nav ol.user > li.primary > a:active,
+    .view-passwordreset header.global > nav ol.user > li.primary > a:focus,
+    .view-register header.global-new > nav ol.user > li.primary > a:active,
+    .view-register header.global-new > nav ol.user > li.primary > a:focus,
+    .view-register header.global.slim > nav ol.user > li.primary > a:active,
+    .view-register header.global.slim > nav ol.user > li.primary > a:focus,
+    .view-register header.global > nav ol.user > li.primary > a:active,
+    .view-register header.global > nav ol.user > li.primary > a:focus,
+    body header.global-new > nav ol.user > li.primary > a:active,
+    body header.global-new > nav ol.user > li.primary > a:focus,
+    body header.global.slim > nav ol.user > li.primary > a:active,
+    body header.global.slim > nav ol.user > li.primary > a:focus,
+    body header.global > nav ol.user > li.primary > a:active,
+    body header.global > nav ol.user > li.primary > a:focus {
+      box-shadow: none !important; }
+    .view-login header.global-new > nav ol.user > li.primary > a:hover, .view-login header.global.slim > nav ol.user > li.primary > a:hover, .view-login header.global > nav ol.user > li.primary > a:hover,
+    .view-passwordreset header.global-new > nav ol.user > li.primary > a:hover,
+    .view-passwordreset header.global.slim > nav ol.user > li.primary > a:hover,
+    .view-passwordreset header.global > nav ol.user > li.primary > a:hover,
+    .view-register header.global-new > nav ol.user > li.primary > a:hover,
+    .view-register header.global.slim > nav ol.user > li.primary > a:hover,
+    .view-register header.global > nav ol.user > li.primary > a:hover,
+    body header.global-new > nav ol.user > li.primary > a:hover,
+    body header.global.slim > nav ol.user > li.primary > a:hover,
+    body header.global > nav ol.user > li.primary > a:hover {
+      border-color: #8d8f9e !important;
+      background-color: #fff !important;
+      color: #8d8f9e !important; }
+    .view-login header.global-new > nav ol.user > li.primary > a.dropdown, .view-login header.global.slim > nav ol.user > li.primary > a.dropdown, .view-login header.global > nav ol.user > li.primary > a.dropdown,
+    .view-passwordreset header.global-new > nav ol.user > li.primary > a.dropdown,
+    .view-passwordreset header.global.slim > nav ol.user > li.primary > a.dropdown,
+    .view-passwordreset header.global > nav ol.user > li.primary > a.dropdown,
+    .view-register header.global-new > nav ol.user > li.primary > a.dropdown,
+    .view-register header.global.slim > nav ol.user > li.primary > a.dropdown,
+    .view-register header.global > nav ol.user > li.primary > a.dropdown,
+    body header.global-new > nav ol.user > li.primary > a.dropdown,
+    body header.global.slim > nav ol.user > li.primary > a.dropdown,
+    body header.global > nav ol.user > li.primary > a.dropdown {
+      position: relative; }
+      .view-login header.global-new > nav ol.user > li.primary > a.dropdown.active, .view-login header.global.slim > nav ol.user > li.primary > a.dropdown.active, .view-login header.global > nav ol.user > li.primary > a.dropdown.active,
+      .view-passwordreset header.global-new > nav ol.user > li.primary > a.dropdown.active,
+      .view-passwordreset header.global.slim > nav ol.user > li.primary > a.dropdown.active,
+      .view-passwordreset header.global > nav ol.user > li.primary > a.dropdown.active,
+      .view-register header.global-new > nav ol.user > li.primary > a.dropdown.active,
+      .view-register header.global.slim > nav ol.user > li.primary > a.dropdown.active,
+      .view-register header.global > nav ol.user > li.primary > a.dropdown.active,
+      body header.global-new > nav ol.user > li.primary > a.dropdown.active,
+      body header.global.slim > nav ol.user > li.primary > a.dropdown.active,
+      body header.global > nav ol.user > li.primary > a.dropdown.active {
+        color: #8d8f9e; }
+      .view-login header.global-new > nav ol.user > li.primary > a.dropdown .fa, .view-login header.global.slim > nav ol.user > li.primary > a.dropdown .fa, .view-login header.global > nav ol.user > li.primary > a.dropdown .fa,
+      .view-passwordreset header.global-new > nav ol.user > li.primary > a.dropdown .fa,
+      .view-passwordreset header.global.slim > nav ol.user > li.primary > a.dropdown .fa,
+      .view-passwordreset header.global > nav ol.user > li.primary > a.dropdown .fa,
+      .view-register header.global-new > nav ol.user > li.primary > a.dropdown .fa,
+      .view-register header.global.slim > nav ol.user > li.primary > a.dropdown .fa,
+      .view-register header.global > nav ol.user > li.primary > a.dropdown .fa,
+      body header.global-new > nav ol.user > li.primary > a.dropdown .fa,
+      body header.global.slim > nav ol.user > li.primary > a.dropdown .fa,
+      body header.global > nav ol.user > li.primary > a.dropdown .fa {
+        display: none; }
+      .view-login header.global-new > nav ol.user > li.primary > a.dropdown::before, .view-login header.global.slim > nav ol.user > li.primary > a.dropdown::before, .view-login header.global > nav ol.user > li.primary > a.dropdown::before,
+      .view-passwordreset header.global-new > nav ol.user > li.primary > a.dropdown::before,
+      .view-passwordreset header.global.slim > nav ol.user > li.primary > a.dropdown::before,
+      .view-passwordreset header.global > nav ol.user > li.primary > a.dropdown::before,
+      .view-register header.global-new > nav ol.user > li.primary > a.dropdown::before,
+      .view-register header.global.slim > nav ol.user > li.primary > a.dropdown::before,
+      .view-register header.global > nav ol.user > li.primary > a.dropdown::before,
+      body header.global-new > nav ol.user > li.primary > a.dropdown::before,
+      body header.global.slim > nav ol.user > li.primary > a.dropdown::before,
+      body header.global > nav ol.user > li.primary > a.dropdown::before {
+        content: 'Mon compte';
+        text-transform: uppercase;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 18px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+        padding-left: 10px;
+        text-align: left; }
+      .view-login header.global-new > nav ol.user > li.primary > a.dropdown::after, .view-login header.global.slim > nav ol.user > li.primary > a.dropdown::after, .view-login header.global > nav ol.user > li.primary > a.dropdown::after,
+      .view-passwordreset header.global-new > nav ol.user > li.primary > a.dropdown::after,
+      .view-passwordreset header.global.slim > nav ol.user > li.primary > a.dropdown::after,
+      .view-passwordreset header.global > nav ol.user > li.primary > a.dropdown::after,
+      .view-register header.global-new > nav ol.user > li.primary > a.dropdown::after,
+      .view-register header.global.slim > nav ol.user > li.primary > a.dropdown::after,
+      .view-register header.global > nav ol.user > li.primary > a.dropdown::after,
+      body header.global-new > nav ol.user > li.primary > a.dropdown::after,
+      body header.global.slim > nav ol.user > li.primary > a.dropdown::after,
+      body header.global > nav ol.user > li.primary > a.dropdown::after {
+        content: '\f078';
+        font-family: FontAwesome;
+        font-size: .8em;
+        position: absolute;
+        top: 11px;
+        right: 11px; }
+  .view-login header.global-new > nav ol.user ul.dropdown-menu, .view-login header.global.slim > nav ol.user ul.dropdown-menu, .view-login header.global > nav ol.user ul.dropdown-menu,
+  .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu,
+  .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu,
+  .view-passwordreset header.global > nav ol.user ul.dropdown-menu,
+  .view-register header.global-new > nav ol.user ul.dropdown-menu,
+  .view-register header.global.slim > nav ol.user ul.dropdown-menu,
+  .view-register header.global > nav ol.user ul.dropdown-menu,
+  body header.global-new > nav ol.user ul.dropdown-menu,
+  body header.global.slim > nav ol.user ul.dropdown-menu,
+  body header.global > nav ol.user ul.dropdown-menu {
+    left: 0;
+    top: 50px;
+    border-radius: 0;
+    border: none; }
+    .view-login header.global-new > nav ol.user ul.dropdown-menu li, .view-login header.global.slim > nav ol.user ul.dropdown-menu li, .view-login header.global > nav ol.user ul.dropdown-menu li,
+    .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li,
+    .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu li,
+    .view-passwordreset header.global > nav ol.user ul.dropdown-menu li,
+    .view-register header.global-new > nav ol.user ul.dropdown-menu li,
+    .view-register header.global.slim > nav ol.user ul.dropdown-menu li,
+    .view-register header.global > nav ol.user ul.dropdown-menu li,
+    body header.global-new > nav ol.user ul.dropdown-menu li,
+    body header.global.slim > nav ol.user ul.dropdown-menu li,
+    body header.global > nav ol.user ul.dropdown-menu li {
+      height: 50px;
+      background-color: #d7d6e4;
+      margin-bottom: 1px; }
+      .view-login header.global-new > nav ol.user ul.dropdown-menu li:hover, .view-login header.global.slim > nav ol.user ul.dropdown-menu li:hover, .view-login header.global > nav ol.user ul.dropdown-menu li:hover,
+      .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li:hover,
+      .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu li:hover,
+      .view-passwordreset header.global > nav ol.user ul.dropdown-menu li:hover,
+      .view-register header.global-new > nav ol.user ul.dropdown-menu li:hover,
+      .view-register header.global.slim > nav ol.user ul.dropdown-menu li:hover,
+      .view-register header.global > nav ol.user ul.dropdown-menu li:hover,
+      body header.global-new > nav ol.user ul.dropdown-menu li:hover,
+      body header.global.slim > nav ol.user ul.dropdown-menu li:hover,
+      body header.global > nav ol.user ul.dropdown-menu li:hover {
+        background-color: #d7d6e4;
+        color: #35363f !important; }
+      .view-login header.global-new > nav ol.user ul.dropdown-menu li a, .view-login header.global.slim > nav ol.user ul.dropdown-menu li a, .view-login header.global > nav ol.user ul.dropdown-menu li a,
+      .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li a,
+      .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu li a,
+      .view-passwordreset header.global > nav ol.user ul.dropdown-menu li a,
+      .view-register header.global-new > nav ol.user ul.dropdown-menu li a,
+      .view-register header.global.slim > nav ol.user ul.dropdown-menu li a,
+      .view-register header.global > nav ol.user ul.dropdown-menu li a,
+      body header.global-new > nav ol.user ul.dropdown-menu li a,
+      body header.global.slim > nav ol.user ul.dropdown-menu li a,
+      body header.global > nav ol.user ul.dropdown-menu li a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin: 10px 0 0;
+        color: #35363f;
+        font-size: 18px;
+        line-height: 20x; }
 
 .view-login footer,
 .view-login footer.global,
@@ -122,6 +372,7 @@ header.global h1.logo {
 body footer,
 body footer.global {
   background: #35363f url("../images/header-bg.jpg") repeat left top;
+  background-size: 50%;
   height: 88px; }
   .view-login footer ul.links,
   .view-login footer.global ul.links,
@@ -197,6 +448,56 @@ body footer.global {
       background: transparent url("https://files.edx.org/openedx-logos/edx-openedx-logo-tag-light.png") no-repeat left top;
       background-size: 126px 42px; }
 
+.form-type .form-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px; }
+  .form-type .form-wrapper form {
+    border: none !important;
+    border-radius: none !important; }
+  .form-type .form-wrapper .section-title.lines::after {
+    background: none !important; }
+  .form-type .form-wrapper .form-field label {
+    color: #35363f !important;
+    font-size: 18px;
+    line-height: 26px; }
+  .form-type .form-wrapper .form-field .input-block {
+    border: 1px solid #d7d6e4;
+    padding-top: 3px; }
+  .form-type .form-wrapper .form-field .checkbox:not(old) {
+    opacity: 0; }
+    .form-type .form-wrapper .form-field .checkbox:not(old) + label {
+      position: relative; }
+      .form-type .form-wrapper .form-field .checkbox:not(old) + label::before {
+        content: '';
+        display: block;
+        border: 1px solid #d7d6e4;
+        height: 15px;
+        width: 15px;
+        position: absolute;
+        left: -22px;
+        top: 6px;
+        z-index: 10; }
+    .form-type .form-wrapper .form-field .checkbox:not(old):checked + label::before {
+      content: '\f00c';
+      font-family: FontAwesome;
+      font-size: .8em;
+      line-height: 11px; }
+  .form-type .form-wrapper .form-field .tip-input {
+    color: #8d8f9e !important;
+    font-size: 14px !important;
+    line-height: 20px !important; }
+
+.section-title .text {
+  text-transform: uppercase;
+  color: #000 !important;
+  font-family: 'Droid Sans' !important;
+  font-weight: 700;
+  font-size: 20px !important;
+  line-height: 26px !important;
+  letter-spacing: .025em; }
+
 .content-wrapper > .home > header {
   display: none; }
 .content-wrapper > .home .highlighted-courses .courses {
@@ -270,7 +571,7 @@ body footer.global {
 
 .content-wrapper section.course-info header.course-profile {
   background-color: #f0eff4;
-  padding-top: 74px;
+  padding-top: 37px;
   padding-bottom: 0;
   overflow: visible;
   height: auto;
@@ -288,7 +589,8 @@ body footer.global {
       .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro {
         width: 100%;
         float: none;
-        padding-top: 70px;
+        padding-top: 35px;
+        padding-bottom: 0;
         display: block; }
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro hgroup {
           border: none; }
@@ -305,28 +607,33 @@ body footer.global {
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
           background-color: #ff9388;
           position: relative;
-          top: 698px;
+          top: 704px;
           left: 802px;
           margin-right: 0;
           width: auto !important;
           min-width: 177px !important;
           height: 50px !important;
-          padding-top: 14px !important;
+          padding-top: 11px !important;
           font-family: 'Montserrat' !important;
           font-weight: 700 !important;
           font-size: 18px !important;
           letter-spacing: -.01em !important;
           text-transform: uppercase !important;
+          text-align: center;
+          color: #000;
           border-width: 1px 1px 4px !important;
           border-style: solid !important;
           border-radius: 0 !important;
           border-color: #ff9388 !important;
+          border-bottom-color: #e27774 !important;
           background-color: #ff9388 !important;
           width: 296px !important; }
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:active, .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:focus {
+            box-shadow: none !important; }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover {
-            border-color: #ff9388 !important;
+            border-color: #e27774 !important;
             background-color: #fff !important;
-            color: #ff9388 !important; }
+            color: #e27774 !important; }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled, .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register {
             color: #fff;
             font-size: 18px;
@@ -341,12 +648,30 @@ body footer.global {
               color: #ff9388;
               background-color: transparent;
               border: none; }
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > a.find-courses,
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register,
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart {
+            border-radius: 0;
+            width: 100%;
+            height: 100%;
+            background: none;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 18px;
+            text-shadow: none;
+            letter-spacing: -.001em;
+            padding-top: 3px;
+            border: none;
+            box-shadow: none; }
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover > a.find-courses,
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover a.register,
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover a.add-to-cart {
+            color: #ff9388; }
       .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media {
         width: 1067px;
         height: 580px;
         float: none;
-        padding-right: 0;
-        padding-left: 0;
+        padding: 0 0 20px;
         display: block;
         margin-left: auto;
         margin-right: auto; }
@@ -385,21 +710,21 @@ body footer.global {
     margin-bottom: 60px; }
     .content-wrapper section.course-info .details .inner-wrapper section h1 {
       text-transform: uppercase;
-      font-size: 36px;
+      font-size: 27px;
       line-height: 1.2em;
       text-align: left;
       display: inline-block;
       background-color: #85f9d2;
       padding: 16px 20px 18px 40px;
-      margin-bottom: 60px;
+      margin-bottom: 50px;
       position: relative; }
       .content-wrapper section.course-info .details .inner-wrapper section h1::before {
         display: block;
         content: "";
         height: 0;
         width: 0;
-        border-top: 37px solid transparent;
-        border-bottom: 37px solid transparent;
+        border-top: 33px solid transparent;
+        border-bottom: 33px solid transparent;
         border-left: 19px solid #fff;
         position: absolute;
         left: 0;
@@ -437,7 +762,8 @@ body footer.global {
     font-weight: 700;
     width: 800px;
     position: relative;
-    left: -440px; }
+    left: -440px;
+    margin-top: 0; }
 .content-wrapper section.course-info .course-sidebar {
   width: 296px;
   padding-left: 0;
@@ -518,5 +844,301 @@ body footer.global {
   background-color: #fff;
   margin-top: 0;
   padding: 0 52px; }
+
+.content-wrapper > .dashboard .my-courses {
+  float: right;
+  width: 80%; }
+  .content-wrapper > .dashboard .my-courses .wrapper-header-courses .header-courses {
+    color: #000 !important;
+    font-family: "Oswald" !important;
+    font-size: 36px !important;
+    letter-spacing: 0.025em;
+    line-height: 44px !important;
+    text-transform: uppercase; }
+  .content-wrapper > .dashboard .my-courses .listing-courses .course-item {
+    border: none;
+    padding: 0;
+    height: 196px;
+    border-radius: 0;
+    overflow: hidden; }
+    .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course {
+      margin: 0;
+      overflow: hidden; }
+      .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details {
+        height: 196px; }
+        .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-image {
+          height: 100%;
+          width: 358px;
+          margin-right: 15px; }
+          .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-image .cover {
+            height: 100%;
+            width: 100%;
+            border-radius: 0;
+            position: relative; }
+            .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-image .cover .course-image {
+              height: auto;
+              width: auto;
+              min-height: 100%;
+              max-height: unset;
+              min-width: 100%;
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%); }
+        .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details {
+          width: calc(100% - 373px);
+          height: 100%;
+          position: relative; }
+          .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-title {
+            margin-top: 20px;
+            margin-bottom: 0;
+            padding-right: 100px; }
+            .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-title a {
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 27px;
+              line-height: 30px;
+              color: #000; }
+          .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info {
+            width: 100%;
+            padding-right: 20px;
+            margin-top: 0; }
+            .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-university,
+            .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-course-id {
+              position: absolute;
+              right: 10px;
+              display: block;
+              min-width: 50px;
+              height: 29px;
+              padding: 3px 10px 0;
+              background-color: #85f9d2;
+              font-family: 'Oswald';
+              font-size: 14px;
+              color: #000;
+              text-transform: uppercase;
+              text-align: center; }
+            .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-university {
+              top: 20px; }
+            .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-course-id {
+              top: 57px; }
+            .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-date-block {
+              color: #0cc5a6;
+              font-weight: 700;
+              font-size: 18px; }
+          .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions {
+            width: 100%;
+            float: none;
+            position: absolute;
+            bottom: 20px; }
+            .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions {
+              float: none;
+              width: 100%; }
+              .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .enter-course {
+                float: left;
+                margin-top: 6px;
+                width: auto !important;
+                min-width: 177px !important;
+                height: 50px !important;
+                padding-top: 11px !important;
+                font-family: 'Montserrat' !important;
+                font-weight: 700 !important;
+                font-size: 18px !important;
+                letter-spacing: -.01em !important;
+                text-transform: uppercase !important;
+                text-align: center;
+                color: #000;
+                border-width: 1px 1px 4px !important;
+                border-style: solid !important;
+                border-radius: 0 !important;
+                border-color: #ff9388 !important;
+                border-bottom-color: #e27774 !important;
+                background-color: #ff9388 !important;
+                height: 36px !important;
+                padding-top: 6px !important;
+                color: #fff;
+                font-size: 16px !important;
+                min-width: unset !important; }
+                .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .enter-course:active, .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .enter-course:focus {
+                  box-shadow: none !important; }
+                .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .enter-course:hover {
+                  border-color: #e27774 !important;
+                  background-color: #fff !important;
+                  color: #e27774 !important; }
+              .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more {
+                display: block;
+                float: none; }
+                .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .action-more {
+                  display: none; }
+                .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown {
+                  display: block;
+                  float: right;
+                  position: relative;
+                  right: 10px;
+                  top: 15px; }
+                  .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown .actions-dropdown-list {
+                    display: block;
+                    overflow: hidden;
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    box-shadow: none; }
+                    .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown .actions-dropdown-list::before, .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown .actions-dropdown-list::after {
+                      display: none; }
+                    .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown .actions-dropdown-list .actions-item {
+                      float: left; }
+                      .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown .actions-dropdown-list .actions-item::before {
+                        content: ' - ';
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        color: #e27774; }
+                      .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown .actions-dropdown-list .actions-item:first-child::before {
+                        content: ''; }
+                      .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown .actions-dropdown-list .actions-item .action {
+                        display: inline;
+                        padding: 0;
+                        color: #e27774; }
+                        .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown .actions-dropdown-list .actions-item .action:hover {
+                          text-decoration: underline; }
+.content-wrapper > .dashboard .dashboard-search-bar,
+.content-wrapper > .dashboard .profile-sidebar {
+  float: left;
+  width: 17.5%;
+  margin: 70px 2.5% 0 0; }
+
+.account-settings-container .header-title {
+  color: #000 !important;
+  font-size: 36px !important;
+  line-height: 44px !important;
+  font-family: 'Oswald' !important;
+  text-transform: uppercase;
+  letter-spacing: .025em; }
+.account-settings-container .account-settings-sections .section {
+  border: none;
+  box-shadow: none;
+  border-radius: 0 !important; }
+  .account-settings-container .account-settings-sections .section .section-header {
+    font-family: 'Droid Sans' !important;
+    font-size: 18px;
+    line-height: 26px;
+    border: none; }
+.account-settings-container .u-field-readonly input {
+  border: none !important; }
+.account-settings-container .u-field-title {
+  max-width: 150px;
+  color: #35363f !important;
+  padding-top: 9px; }
+.account-settings-container .u-field-value {
+  position: relative;
+  width: 200px; }
+  .account-settings-container .u-field-value::after {
+    content: '\f078';
+    font-family: FontAwesome;
+    color: #8d8f9e;
+    display: block;
+    height: 28px;
+    width: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: #fff;
+    font-size: .8em;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    z-index: 10; }
+  .account-settings-container .u-field-value input,
+  .account-settings-container .u-field-value select {
+    border: 1px solid #d7d6e4;
+    border-radius: 0;
+    padding-top: 8px; }
+  .account-settings-container .u-field-value a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px; }
+  .account-settings-container .u-field-value input,
+  .account-settings-container .u-field-value a {
+    position: relative;
+    z-index: 20;
+    background-color: #fff; }
+.account-settings-container .u-field-message .u-field-message-help {
+  color: #8d8f9e !important;
+  font-size: 14px !important;
+  line-height: 20px !important; }
+
+.login-register .form-type .register-form .section-title h2,
+.login-register .form-type .login-form .section-title h2 {
+  text-align: left; }
+  .login-register .form-type .register-form .section-title h2 .text,
+  .login-register .form-type .login-form .section-title h2 .text {
+    padding: 0 !important; }
+.login-register .form-type .toggle-form {
+  position: relative;
+  margin-top: 40px; }
+  .login-register .form-type .toggle-form::before {
+    content: '';
+    display: block;
+    width: 99vw;
+    height: 20px;
+    background-color: #f0eff4;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%); }
+  .login-register .form-type .toggle-form .form-toggle {
+    width: auto !important;
+    min-width: 177px !important;
+    height: 50px !important;
+    padding-top: 11px !important;
+    font-family: 'Montserrat' !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    letter-spacing: -.01em !important;
+    text-transform: uppercase !important;
+    text-align: center;
+    color: #000;
+    border-width: 1px 1px 4px !important;
+    border-style: solid !important;
+    border-radius: 0 !important;
+    border-color: #f0eff4 !important;
+    border-bottom-color: #8d8f9e !important;
+    background-color: #f0eff4 !important;
+    color: #8d8f9e !important; }
+    .login-register .form-type .toggle-form .form-toggle:active, .login-register .form-type .toggle-form .form-toggle:focus {
+      box-shadow: none !important; }
+    .login-register .form-type .toggle-form .form-toggle:hover {
+      border-color: #8d8f9e !important;
+      background-color: #fff !important;
+      color: #8d8f9e !important; }
+.login-register .action-primary {
+  width: auto !important;
+  min-width: 177px !important;
+  height: 50px !important;
+  padding-top: 11px !important;
+  font-family: 'Montserrat' !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  letter-spacing: -.01em !important;
+  text-transform: uppercase !important;
+  text-align: center;
+  color: #000;
+  border-width: 1px 1px 4px !important;
+  border-style: solid !important;
+  border-radius: 0 !important;
+  border-color: #ff9388 !important;
+  border-bottom-color: #e27774 !important;
+  background-color: #ff9388 !important;
+  display: block !important;
+  width: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: none;
+  text-shadow: none;
+  color: #fff; }
+  .login-register .action-primary:active, .login-register .action-primary:focus {
+    box-shadow: none !important; }
+  .login-register .action-primary:hover {
+    border-color: #e27774 !important;
+    background-color: #fff !important;
+    color: #e27774 !important; }
 
 /*# sourceMappingURL=rue89.css.map */

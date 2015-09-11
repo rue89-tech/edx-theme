@@ -1,6 +1,5 @@
 // listen for the DOMContentLoaded event, then bind our function
 document.addEventListener('DOMContentLoaded', function() {
-	console.log('ready!');
 	$faq = $('.faq');
 	$item = $faq.find('details');
 	$question = $item.find('summary');

@@ -1,5 +1,6 @@
 .view-login header.global, .view-login header.global-new, .view-login header.global.slim, .view-passwordreset header.global, .view-passwordreset header.global-new, .view-passwordreset header.global.slim, .view-register header.global, .view-register header.global-new, .view-register header.global.slim, body header.global, body header.global-new, body header.global.slim {
 	background: $tuna url('../images/header-bg.jpg') repeat left top;
+	background-size: 50%;
 	border-top: 10px solid $aquamarine;
 	height: 115px;
 }
@@ -24,8 +25,122 @@ header.global h1.logo {
 	margin-top: 15px;
 }
 
+
+// Bouton "Trouver un cours"
+body {
+	header {
+		&.global {
+			> nav {
+				.nav-global {
+					margin-top: 17px;
+					margin-left: 471px;
+					float: left;
+					a {
+						color: #000;
+						text-transform: uppercase;
+						@include button;
+						@include button-color($aquamarine, $carribean-green);
+						padding-top: 10px !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Bouton "Connexion"
 .cta-login,
 .cta-register {
 	color: $white !important;
-	@include button-color($vivid-tangerine);
+	@include button-color($vivid-tangerine, $sunglo);
+}
+
+// Bouton "Profil"
+.view-login,
+.view-passwordreset,
+.view-register,
+body {
+	header {
+		&.global-new,
+		&.global.slim,
+		&.global {
+			> nav {
+				ol.user {
+					margin-top: 17px;
+					> li.primary {
+						&:first-child {
+							display: none;
+						}
+						> a {
+							@include button;
+							@include button-color($athens-gray, $manatee);
+							&.dropdown {
+								position: relative;
+								&.active {
+									color: $manatee;
+								}
+								.fa {
+									display: none;
+								}
+								&::before {
+									content: 'Mon compte';
+									text-transform: uppercase;
+									font-family: 'Montserrat';
+									font-weight: 700;
+									font-size: 18px;
+									position: absolute;
+									left: 0;
+									top: 0;
+									display: block;
+									width: 100%;
+									height: 100%;
+									padding-top: 10px;
+									padding-left: 10px;
+									text-align: left;
+								}
+								&::after {
+									content: '\f078';
+									font-family: FontAwesome;
+									font-size: .8em;
+									position: absolute;
+									top: 11px;
+									right: 11px;
+								}
+							}
+						}
+					}
+					ul.dropdown-menu {
+						left: 0;
+						top: 50px;
+						border-radius: 0;
+						border: none;
+						&.expanded {
+							
+						}
+						li {
+							height: 50px;
+							background-color: $mischka;
+							margin-bottom: 1px;
+							&:hover {
+								background-color: $mischka;
+								color: $tuna !important;
+							}
+							a {
+								display: block;
+								height: 100%;
+								width: 100%;
+								margin: 10px 0 0;
+								color: $tuna;
+								font-size: 18px;
+								line-height: 20x;
+								&:hover {
+									
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

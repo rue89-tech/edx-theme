@@ -1,0 +1,74 @@
+.form-type {
+	.form-wrapper {
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 50px;
+		form {
+			border: none !important;
+			border-radius: none !important;
+		}
+		.section-title {
+			&.lines {
+				&::after {
+					background: none !important;
+				}
+			}
+		}
+		.form-field {
+			label {
+				color: $tuna !important;
+				font-size: 18px;
+				line-height: 26px;
+			}
+			.input-block {
+				border: 1px solid $mischka;
+				padding-top: 3px;
+			}
+			.checkbox:not(old) { // The :not pseudo selector is ignored by older browsers
+				opacity: 0;
+				+ label {
+					position: relative;
+					&::before {
+						content: '';
+						display: block;
+						border: 1px solid $mischka;
+						height: 15px;
+						width: 15px;
+						position: absolute;
+						left: -22px;
+						top: 6px;
+						z-index: 10;
+					}
+				}
+				&:checked {
+					+label {
+						&::before {
+							content : '\f00c';
+							font-family: FontAwesome;
+							font-size: .8em;
+							line-height: 11px;
+						}
+					}
+				}
+			}
+			.tip-input {
+				color: $manatee !important;
+				font-size: 14px !important;
+				line-height: 20px !important;
+			}
+		}
+	}
+}
+
+.section-title {
+	.text {
+		text-transform: uppercase;
+		color: #000 !important;
+		font-family: 'Droid Sans' !important;
+		font-weight: 700;
+		font-size: 20px !important;
+		line-height: 26px !important;
+		letter-spacing: .025em;
+	}
+}

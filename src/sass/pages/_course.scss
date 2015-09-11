@@ -2,7 +2,7 @@
 	section.course-info {
 		 header.course-profile {
 		 	background-color: $athens-gray;
-		 	padding-top: 74px;
+		 	padding-top: 37px;
 		 	padding-bottom: 0;
 			overflow: visible;
 			height: auto;
@@ -18,7 +18,8 @@
 					.intro {
 						width: 100%;
 						float: none;
-						padding-top: 70px;
+						padding-top: 35px;
+						padding-bottom: 0;
 						display: block;
 						hgroup {
 							border: none;
@@ -35,11 +36,11 @@
 						.main-cta {
 							background-color: $vivid-tangerine;
 							position: relative;
-							top: 698px;
+							top: 704px;
 							left: 802px;
 							margin-right: 0;
 							@include button;
-							@include button-color( $vivid-tangerine );
+							@include button-color( $vivid-tangerine, $sunglo );
 							width: 296px !important;
 							& > span.register.disabled.disabled,
 							& > span.register {
@@ -58,14 +59,36 @@
 									border: none;
 								}
 							}
+							> a.find-courses,
+							a.register,
+							a.add-to-cart {
+								border-radius: 0;
+								width: 100%;
+								height: 100%;
+								background: none;
+								font-family: 'Montserrat';
+								font-weight: 700;
+								font-size: 18px;
+								text-shadow: none;
+								letter-spacing: -.001em;
+								padding-top: 3px;
+								@include reset-border-shadow;
+							}
+							&:hover {
+								> a.find-courses,
+								a.register,
+								a.add-to-cart {
+									color: $vivid-tangerine;
+								}
+							}
+							
 						}
 					}
 					.media {
 						width: 1067px;
 						height: 580px;
 						float: none;
-						padding-right: 0;
-						padding-left: 0;
+						padding: 0 0 20px;
 						@include block-center;
 						.hero {
 							padding: 0;
@@ -112,21 +135,21 @@
 					margin-bottom: 60px;
 					h1 {
 						text-transform: uppercase;
-						font-size: 36px;
+						font-size: 27px;
 						line-height: 1.2em;
 						text-align: left;
 						display: inline-block;
 						background-color: $aquamarine;
 						padding: 16px 20px 18px 40px;
-						margin-bottom: 60px;
+						margin-bottom: 50px;
 						position: relative;
 						&::before {
 							display: block;
 							content: "";
 							height: 0;
 							width: 0;
-							border-top: 37px solid transparent;
-							border-bottom: 37px solid transparent;
+							border-top: 33px solid transparent;
+							border-bottom: 33px solid transparent;
 							border-left: 19px solid $white;
 							position: absolute;
 							left: 0;
@@ -174,6 +197,7 @@
 							width: 800px;
 							position: relative;
 							left: -440px;
+							margin-top: 0;
 						}
 					}
 				}
