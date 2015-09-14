@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Oswald:400;|Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Oswald:400|Montserrat:400,700);
 
 html,
 p {
@@ -6,34 +6,30 @@ p {
 	color: $tuna;
 }
 
-.h1, h1,
-.h2, h2,
-.h3, h3,
-.h4, h4,
-.h5, h5,
-.h6, h6 {
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6 {
 	text-transform: lowercase;
 	&:first-letter {
 		text-transform: capitalize;
 	}
 }
 
-.h1, h1,
-.h2, h2,
-.h6, h6 {
+.h1, h1, .h2, h2, .h6, h6 {
 	font-family: 'Oswald', sans-serif !important;
 }
 
 .h1, h1 {
-	font-size: 50px;
-	line-height: 66px;
-	letter-spacing: -.001em;
+	font-size: 36px !important;
+	line-height: 44px !important;
+	font-weight: 400;
+	letter-spacing: .0025em !important;
+	color: $black !important;
+	text-transform: uppercase;
 }
 
 .h2, h2 {
-	font-size: 36px;
-	line-height: 30px;
-	letter-spacing : .0025em;
+//	font-size: 36px;
+//	line-height: 30px;
+//	letter-spacing : .0025em;
 }
 
 .h3, h3 {

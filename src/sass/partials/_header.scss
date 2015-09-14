@@ -36,7 +36,7 @@ body {
 					margin-left: 471px;
 					float: left;
 					a {
-						color: #000;
+						color: $black;
 						text-transform: uppercase;
 						@include button;
 						@include button-color($aquamarine, $carribean-green);

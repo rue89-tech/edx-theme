@@ -5,7 +5,7 @@
 			width: 80%;
 			.wrapper-header-courses {
 				.header-courses {
-					color: #000 !important;
+					color: $black !important;
 					font-family: "Oswald" !important;
 					font-size: 36px !important;
 					letter-spacing: 0.025em;
@@ -60,7 +60,7 @@
 										font-weight: 400;
 										font-size: 27px;
 										line-height: 30px;
-										color: #000;
+										color: $black;
 									}
 								}
 								.course-info {
@@ -78,7 +78,7 @@
 										background-color: $aquamarine;
 										font-family: 'Oswald';
 										font-size: 14px;
-										color: #000;
+										color: $black;
 										text-transform: uppercase;
 										text-align: center;
 									}
@@ -172,7 +172,8 @@
 		.profile-sidebar {
 			float: left;
 			width: 17.5%;
-			margin: 70px 2.5% 0 0;
+			margin: 55px 2.5% 0 0;
+			padding: 15px 0;
 		}
 	}
 }
