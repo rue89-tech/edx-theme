@@ -1,6 +1,8 @@
 // Nav , sidebar, sequence nav
-body.view-incourse .content-wrapper {
+body.view-incourse .content-wrapper,
+.wrapper-course-material {
 	.course-material {
+		max-width: 1170px;
 		.course-tabs {
 			li {
 				a {
@@ -16,11 +18,17 @@ body.view-incourse .content-wrapper {
 					&.active {
 						background-color: $white;
 						color: $black;
+						background-image: none;
+						box-shadow: none;
+						text-shadow: none;
 					}
 				}
 			}
 		}
 	}
+}
+
+body.view-incourse .content-wrapper {
 	.container {
 		margin-top: 0;
 		.course-wrapper {
