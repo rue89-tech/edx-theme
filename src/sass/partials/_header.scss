@@ -3,10 +3,33 @@
 	background-size: 50%;
 	border-top: 10px solid $aquamarine;
 	height: 115px;
+	@include break-sm {
+		height: auto;
+	}
 }
 
 header.global h1.logo {
 	height: 55px;
+	@include break-sm {
+		@include kill-float;
+	}
+}
+
+header.global.slim .course-header {
+	color: #fff;
+	display: block;
+	font-size: 1.5em;
+	width: 470px;
+	float: left;
+	font-weight: 400;
+	text-transform:  uppercase;
+	line-height: 1.3em;
+	letter-spacing: .05em;
+	margin-top: 17px;
+	white-space: initial;
+	.provider {
+		display: none;
+	}
 }
 
 .view-login header.global-new > nav h1.logo a, .view-login header.global.slim > nav h1.logo a, .view-login header.global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.global.slim > nav h1.logo a, .view-passwordreset header.global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.global.slim > nav h1.logo a, .view-register header.global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.global.slim > nav h1.logo a, body header.global > nav h1.logo a {
@@ -35,6 +58,18 @@ body {
 					margin-top: 17px;
 					margin-left: 471px;
 					float: left;
+					&.authenticated {
+						margin-top: 17px;
+					}
+					@include break-lg {
+						margin-left: 276px;
+					}
+					@include break-md {
+						margin-left: 57px;
+					}
+					@include break-sm {
+						@include kill-float;
+					}
 					a {
 						color: $black;
 						text-transform: uppercase;
@@ -52,8 +87,18 @@ body {
 .cta-login,
 .cta-register {
 	color: $white !important;
+	@include button;
 	@include button-color($vivid-tangerine, $sunglo);
 }
+
+header.global {
+	.nav-courseware,
+	.user {
+		@include break-sm {
+			@include kill-float;
+		}
+	}
+} 
 
 // Bouton "Profil"
 .view-login,

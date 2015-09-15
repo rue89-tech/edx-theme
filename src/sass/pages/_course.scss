@@ -1,3 +1,7 @@
+.container {
+	min-width: 0 !important;
+}
+
 .content-wrapper {
 	section.course-info {
 		 header.course-profile {
@@ -8,13 +12,29 @@
 			height: auto;
 			margin-top: 0;
 			@include reset-border-shadow;
+			@include break-lg {
+				width: 970px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			@include break-md {
+				width: 760px;
+			}
+			@include break-sm {
+				width: 100%;
+			}
 			.intro-inner-wrapper {
 				background-color: $white;
 				max-width: 1170px;
+				min-width: 0;
 				@include reset-border-shadow;
 				.table {
 					background-color: $white;
 					border-radius: 0;
+					@include break-lg {
+						display: block;
+						padding-bottom: 50px;
+					}
 					.intro {
 						width: 100%;
 						float: none;
@@ -39,9 +59,27 @@
 							top: 704px;
 							left: 802px;
 							margin-right: 0;
+							transition: none;
 							@include button;
 							@include button-color( $vivid-tangerine, $sunglo );
+							min-height: 50px !important;
+							height: auto !important;
 							width: 296px !important;
+							@include break-lg {
+								left: 30px;
+								top: 655px;
+							}
+							@include break-sm {
+								top: 455px;
+							}
+							@include break-xs {
+								top: 275px;
+								left: 0;
+								min-width: 0 !important;
+								width: auto !important;
+								padding-left: 10px;
+								padding-right: 10px;
+							}
 							& > span.register.disabled.disabled,
 							& > span.register {
 								color: $white;
@@ -74,14 +112,35 @@
 								padding-top: 3px;
 								@include reset-border-shadow;
 							}
+							span.register {
+								border: none;
+								background-color: transparent;
+								text-transform: none;
+								font-weight: 400;
+								font-size: .8em;
+								position: absolute;
+								bottom: -33px;
+								width: 100%;
+							}
+							strong {
+								@include reset-border-shadow;
+								font-family: 'Montserrat';
+								font-size: 18px;
+								text-shadow: none;
+								width: 100%;
+								background: transparent;
+								padding-top: 6px;
+							}
 							&:hover {
 								> a.find-courses,
 								a.register,
 								a.add-to-cart {
 									color: $vivid-tangerine;
 								}
+								strong {
+									color: $vivid-tangerine;
+								}
 							}
-							
 						}
 					}
 					.media {
@@ -90,6 +149,15 @@
 						float: none;
 						padding: 0 0 20px;
 						@include block-center;
+						@include break-lg {
+							width: 100%;
+						}
+						@include break-sm {
+							height: 380px;
+						}
+						@include break-xs {
+							height: 200px;
+						}
 						.hero {
 							padding: 0;
 							height: 100%;
@@ -99,6 +167,7 @@
 								min-width: 100%;
 								height: auto;
 								width: auto;
+								max-width: 100%;
 							}
 							.play-intro {
 								background-color: $white;
@@ -125,8 +194,12 @@
 		}
 		.details {
 			width: 770px;
+			max-width: 100%;
 			padding-right: 70px;
 			margin-right: 0;
+			@include break-md {
+				padding-right: 0;
+			}
 			nav[aria-label="Course About"] {
 				display: none;
 			}
@@ -135,7 +208,7 @@
 					margin-bottom: 60px;
 					h1 {
 						text-transform: uppercase;
-						font-size: 27px;
+						font-size: 27px !important;
 						line-height: 1.2em;
 						text-align: left;
 						display: inline-block;
@@ -143,13 +216,16 @@
 						padding: 16px 20px 18px 40px;
 						margin-bottom: 50px;
 						position: relative;
+						@include break-xs {
+							font-size: 24px !important;
+						}
 						&::before {
 							display: block;
 							content: "";
 							height: 0;
 							width: 0;
-							border-top: 33px solid transparent;
-							border-bottom: 33px solid transparent;
+							border-top: 38px solid transparent;
+							border-bottom: 38px solid transparent;
 							border-left: 19px solid $white;
 							position: absolute;
 							left: 0;
@@ -157,6 +233,11 @@
 						}
 						+ h3 {
 							margin-top: 0;
+						}
+					}
+					h3 {
+						@include break-xs {
+							font-size: 26px;
 						}
 					}
 				}
@@ -169,6 +250,10 @@
 							height: 275px;
 							width: 415px;
 							overflow: hidden;
+							@include break-sm {
+								width: 100%;
+								margin-top: 0;
+							}
 							img {
 								height: auto;
 								width: 100%;
@@ -198,6 +283,10 @@
 							position: relative;
 							left: -440px;
 							margin-top: 0;
+							@include break-sm {
+								width: auto;
+								left: 0;
+							}
 						}
 					}
 				}
@@ -208,6 +297,10 @@
 			padding-left: 0;
 			padding-right: 0;
 			margin-top: 100px;
+			@include break-lg {
+				margin-top: 0;
+				width: 100%;
+			}
 			.course-summary {
 				margin-bottom: 0;
 				padding: 0;
@@ -304,5 +397,8 @@
 		background-color: $white;
 		margin-top: 0;
 		padding: 0 52px;
+		@include break-xs {
+			padding: 0 15px;
+		}
 	}
 }

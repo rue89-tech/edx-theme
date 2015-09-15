@@ -23,6 +23,9 @@
 	&:focus {
 		box-shadow: none !important;
 	}
+	@include break-xs {
+		height: auto !important;
+	}
 }
 
 @mixin button-color($colorbg, $colorborder) {
@@ -39,4 +42,10 @@
 @mixin reset-border-shadow {
 	border: none !important;
 	box-shadow: none !important;
+}
+
+@mixin kill-float {
+	float: none !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }

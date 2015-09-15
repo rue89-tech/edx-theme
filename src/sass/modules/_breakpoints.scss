@@ -1,0 +1,31 @@
+$break-xs: 320px;
+$break-sm: 768px;
+$break-md: 992px;
+$break-lg: 1200px;
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin break-lg {
+  @media screen and (max-width: #{$break-lg + 1px}) {
+    @content;
+  }
+}
+
+@mixin break-md {
+  @media screen and (max-width: #{$break-md + 1px}) {
+    @content;
+  }
+}
+
+@mixin break-sm {
+  @media screen and (max-width: #{$break-sm + 1px}) {
+    @content;
+  }
+}
+
+@mixin break-xs {
+  @media screen and (max-width: #{$break-xs + 1px}) {
+    @content;
+  }
+}

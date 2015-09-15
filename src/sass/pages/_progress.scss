@@ -1,0 +1,64 @@
+.view-progress {
+	.progress-certificates {
+		.progress-certificates-title {
+			font-weight: 400;
+			color: $black;
+		}
+	}
+	#grade-detail-graph {
+		max-width: 100%;
+		overflow-x: auto;
+	}
+	.chapters {
+		section {
+			h2 {
+				border-right: 1px solid $aquamarine !important;
+				text-transform: uppercase;
+				font-family: 'Oswald';
+				color: $black;
+				font-size: 27px;
+				line-height: 34px;
+				letter-spacing: -.001em;
+				font-weight: 400;
+				@include break-sm {
+					width: 100% !important;
+					border: none !important;
+					display: block !important;
+					float: left !important;
+				}
+			}
+			.sections {
+				@include break-sm {
+					width: 100% !important;
+					display: block !important;
+					float: left !important;
+				}
+				h3 {
+					color: $tuna !important;
+					margin-top: 30px;
+					margin-bottom: 10px;
+					a {
+						font-family: 'Montserrat' !important;
+						color: $black !important;
+						font-size: 18px !important;
+					}
+					span {
+						font-family: 'Droid Sans' !important;
+						color: $manatee !important;
+						font-size: 18px !important;
+					}
+				}
+				.scores {
+					h3 {
+						margin-top: 10px !important;
+					}
+					ol {
+						li {
+							
+						}
+					}
+				}
+			}
+		}
+	}
+}

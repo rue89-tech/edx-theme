@@ -1,4 +1,7 @@
 .content-wrapper {
+	@include break-md {
+		width: 970px;
+	}
 	> .home {
 		> header {
 			display: none;
@@ -8,16 +11,25 @@
 				margin-left: 0;
 				margin-right: 0;
 				.courses-listing {
+					@include break-sm {
+						background-color: $athens-gray;
+					}
 					.courses-listing-item {
 						float: none;
 						width: 100%;
 						min-height: 234px;
 						margin-bottom: 30px;
+						@include break-sm {
+							max-height: unset;
+						}
 						.course {
 							border: none;
 							margin-bottom: 0;
 							.course-info {
 								width: 66.667%;
+								@include break-sm {
+									width: 100%;
+								}
 								h2 {
 									border-bottom: 1px solid $mischka;
 									margin-left: 15px;
@@ -59,6 +71,10 @@
 							.course-image {
 								width: 33.333%;
 								max-width: 430px;
+								@include break-sm {
+									width: 100%;
+									max-width: unset;
+								}
 								.cover-image {
 									height: 234px;
 									position: relative;

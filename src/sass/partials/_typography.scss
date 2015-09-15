@@ -61,3 +61,10 @@ p {
 div[align="justify"] {
 	text-align: left;
 }
+
+p a, p a:link, p a:visited {
+	color: $vivid-tangerine;
+	&:hover {
+		text-decoration: underline;
+	}
+}

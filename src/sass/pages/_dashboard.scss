@@ -1,8 +1,16 @@
 .content-wrapper {
 	> .dashboard {
+		@include break-md {
+			display: flex;
+			flex-direction: column-reverse;
+		}
 		.my-courses {
 			float: right;
 			width: 80%;
+			@include break-md {
+				width: 100%;
+				float: none;
+			}
 			.wrapper-header-courses {
 				.header-courses {
 					color: $black !important;
@@ -20,20 +28,34 @@
 					height: 196px;
 					border-radius: 0;
 					overflow: hidden;
+					display: block;
+					width: 100%;
+					@include break-sm {
+						height: auto;
+					}
 					.course {
 						margin: 0;
 						overflow: hidden;
 						.details {
 							height: 196px;
+							@include break-sm {
+								height: auto;
+							}
 							.wrapper-course-image {
 								height: 100%;
 								width: 358px;
 								margin-right: 15px;
+								@include break-sm {
+									width: 100%;
+								}
 								.cover {
 									height: 100%;
 									width: 100%;
 									border-radius: 0;
 									position: relative;
+									@include break-sm {
+										height: 196px;
+									}
 									.course-image {
 									    height: auto;
 									    width: auto;
@@ -174,6 +196,20 @@
 			width: 17.5%;
 			margin: 55px 2.5% 0 0;
 			padding: 15px 0;
+			@include break-md {
+				float: none;
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 0;
+			}
+		}
+		.dashboard-search-bar {
+			margin-bottom: 30px;
+			.search-field {
+				@include reset-border-shadow;
+				border-radius: 0;
+			}
 		}
 	}
 }
