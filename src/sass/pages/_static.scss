@@ -1,0 +1,32 @@
+.static-container {
+	h2 {
+		font-family: 'Montserrat' !important;
+		font-weight: 700 !important;
+		font-size: 32px !important;
+		line-height: 30px !important;
+		letter-spacing: .005em !important;
+		color: $black;
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+	
+	a {
+		&,
+		&:link,
+		&:visited {
+			color: $sunglo;
+		}
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	
+	ul {
+		padding-left: 30px;
+	}
+	
+	dl {
+		font-size: 1.2;
+		max-width: 700px;
+	}
+}

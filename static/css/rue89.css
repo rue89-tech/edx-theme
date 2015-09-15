@@ -1763,4 +1763,23 @@ body.discussion .discussion-post .post-header-actions,
   .reply-post-control .discussion-submit-post:hover, .reply-post-control .discussion-submit-post:focus {
     color: #ff9388 !important; }
 
+.static-container h2 {
+  font-family: 'Montserrat' !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  line-height: 30px !important;
+  letter-spacing: .005em !important;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 30px; }
+.static-container a, .static-container a:link, .static-container a:visited {
+  color: #e27774; }
+.static-container a:hover {
+  text-decoration: underline; }
+.static-container ul {
+  padding-left: 30px; }
+.static-container dl {
+  font-size: 1.2;
+  max-width: 700px; }
+
 /*# sourceMappingURL=rue89.css.map */
