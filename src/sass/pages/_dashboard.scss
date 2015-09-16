@@ -25,7 +25,7 @@
 				.course-item {
 					border: none;
 					padding: 0;
-					height: 196px;
+					height: auto;
 					border-radius: 0;
 					overflow: hidden;
 					display: block;
@@ -53,6 +53,7 @@
 									width: 100%;
 									border-radius: 0;
 									position: relative;
+									border: none;
 									@include break-sm {
 										height: 196px;
 									}
@@ -73,6 +74,11 @@
 								width: calc(100% - 373px);
 								height: 100%;
 								position: relative;
+								@include break-sm {
+									width: 100%;
+									height: auto;
+									padding: 10px;
+								}
 								.course-title {
 									margin-top: 20px;
 									margin-bottom: 0;
@@ -121,6 +127,10 @@
 									float: none;
 									position: absolute;
 									bottom: 20px;
+									@include break-sm {
+										position: relative;
+										bottom: 0;
+									}
 									.course-actions {
 										float: none;
 										width: 100%;
@@ -137,7 +147,7 @@
 										}
 										.wrapper-action-more {
 											display: block;
-											float: none;
+											float: right;
 											.action-more {
 												display: none;
 											}
@@ -147,6 +157,7 @@
 												position: relative;
 												right: 10px;
 												top: 15px;
+												pointer-events: auto;
 												.actions-dropdown-list {
 													display: block;
 													overflow: hidden;
@@ -183,6 +194,18 @@
 											}
 										}
 									}
+								}
+							}
+						}
+						.wrapper-messages-primary {
+							background: $white;
+							height: auto;
+							.messages-list {
+								.message.message-status {
+									background: $white;
+									border: none;
+									border-radius: 0;
+									padding: 10px;
 								}
 							}
 						}

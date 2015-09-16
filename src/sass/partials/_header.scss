@@ -10,6 +10,9 @@
 
 header.global h1.logo {
 	height: 55px;
+	@include break-md {
+		margin-right: 10px !important;
+	}
 	@include break-sm {
 		@include kill-float;
 	}
@@ -25,8 +28,17 @@ header.global.slim .course-header {
 	text-transform:  uppercase;
 	line-height: 1.3em;
 	letter-spacing: .05em;
-	margin-top: 17px;
+	margin-top: 14px;
 	white-space: initial;
+	@include break-lg {
+		width: 370px;
+	}
+	@include break-md {
+		width: 250px;
+	}
+	@include break-sm {
+		float: none;
+	} 
 	.provider {
 		display: none;
 	}
@@ -75,7 +87,8 @@ body {
 						text-transform: uppercase;
 						@include button;
 						@include button-color($aquamarine, $carribean-green);
-						padding-top: 10px !important;
+						padding-top: 12px !important;
+						font-size: 16px !important;
 					}
 				}
 			}
@@ -113,6 +126,7 @@ body {
 				ol.user {
 					margin-top: 17px;
 					> li.primary {
+						height: 50px;
 						&:first-child {
 							display: none;
 						}
@@ -121,6 +135,7 @@ body {
 							@include button-color($athens-gray, $manatee);
 							&.dropdown {
 								position: relative;
+								height: 50px !important;
 								&.active {
 									color: $manatee;
 								}
@@ -132,15 +147,15 @@ body {
 									text-transform: uppercase;
 									font-family: 'Montserrat';
 									font-weight: 700;
-									font-size: 18px;
+									font-size: 16px;
 									position: absolute;
 									left: 0;
 									top: 0;
 									display: block;
 									width: 100%;
 									height: 100%;
-									padding-top: 10px;
-									padding-left: 10px;
+									padding-top: 11px;
+									padding-left: 17px;
 									text-align: left;
 								}
 								&::after {

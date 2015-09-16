@@ -7,10 +7,11 @@ p {
 }
 
 .h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6 {
-	text-transform: lowercase;
-	&:first-letter {
-		text-transform: capitalize;
-	}
+//  Abort : it should be taken care of content-side.
+//	text-transform: lowercase;
+//	&:first-letter {
+//		text-transform: capitalize;
+//	}
 }
 
 .h1, h1, .h2, h2, .h6, h6 {
@@ -67,4 +68,8 @@ p a, p a:link, p a:visited {
 	&:hover {
 		text-decoration: underline;
 	}
+}
+
+a {
+	outline: 0 !important;
 }
