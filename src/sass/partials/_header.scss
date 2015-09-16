@@ -3,7 +3,7 @@
 	background-size: 50%;
 	border-top: 10px solid $aquamarine;
 	height: 115px;
-	@include break-sm {
+	@include break-lg {
 		height: auto;
 	}
 }
@@ -31,10 +31,10 @@ header.global.slim .course-header {
 	margin-top: 14px;
 	white-space: initial;
 	@include break-lg {
-		width: 370px;
+		width: 570px;
 	}
 	@include break-md {
-		width: 250px;
+		width: 430px;
 	}
 	@include break-sm {
 		float: none;
@@ -107,8 +107,10 @@ body {
 header.global {
 	.nav-courseware,
 	.user {
-		@include break-sm {
+		@include break-lg {
 			@include kill-float;
+			clear: both;
+			padding-top: 15px;
 		}
 	}
 } 
@@ -125,6 +127,9 @@ body {
 			> nav {
 				ol.user {
 					margin-top: 17px;
+					@include break-sm {}
+						padding: 0;
+					}
 					> li.primary {
 						height: 50px;
 						&:first-child {
