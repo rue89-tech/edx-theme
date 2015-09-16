@@ -714,7 +714,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
           float: right;
           background-color: #85f9d2;
           text-transform: uppercase;
-          padding: 5px 10px;
+          padding: 3px 10px;
           line-height: 24px;
           margin-left: 5px;
           font-weight: 400; }
@@ -724,10 +724,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
           font-size: 27px;
           line-height: 30px;
           font-weight: 400;
-          padding: 0;
           height: auto; }
-          .content-wrapper > .home .highlighted-courses .courses .courses-listing .courses-listing-item .course .course-info .course-title:first-letter {
-            text-transform: capitalize; }
         .content-wrapper > .home .highlighted-courses .courses .courses-listing .courses-listing-item .course .course-info .course-date {
           color: #0cc5a6;
           font-weight: 700;
@@ -884,6 +881,15 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
               color: #ff9388;
               background-color: transparent;
               border: none; }
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled {
+            bottom: 0 !important;
+            padding-top: 10px !important;
+            text-transform: uppercase;
+            height: 100% !important; }
+            .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled:hover {
+              cursor: default;
+              color: #d7d6e4 !important;
+              background-color: #f0eff4 !important; }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > a.find-courses,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart {

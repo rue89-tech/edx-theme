@@ -97,6 +97,17 @@
 									border: none;
 								}
 							}
+							& > span.register.disabled {
+								bottom: 0 !important;
+								padding-top: 10px !important;
+								text-transform: uppercase;
+								height: 100% !important;
+								&:hover {
+									cursor: default;
+									color: $mischka !important;
+									background-color: $athens-gray !important;
+								}
+							}
 							> a.find-courses,
 							a.register,
 							a.add-to-cart {
