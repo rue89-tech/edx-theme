@@ -23,6 +23,7 @@ header.global.slim .course-header {
 	display: block;
 	font-size: 1.5em;
 	width: 470px;
+	max-width: 100%;
 	float: left;
 	font-weight: 400;
 	text-transform:  uppercase;
@@ -72,6 +73,7 @@ body {
 					float: left;
 					&.authenticated {
 						margin-top: 17px;
+						display: block !important;
 					}
 					@include break-lg {
 						margin-left: 276px;
@@ -127,7 +129,7 @@ body {
 			> nav {
 				ol.user {
 					margin-top: 17px;
-					@include break-sm {}
+					@include break-sm {
 						padding: 0;
 					}
 					> li.primary {
