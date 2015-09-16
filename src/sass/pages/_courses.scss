@@ -1,0 +1,127 @@
+// Hide elements that don't seem to exist on the sandbox
+.courses-container {
+	#discovery-form,
+	.search-facets {
+		display: none !important;
+	}
+	.courses {
+		width: 100% !important;
+		float: none !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		.courses-listing-item {
+			float: none !important;
+			width: 100% !important;
+			margin: 0 0 30px !important;
+			max-height: unset !important;
+			.course {
+				height: 234px !important;
+				@include break-sm {
+					height: auto !important;
+				}
+				&,
+				&:hover {
+					border: none !important;
+				}
+				a {
+					display: block;
+					height: 100%;
+					overflow: hidden;
+				}
+				.course-image {
+					float: left !important;
+					width: 33.333% !important;
+					max-width: 430px;
+					height: 100% !important;
+					display: block;
+					@include break-sm {
+						width: 100% !important;
+						max-width: unset;
+						height: 220px !important;
+					}
+					.cover-image {
+						position: relative;
+						height: 100%;
+						img {
+							min-width: 100%;
+							min-height: 100%;
+							height: auto;
+							width: auto;
+							position: absolute;
+							left: 50%;
+							top: 50%;
+							transform: translate(-50%, -50%);
+						}
+					}
+				}
+				&,
+				&:focus,
+				&:hover {
+					.cover-image {
+						&::before,
+						.learn-more {
+							display: none !important;
+							opacity: 0 !important;
+						}
+					}
+				}
+				.course-info {
+					float: left;
+					width: 66.6667%;
+					height: 100%;
+					position: relative;
+					padding: 0 15px 15px;
+					@include break-sm {
+						width: 100%;
+					}
+					.course-title {
+						color: $black;
+						font-family: "Oswald";
+						font-size: 27px;
+						font-weight: 400;
+						line-height: 30px;
+						clear: both;
+						height: auto;
+						max-height: auto;
+						padding-right: 150px;
+						padding-left: 0;
+						float: left;
+						margin-top: -40px;
+						margin-bottom: 20px;
+					}
+				}
+				.course-name {
+					overflow: hidden;
+					border-bottom: 1px solid $mischka;
+				}
+				.course-organization,
+				.course-code {
+					background-color: $aquamarine;
+					color: $black;
+					display: block;
+					font-family: "Oswald";
+					font-size: 14px;
+					height: 29px;
+					min-width: 50px;
+					padding: 3px 10px 0;
+					text-align: center;
+					text-transform: uppercase;
+					font-weight: 400;
+					line-height: 21px;
+					margin-bottom: 10px;
+					float: right;
+					margin-left: 10px;
+				}
+				.course-organization {
+				}
+				.course-code {
+				}
+				.course-date {
+					color: #0cc5a6;
+					font-size: 18px;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
