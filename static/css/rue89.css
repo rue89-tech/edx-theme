@@ -1017,8 +1017,8 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     border: none;
     margin: 55px 25px 10px 0;
     position: relative;
-    height: 275px;
-    width: 415px;
+    height: 138px;
+    width: 208px;
     overflow: hidden; }
     @media screen and (max-width: 769px) {
       .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher .teacher-image {
@@ -1048,7 +1048,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     font-weight: 700;
     width: 800px;
     position: relative;
-    left: -440px;
+    left: -233px;
     margin-top: 0; }
     @media screen and (max-width: 769px) {
       .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher h3 {
