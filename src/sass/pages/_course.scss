@@ -101,11 +101,12 @@
 								bottom: 0 !important;
 								padding-top: 10px !important;
 								text-transform: uppercase;
-								height: 100% !important;
+								min-height: 100% !important;
+								height: auto !important;
+								position: relative;
 								&:hover {
 									cursor: default;
 									color: $mischka !important;
-									background-color: $athens-gray !important;
 								}
 							}
 							> a.find-courses,
