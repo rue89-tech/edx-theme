@@ -1260,18 +1260,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
             margin-top: 0; }
             .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-university,
             .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-course-id {
-              position: absolute;
-              right: 10px;
-              display: block;
-              min-width: 50px;
-              height: 29px;
-              padding: 3px 10px 0;
-              background-color: #85f9d2;
-              font-family: 'Oswald';
-              font-size: 14px;
-              color: #000000;
-              text-transform: uppercase;
-              text-align: center; }
+              display: none !important; }
             .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-university {
               top: 20px; }
             .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-course-id {
@@ -2496,28 +2485,13 @@ body.discussion .discussion-post .post-header-actions,
           padding-right: 150px;
           padding-left: 0;
           float: left;
-          margin-top: -40px;
           margin-bottom: 20px; }
       .courses-container .courses .courses-listing-item .course .course-name {
         overflow: hidden;
         border-bottom: 1px solid #d7d6e4; }
       .courses-container .courses .courses-listing-item .course .course-organization,
       .courses-container .courses .courses-listing-item .course .course-code {
-        background-color: #85f9d2;
-        color: #000000;
-        display: block;
-        font-family: "Oswald";
-        font-size: 14px;
-        height: 29px;
-        min-width: 50px;
-        padding: 3px 10px 0;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 400;
-        line-height: 21px;
-        margin-bottom: 10px;
-        float: right;
-        margin-left: 10px; }
+        display: none !important; }
       .courses-container .courses .courses-listing-item .course .course-date {
         color: #0cc5a6;
         font-size: 18px;
