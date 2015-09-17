@@ -28,6 +28,10 @@ body.discussion .course-tabs .right {
 .forum-nav {
 	border: none;
 	border-radius: 0;
+	height: auto !important;
+	@include break-md {
+		width: 100%;
+	}
 }
 
 	.forum-nav-header {
@@ -75,6 +79,10 @@ body.discussion .course-tabs .right {
 					border: none !important;
 					border-radius: 0 !important;
 				}
+	
+	.forum-nav-thread-list-wrapper {
+		overflow: hidden;
+	}
 	
 	.forum-nav-browse-menu-wrapper {
 		border: none;
@@ -171,6 +179,7 @@ body.discussion .course-tabs .right {
 			}
 			.forum-nav-thread-list {
 				overflow-y: auto;
+				height: auto !important;
 			}
 				.forum-nav-thread {
 					border: none;
@@ -223,14 +232,52 @@ body.discussion .course-tabs .right {
 .discussion-column {
 	@include reset-border-shadow;
 	border-radius: 0;
+	@include break-md {
+		width: 100% !important;
+	}
 }
 .forum-content {
-	
+	overflow: hidden !important;
 }
 
 	.discussion-article {
 		background-image: none !important;
+		padding-top: 0 !important;
+		@include break-md {
+			padding-left: 10px !important;
+			padding-right: 10px !important;
+			overflow-x: auto !important;
+		}
+		.home-header {
+			.home-title {
+				margin-top: 0 !important;
+			}
+		}
+		.label {
+			color: $black;
+			font-size: 14px !important;
+			font-family: 'Droid Sans';
+			text-align: left;
+			font-weight: 400;
+			padding-left: 0;
+		}
+		.home-helpgrid {
+			@include reset-border-shadow;
+			.helpgrid-row {
+				.row-title {
+					background-color: $mischka;
+				}
+				.row-item {
+					background-color: $athens-gray;
+				}
+			}
+			.notification-checkbox {
+				border: none !important;
+				border-radius: 0 !important;
+			}
+		}
 	}
+
 	
 		.thread-wrapper {
 			
@@ -311,7 +358,7 @@ body.discussion .course-tabs .right {
 													background-color: $white !important;
 												}
 												.action-label {
-													width: 80px;
+													width: 100px;
 													border-right-width: 0 !important;
 												}
 											}
@@ -480,4 +527,64 @@ body.discussion .course-tabs .right {
 	}
 }
 	
-	
+// New post form
+.forum-new-post-form,
+.edit-post-form {
+	border-radius: 0 !important;
+	.post-type-label {
+		@include button;
+		@include button-color($vivid-tangerine, $sunglo);
+		opacity: .6;
+		box-shadow: none;
+		background-image: none;
+		min-width: 0 !important;
+		width: 120px;
+		height: 40px !important;
+		padding-top: 1px !important;
+		font-size: .9em !important;
+		.icon {
+			display: none !important;
+		}
+	}
+	.post-type-input:checked + .post-type-label {
+		opacity: 1;
+		box-shadow: none;
+	}
+	.post-topic-button {
+		@include reset-border-shadow;
+		border-radius: none;
+		&,
+		&:hover,
+		&:focus {
+			background-image: none;
+		}
+	}
+	.post-field {
+		.field-input {
+			@include reset-border-shadow;
+			border-radius: none;
+		}
+	}
+	.post-option {
+		color: $manatee !important;
+		&:hover,
+		&.is-enabled {
+			border-color: $manatee !important;
+			color: $black !important;
+		}
+	}
+	.submit,
+	.cancel {
+		@include button;
+		background-image: none !important;
+		box-shadow: none !important;
+		padding-top: 7px !important;
+	}
+	.submit {
+		@include button-color($vivid-tangerine, $sunglo);
+	}
+	.cancel {
+		@include button-color($mischka, $manatee);
+		color: $manatee !important;
+	}
+}

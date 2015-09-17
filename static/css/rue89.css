@@ -80,7 +80,7 @@ header.global.slim .course-header {
   color: #fff;
   display: block;
   font-size: 1.5em;
-  width: 470px;
+  width: 450px;
   max-width: 100%;
   float: left;
   font-weight: 400;
@@ -158,6 +158,7 @@ body header.global > nav .nav-global {
       box-shadow: none !important; }
     @media screen and (max-width: 321px) {
       body header.global > nav .nav-global a {
+        min-height: 50px;
         height: auto !important; } }
     body header.global > nav .nav-global a:hover {
       border-color: #0cc5a6 !important;
@@ -191,6 +192,7 @@ body header.global > nav .nav-global {
   @media screen and (max-width: 321px) {
     .cta-login,
     .cta-register {
+      min-height: 50px;
       height: auto !important; } }
   .cta-login:hover,
   .cta-register:hover {
@@ -310,6 +312,7 @@ body header.global > nav ol.user {
         body header.global-new > nav ol.user > li.primary > a,
         body header.global.slim > nav ol.user > li.primary > a,
         body header.global > nav ol.user > li.primary > a {
+          min-height: 50px;
           height: auto !important; } }
       .view-login header.global-new > nav ol.user > li.primary > a:hover, .view-login header.global.slim > nav ol.user > li.primary > a:hover, .view-login header.global > nav ol.user > li.primary > a:hover,
       .view-passwordreset header.global-new > nav ol.user > li.primary > a:hover,
@@ -466,6 +469,17 @@ body footer.global {
   background: #35363f url("../images/header-bg.jpg") repeat left top;
   background-size: 50%;
   height: 88px; }
+  @media screen and (max-width: 769px) {
+    .view-login footer,
+    .view-login footer.global,
+    .view-passwordreset footer,
+    .view-passwordreset footer.global,
+    .view-register footer,
+    .view-register footer.global,
+    body footer,
+    body footer.global {
+      height: auto;
+      padding-bottom: 30px; } }
   .view-login footer ul.links,
   .view-login footer.global ul.links,
   .view-passwordreset footer ul.links,
@@ -515,6 +529,30 @@ body footer.global {
     height: 26px;
     background: transparent url("../images/logo-rue89-h.svg") no-repeat left top;
     background-size: 126px 26px; }
+    @media screen and (max-width: 769px) {
+      .view-login footer .by-ionisx,
+      .view-login footer.global .by-ionisx,
+      .view-passwordreset footer .by-ionisx,
+      .view-passwordreset footer.global .by-ionisx,
+      .view-register footer .by-ionisx,
+      .view-register footer.global .by-ionisx,
+      body footer .by-ionisx,
+      body footer.global .by-ionisx {
+        display: block !important;
+        right: 5px; } }
+    @media screen and (max-width: 321px) {
+      .view-login footer .by-ionisx,
+      .view-login footer.global .by-ionisx,
+      .view-passwordreset footer .by-ionisx,
+      .view-passwordreset footer.global .by-ionisx,
+      .view-register footer .by-ionisx,
+      .view-register footer.global .by-ionisx,
+      body footer .by-ionisx,
+      body footer.global .by-ionisx {
+        position: relative;
+        float: left;
+        top: 10px;
+        right: 0; } }
     .view-login footer .by-ionisx a,
     .view-login footer.global .by-ionisx a,
     .view-passwordreset footer .by-ionisx a,
@@ -615,33 +653,6 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   position: relative; }
   body.view-incourse .content-wrapper .container .course-wrapper .course-content .problems-wrapper .problem .choicegroup label, body.view-incourse .content-wrapper .container .course-wrapper .course-content .problems-wrapper .problem .choicegroup label:hover {
     border: none; }
-  body.view-incourse .content-wrapper .container .course-wrapper .course-content .problems-wrapper .problem .choicegroup label::before {
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
-    left: 0;
-    top: 0;
-    background-color: #fff;
-    border: 1px solid #d7d6e4; }
-  body.view-incourse .content-wrapper .container .course-wrapper .course-content .problems-wrapper .problem .choicegroup label::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    border-radius: 50%;
-    width: 11px;
-    height: 11px;
-    background-color: #8d8f9e;
-    opacity: 0; }
-  body.view-incourse .content-wrapper .container .course-wrapper .course-content .problems-wrapper .problem .choicegroup label:checked::after {
-    opacity: 1; }
-  body.view-incourse .content-wrapper .container .course-wrapper .course-content .problems-wrapper .problem .choicegroup label input[type='radio'] {
-    opacity: .2;
-    position: relative; }
 
 .modal {
   text-align: center; }
@@ -682,6 +693,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
         box-shadow: none !important; }
       @media screen and (max-width: 321px) {
         .modal .inner-wrapper input[type="submit"] {
+          min-height: 50px;
           height: auto !important; } }
       .modal .inner-wrapper input[type="submit"]:hover {
         border-color: #e27774 !important;
@@ -863,6 +875,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
             box-shadow: none !important; }
           @media screen and (max-width: 321px) {
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
+              min-height: 50px;
               height: auto !important; } }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover {
             border-color: #e27774 !important;
@@ -1307,6 +1320,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
                   box-shadow: none !important; }
                 @media screen and (max-width: 321px) {
                   .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .enter-course {
+                    min-height: 50px;
                     height: auto !important; } }
                 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .enter-course:hover {
                   border-color: #e27774 !important;
@@ -1479,6 +1493,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
       box-shadow: none !important; }
     @media screen and (max-width: 321px) {
       .login-register .form-type .toggle-form .form-toggle {
+        min-height: 50px;
         height: auto !important; } }
     .login-register .form-type .toggle-form .form-toggle:hover {
       border-color: #8d8f9e !important;
@@ -1513,6 +1528,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
     .login-register .action-primary {
+      min-height: 50px;
       height: auto !important; } }
   .login-register .action-primary:hover {
     border-color: #e27774 !important;
@@ -1748,6 +1764,7 @@ body.discussion .course-tabs .right {
       box-shadow: none !important; }
     @media screen and (max-width: 321px) {
       body.discussion .course-tabs .right .new-post-btn {
+        min-height: 50px;
         height: auto !important; } }
     body.discussion .course-tabs .right .new-post-btn:hover {
       border-color: #e27774 !important;
@@ -1765,7 +1782,11 @@ body.discussion .course-tabs .right {
 
 .forum-nav {
   border: none;
-  border-radius: 0; }
+  border-radius: 0;
+  height: auto !important; }
+  @media screen and (max-width: 993px) {
+    .forum-nav {
+      width: 100%; } }
 
 .forum-nav-header {
   background-color: #85f9d2;
@@ -1801,6 +1822,9 @@ body.discussion .course-tabs .right {
 .forum-nav-search-input {
   border: none !important;
   border-radius: 0 !important; }
+
+.forum-nav-thread-list-wrapper {
+  overflow: hidden; }
 
 .forum-nav-browse-menu-wrapper {
   border: none;
@@ -1884,7 +1908,8 @@ body.discussion .course-tabs .right {
     background-color: #fff; }
 
 .forum-nav-thread-list {
-  overflow-y: auto; }
+  overflow-y: auto;
+  height: auto !important; }
 
 .forum-nav-thread {
   border: none;
@@ -1924,9 +1949,40 @@ body.discussion .course-tabs .right {
   border: none !important;
   box-shadow: none !important;
   border-radius: 0; }
+  @media screen and (max-width: 993px) {
+    .discussion-column {
+      width: 100% !important; } }
+
+.forum-content {
+  overflow: hidden !important; }
 
 .discussion-article {
-  background-image: none !important; }
+  background-image: none !important;
+  padding-top: 0 !important; }
+  @media screen and (max-width: 993px) {
+    .discussion-article {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      overflow-x: auto !important; } }
+  .discussion-article .home-header .home-title {
+    margin-top: 0 !important; }
+  .discussion-article .label {
+    color: #000000;
+    font-size: 14px !important;
+    font-family: 'Droid Sans';
+    text-align: left;
+    font-weight: 400;
+    padding-left: 0; }
+  .discussion-article .home-helpgrid {
+    border: none !important;
+    box-shadow: none !important; }
+    .discussion-article .home-helpgrid .helpgrid-row .row-title {
+      background-color: #d7d6e4; }
+    .discussion-article .home-helpgrid .helpgrid-row .row-item {
+      background-color: #f0eff4; }
+    .discussion-article .home-helpgrid .notification-checkbox {
+      border: none !important;
+      border-radius: 0 !important; }
 
 body.discussion .forum-thread-main-wrapper,
 .discussion-thread.expanded .forum-thread-main-wrapper {
@@ -2006,7 +2062,7 @@ body.discussion .discussion-post .post-header-actions,
       .discussion-module .discussion-post .post-header-actions .action-button:hover .action-label,
       .discussion-user-threads .discussion-post .post-header-actions .action-button .action-label,
       .discussion-user-threads .discussion-post .post-header-actions .action-button:hover .action-label {
-        width: 80px;
+        width: 100px;
         border-right-width: 0 !important; }
     body.discussion .discussion-post .post-header-actions .action-button.action-vote .action-label, body.discussion .discussion-post .post-header-actions .action-button.action-vote:hover .action-label,
     .discussion-module .discussion-post .post-header-actions .action-button.action-vote .action-label,
@@ -2054,6 +2110,7 @@ body.discussion .discussion-post .post-header-actions,
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
     .add-response-btn {
+      min-height: 50px;
       height: auto !important; } }
   .add-response-btn:hover {
     border-color: #e27774 !important;
@@ -2171,6 +2228,7 @@ body.discussion .discussion-post .post-header-actions,
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
     .reply-post-control .discussion-submit-post {
+      min-height: 50px;
       height: auto !important; } }
   .reply-post-control .discussion-submit-post:hover {
     border-color: #e27774 !important;
@@ -2178,6 +2236,138 @@ body.discussion .discussion-post .post-header-actions,
     color: #e27774 !important; }
   .reply-post-control .discussion-submit-post:hover, .reply-post-control .discussion-submit-post:focus {
     color: #ff9388 !important; }
+
+.forum-new-post-form,
+.edit-post-form {
+  border-radius: 0 !important; }
+  .forum-new-post-form .post-type-label,
+  .edit-post-form .post-type-label {
+    width: auto !important;
+    min-width: 177px !important;
+    height: 50px !important;
+    padding-top: 11px !important;
+    font-family: 'Montserrat' !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    letter-spacing: -.01em !important;
+    text-transform: uppercase !important;
+    text-align: center;
+    color: #000000;
+    border-width: 1px 1px 4px !important;
+    border-style: solid !important;
+    border-radius: 0 !important;
+    border-color: #ff9388 !important;
+    border-bottom-color: #e27774 !important;
+    background-color: #ff9388 !important;
+    opacity: .6;
+    box-shadow: none;
+    background-image: none;
+    min-width: 0 !important;
+    width: 120px;
+    height: 40px !important;
+    padding-top: 1px !important;
+    font-size: .9em !important; }
+    .forum-new-post-form .post-type-label:active, .forum-new-post-form .post-type-label:focus,
+    .edit-post-form .post-type-label:active,
+    .edit-post-form .post-type-label:focus {
+      box-shadow: none !important; }
+    @media screen and (max-width: 321px) {
+      .forum-new-post-form .post-type-label,
+      .edit-post-form .post-type-label {
+        min-height: 50px;
+        height: auto !important; } }
+    .forum-new-post-form .post-type-label:hover,
+    .edit-post-form .post-type-label:hover {
+      border-color: #e27774 !important;
+      background-color: #fff !important;
+      color: #e27774 !important; }
+    .forum-new-post-form .post-type-label .icon,
+    .edit-post-form .post-type-label .icon {
+      display: none !important; }
+  .forum-new-post-form .post-type-input:checked + .post-type-label,
+  .edit-post-form .post-type-input:checked + .post-type-label {
+    opacity: 1;
+    box-shadow: none; }
+  .forum-new-post-form .post-topic-button,
+  .edit-post-form .post-topic-button {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: none; }
+    .forum-new-post-form .post-topic-button, .forum-new-post-form .post-topic-button:hover, .forum-new-post-form .post-topic-button:focus,
+    .edit-post-form .post-topic-button,
+    .edit-post-form .post-topic-button:hover,
+    .edit-post-form .post-topic-button:focus {
+      background-image: none; }
+  .forum-new-post-form .post-field .field-input,
+  .edit-post-form .post-field .field-input {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: none; }
+  .forum-new-post-form .post-option,
+  .edit-post-form .post-option {
+    color: #8d8f9e !important; }
+    .forum-new-post-form .post-option:hover, .forum-new-post-form .post-option.is-enabled,
+    .edit-post-form .post-option:hover,
+    .edit-post-form .post-option.is-enabled {
+      border-color: #8d8f9e !important;
+      color: #000000 !important; }
+  .forum-new-post-form .submit,
+  .forum-new-post-form .cancel,
+  .edit-post-form .submit,
+  .edit-post-form .cancel {
+    width: auto !important;
+    min-width: 177px !important;
+    height: 50px !important;
+    padding-top: 11px !important;
+    font-family: 'Montserrat' !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    letter-spacing: -.01em !important;
+    text-transform: uppercase !important;
+    text-align: center;
+    color: #000000;
+    border-width: 1px 1px 4px !important;
+    border-style: solid !important;
+    border-radius: 0 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    padding-top: 7px !important; }
+    .forum-new-post-form .submit:active, .forum-new-post-form .submit:focus,
+    .forum-new-post-form .cancel:active,
+    .forum-new-post-form .cancel:focus,
+    .edit-post-form .submit:active,
+    .edit-post-form .submit:focus,
+    .edit-post-form .cancel:active,
+    .edit-post-form .cancel:focus {
+      box-shadow: none !important; }
+    @media screen and (max-width: 321px) {
+      .forum-new-post-form .submit,
+      .forum-new-post-form .cancel,
+      .edit-post-form .submit,
+      .edit-post-form .cancel {
+        min-height: 50px;
+        height: auto !important; } }
+  .forum-new-post-form .submit,
+  .edit-post-form .submit {
+    border-color: #ff9388 !important;
+    border-bottom-color: #e27774 !important;
+    background-color: #ff9388 !important; }
+    .forum-new-post-form .submit:hover,
+    .edit-post-form .submit:hover {
+      border-color: #e27774 !important;
+      background-color: #fff !important;
+      color: #e27774 !important; }
+  .forum-new-post-form .cancel,
+  .edit-post-form .cancel {
+    border-color: #d7d6e4 !important;
+    border-bottom-color: #8d8f9e !important;
+    background-color: #d7d6e4 !important;
+    color: #8d8f9e !important; }
+    .forum-new-post-form .cancel:hover,
+    .edit-post-form .cancel:hover {
+      border-color: #8d8f9e !important;
+      background-color: #fff !important;
+      color: #8d8f9e !important; }
 
 .static-container h2 {
   font-family: 'Montserrat' !important;

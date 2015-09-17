@@ -7,6 +7,10 @@ body {
 		background: $tuna url('../images/header-bg.jpg') repeat left top;
 		background-size: 50%;
 		height: 88px;
+		@include break-sm {
+			height: auto;
+			padding-bottom: 30px;
+		}
 		ul.links {
 			float: left;
 			li a,
@@ -24,6 +28,16 @@ body {
 			height: 26px;
 			background: transparent url('../images/logo-rue89-h.svg') no-repeat left top;
 			background-size: 126px 26px;
+			@include break-sm {
+				display: block !important;
+				right: 5px;
+			}
+			@include break-xs {
+				position: relative;
+				float: left;
+				top: 10px;
+				right: 0;
+			}
 			a {
 				display: none;
 			}

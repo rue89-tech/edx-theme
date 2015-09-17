@@ -24,6 +24,7 @@
 		box-shadow: none !important;
 	}
 	@include break-xs {
+		min-height: 50px;
 		height: auto !important;
 	}
 }
