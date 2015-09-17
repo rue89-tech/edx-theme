@@ -492,7 +492,8 @@ body footer.global {
   .view-register footer.global ul.links,
   body footer ul.links,
   body footer.global ul.links {
-    float: left; }
+    float: left;
+    margin-right: 10px; }
     .view-login footer ul.links li:nth-child(3),
     .view-login footer.global ul.links li:nth-child(3),
     .view-passwordreset footer ul.links li:nth-child(3),
@@ -538,6 +539,16 @@ body footer.global {
     body footer.global ul.links li a,
     body footer.global ul.links li a:hover {
       color: #f0eff4; }
+    @media screen and (max-width: 769px) {
+      .view-login footer ul.links,
+      .view-login footer.global ul.links,
+      .view-passwordreset footer ul.links,
+      .view-passwordreset footer.global ul.links,
+      .view-register footer ul.links,
+      .view-register footer.global ul.links,
+      body footer ul.links,
+      body footer.global ul.links {
+        clear: both; } }
   .view-login footer .copyright,
   .view-login footer.global .copyright,
   .view-passwordreset footer .copyright,
@@ -547,7 +558,6 @@ body footer.global {
   body footer .copyright,
   body footer.global .copyright {
     float: left;
-    margin-left: 10px;
     color: #fff; }
     @media screen and (max-width: 769px) {
       .view-login footer .copyright,
@@ -558,7 +568,8 @@ body footer.global {
       .view-register footer.global .copyright,
       body footer .copyright,
       body footer.global .copyright {
-        margin-left: 0; } }
+        margin-left: 0;
+        clear: both; } }
   .view-login footer .by-ionisx,
   .view-login footer.global .by-ionisx,
   .view-passwordreset footer .by-ionisx,
@@ -584,6 +595,7 @@ body footer.global {
         right: 5px;
         position: relative;
         float: left;
+        clear: both;
         top: 10px;
         right: 0;
         margin-bottom: 30px; } }
