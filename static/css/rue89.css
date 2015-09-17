@@ -425,7 +425,7 @@ body header.global > nav ol.user {
     body header.global-new > nav ol.user ul.dropdown-menu li,
     body header.global.slim > nav ol.user ul.dropdown-menu li,
     body header.global > nav ol.user ul.dropdown-menu li {
-      height: 50px;
+      min-height: 50px;
       background-color: #d7d6e4;
       margin-bottom: 1px; }
       .view-login header.global-new > nav ol.user ul.dropdown-menu li:hover, .view-login header.global.slim > nav ol.user ul.dropdown-menu li:hover, .view-login header.global > nav ol.user ul.dropdown-menu li:hover,
@@ -451,12 +451,16 @@ body header.global > nav ol.user {
       body header.global.slim > nav ol.user ul.dropdown-menu li a,
       body header.global > nav ol.user ul.dropdown-menu li a {
         display: block;
-        height: 100%;
+        height: auto;
+        min-height: 50px;
         width: 100%;
-        margin: 10px 0 0;
+        margin: 0 0;
+        padding: 10px 0;
         color: #35363f;
         font-size: 18px;
-        line-height: 20x; }
+        line-height: 20px;
+        text-overflow: unset;
+        white-space: unset; }
 
 .view-login footer,
 .view-login footer.global,
