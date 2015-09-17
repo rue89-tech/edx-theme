@@ -145,7 +145,7 @@ body header.global > nav .nav-global {
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -178,7 +178,7 @@ body header.global > nav .nav-global {
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000;
+  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
@@ -274,7 +274,7 @@ body header.global > nav ol.user {
       letter-spacing: -.01em !important;
       text-transform: uppercase !important;
       text-align: center;
-      color: #000000;
+      color: #000000 !important;
       border-width: 1px 1px 4px !important;
       border-style: solid !important;
       border-radius: 0 !important;
@@ -713,7 +713,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
       letter-spacing: -.01em !important;
       text-transform: uppercase !important;
       text-align: center;
-      color: #000000;
+      color: #000000 !important;
       border-width: 1px 1px 4px !important;
       border-style: solid !important;
       border-radius: 0 !important;
@@ -895,7 +895,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
           letter-spacing: -.01em !important;
           text-transform: uppercase !important;
           text-align: center;
-          color: #000000;
+          color: #000000 !important;
           border-width: 1px 1px 4px !important;
           border-style: solid !important;
           border-radius: 0 !important;
@@ -1328,7 +1328,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
                 letter-spacing: -.01em !important;
                 text-transform: uppercase !important;
                 text-align: center;
-                color: #000000;
+                color: #000000 !important;
                 border-width: 1px 1px 4px !important;
                 border-style: solid !important;
                 border-radius: 0 !important;
@@ -1508,7 +1508,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -1537,7 +1537,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000;
+  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
@@ -1776,7 +1776,7 @@ body.discussion .course-tabs .right {
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -2124,7 +2124,7 @@ body.discussion .discussion-post .post-header-actions,
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000;
+  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
@@ -2233,7 +2233,7 @@ body.discussion .discussion-post .post-header-actions,
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000;
+  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
@@ -2271,7 +2271,7 @@ body.discussion .discussion-post .post-header-actions,
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -2344,7 +2344,7 @@ body.discussion .discussion-post .post-header-actions,
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
