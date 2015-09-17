@@ -13,15 +13,32 @@ body {
 		}
 		ul.links {
 			float: left;
-			li a,
-			li a:hover {
-				color: $athens-gray;
+			li {
+				&:nth-child(3) { // Contact
+					display: none;
+				}
+				&:nth-child(5) { // Honor
+					a {
+						font-size: 0;
+						&::before {
+							content: "Charte utilisateurs";
+							font-size: 12.6px;
+						}
+					}
+				}
+				a,
+				a:hover {
+					color: $athens-gray;
+				}
 			}
 		}
 		.copyright {
 			float: left;
 			margin-left: 10px;
 			color: $white;
+			@include break-sm {
+				margin-left: 0;
+			}
 		}
 		.by-ionisx {
 			width: 126px;
@@ -31,12 +48,13 @@ body {
 			@include break-sm {
 				display: block !important;
 				right: 5px;
-			}
-			@include break-xs {
 				position: relative;
 				float: left;
 				top: 10px;
 				right: 0;
+				margin-bottom: 30px;
+			}
+			@include break-xs {
 			}
 			a {
 				display: none;

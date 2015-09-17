@@ -8,7 +8,8 @@
     <ul class="links">
       %if settings.MKTG_URL_LINK_MAP.get('ABOUT'):
       <li>
-        <a id="about" href="${marketing_link('ABOUT')}">${_("About")}</a>
+        <!-- <a id="about" href="${marketing_link('ABOUT')}">${_("About")}</a> -->
+		<a id="about" href="http://formation.rue89.com" target="_blank">${_("About")}</a>
       </li>
       %endif
       %if settings.MKTG_URL_LINK_MAP.get('FAQ'):
