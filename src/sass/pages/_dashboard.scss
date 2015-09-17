@@ -228,6 +228,14 @@
 				margin-top: 0;
 			}
 		}
+		.profile-sidebar {
+			.user-info {
+				.title,
+				.copy {
+					font-size: 14px !important;
+				}
+			}
+		}
 		.dashboard-search-bar {
 			margin-bottom: 30px;
 			.search-field {
