@@ -1,0 +1,52 @@
+@mixin block-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@mixin button {
+	width: auto !important;
+	min-width: 177px !important;
+	height: 50px !important;
+	padding-top: 11px !important;
+	font-family: 'Montserrat' !important;
+	font-weight: 700 !important;
+	font-size: 18px !important;
+	letter-spacing: -.01em !important;
+	text-transform: uppercase !important;
+	text-align: center;
+	color: $black;
+	border-width: 1px 1px 4px !important;
+	border-style: solid !important;
+	border-radius: 0 !important;
+	&:active,
+	&:focus {
+		box-shadow: none !important;
+	}
+	@include break-xs {
+		min-height: 50px;
+		height: auto !important;
+	}
+}
+
+@mixin button-color($colorbg, $colorborder) {
+	border-color: $colorbg !important;
+	border-bottom-color: $colorborder !important;
+	background-color: $colorbg !important;
+	&:hover {
+		border-color: $colorborder !important;
+		background-color: $white !important;
+		color: $colorborder !important;
+	}
+}
+
+@mixin reset-border-shadow {
+	border: none !important;
+	box-shadow: none !important;
+}
+
+@mixin kill-float {
+	float: none !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}

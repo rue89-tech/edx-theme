@@ -1,0 +1,213 @@
+.view-login header.global, .view-login header.global-new, .view-login header.global.slim, .view-passwordreset header.global, .view-passwordreset header.global-new, .view-passwordreset header.global.slim, .view-register header.global, .view-register header.global-new, .view-register header.global.slim, body header.global, body header.global-new, body header.global.slim {
+	background: $tuna url('../images/header-bg.jpg') repeat left top;
+	background-size: 50%;
+	border-top: 10px solid $aquamarine;
+	height: 115px;
+	@include break-lg {
+		height: auto;
+	}
+}
+
+header.global h1.logo {
+	height: 55px;
+	@include break-md {
+		margin-right: 10px !important;
+	}
+	@include break-sm {
+		@include kill-float;
+	}
+}
+
+header.global.slim .course-header {
+	color: #fff;
+	display: block;
+	font-size: 1.5em;
+	width: 440px;
+	max-width: 100%;
+	float: left;
+	font-weight: 400;
+	text-transform:  uppercase;
+	line-height: 1.3em;
+	letter-spacing: .05em;
+	margin-top: 14px;
+	white-space: initial;
+	@include break-lg {
+		width: 570px;
+	}
+	@include break-md {
+		width: 430px;
+	}
+	@include break-sm {
+		float: none;
+	} 
+	.provider {
+		display: none;
+	}
+}
+
+.view-login header.global-new > nav h1.logo a, .view-login header.global.slim > nav h1.logo a, .view-login header.global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.global.slim > nav h1.logo a, .view-passwordreset header.global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.global.slim > nav h1.logo a, .view-register header.global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.global.slim > nav h1.logo a, body header.global > nav h1.logo a {
+	background-image: url('../images/logo-rue89-h.svg');
+	height: 55px;
+	width: 265px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+	.view-login header.global-new > nav h1.logo span, .view-login header.global.slim > nav h1.logo span, .view-login header.global > nav h1.logo span, .view-passwordreset header.global-new > nav h1.logo span, .view-passwordreset header.global.slim > nav h1.logo span, .view-passwordreset header.global > nav h1.logo span, .view-register header.global-new > nav h1.logo span, .view-register header.global.slim > nav h1.logo span, .view-register header.global > nav h1.logo span, body header.global-new > nav h1.logo span, body header.global.slim > nav h1.logo span, body header.global > nav h1.logo span {
+		background-image: none;
+	}
+
+.view-login header.global-new > nav .nav-courseware, .view-login header.global.slim > nav .nav-courseware, .view-login header.global > nav .nav-courseware, .view-passwordreset header.global-new > nav .nav-courseware, .view-passwordreset header.global.slim > nav .nav-courseware, .view-passwordreset header.global > nav .nav-courseware, .view-register header.global-new > nav .nav-courseware, .view-register header.global.slim > nav .nav-courseware, .view-register header.global > nav .nav-courseware, body header.global-new > nav .nav-courseware, body header.global.slim > nav .nav-courseware, body header.global > nav .nav-courseware {
+	margin-top: 15px;
+}
+
+
+// Bouton "Trouver un cours"
+body {
+	header {
+		&.global {
+			> nav {
+				.nav-global {
+					margin-top: 17px;
+					margin-left: 471px;
+					float: left;
+					&.authenticated {
+						margin-top: 17px;
+						display: block !important;
+					}
+					@include break-lg {
+						margin-left: 276px;
+					}
+					@include break-md {
+						margin-left: 57px;
+					}
+					@include break-sm {
+						@include kill-float;
+					}
+					a {
+						color: $black;
+						text-transform: uppercase;
+						@include button;
+						@include button-color($aquamarine, $carribean-green);
+						padding-top: 12px !important;
+						font-size: 16px !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Bouton "Connexion"
+.cta-login,
+.cta-register {
+	color: $white !important;
+	@include button;
+	@include button-color($vivid-tangerine, $sunglo);
+}
+
+header.global {
+	.nav-courseware,
+	.user {
+		@include break-lg {
+			@include kill-float;
+			clear: both;
+			padding-top: 15px;
+		}
+	}
+} 
+
+// Bouton "Profil"
+.view-login,
+.view-passwordreset,
+.view-register,
+body {
+	header {
+		&.global-new,
+		&.global.slim,
+		&.global {
+			> nav {
+				ol.user {
+					margin-top: 17px;
+					@include break-sm {
+						padding: 0;
+					}
+					> li.primary {
+						height: 50px;
+						&:first-child {
+							display: none;
+						}
+						> a {
+							@include button;
+							@include button-color($athens-gray, $manatee);
+							&.dropdown {
+								position: relative;
+								height: 50px !important;
+								&.active {
+									color: $manatee;
+								}
+								.fa {
+									display: none;
+								}
+								&::before {
+									content: 'Mon compte';
+									text-transform: uppercase;
+									font-family: 'Montserrat';
+									font-weight: 700;
+									font-size: 16px;
+									position: absolute;
+									left: 0;
+									top: 0;
+									display: block;
+									width: 100%;
+									height: 100%;
+									padding-top: 11px;
+									padding-left: 17px;
+									text-align: left;
+								}
+								&::after {
+									content: '\f078';
+									font-family: FontAwesome;
+									font-size: .8em;
+									position: absolute;
+									top: 11px;
+									right: 11px;
+								}
+							}
+						}
+					}
+					ul.dropdown-menu {
+						left: 0;
+						top: 50px;
+						border-radius: 0;
+						border: none;
+						&.expanded {
+							
+						}
+						li {
+							height: 50px;
+							background-color: $mischka;
+							margin-bottom: 1px;
+							&:hover {
+								background-color: $mischka;
+								color: $tuna !important;
+							}
+							a {
+								display: block;
+								height: 100%;
+								width: 100%;
+								margin: 10px 0 0;
+								color: $tuna;
+								font-size: 18px;
+								line-height: 20x;
+								&:hover {
+									
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

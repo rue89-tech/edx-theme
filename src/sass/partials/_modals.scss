@@ -1,0 +1,35 @@
+.modal {
+	text-align: center;
+	.inner-wrapper {
+		background: $white !important;
+		border: none !important;
+		border-radius: 0 !important;
+		header {
+			h2 {
+				text-shadow: none;
+				font-family: 'Droid Sans';
+				font-weight: 700;
+				font-size: 20px;
+				line-height: 26px;
+				text-transform: uppercase;
+				text-align: center;
+			}
+		}
+		input[type="submit"] {
+			@include button;
+			@include button-color( $vivid-tangerine, $sunglo );
+			margin-left: auto !important;
+			margin-right: auto !important;
+			display: block !important;
+		}
+		.close-modal {
+			right: 10px !important;
+			top: 6px !important;
+			font-size: 1.5em !important;
+			.icon {
+				color: $vivid-tangerine;
+			}
+		}
+	}
+
+}

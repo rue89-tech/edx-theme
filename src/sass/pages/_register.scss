@@ -1,0 +1,48 @@
+.login-register {
+	.form-type {
+		.register-form,
+		.login-form {
+			.section-title {
+				h2 {
+					text-align: left;
+					.text {
+						padding: 0 !important;
+					}
+				}
+			}
+		}
+		.toggle-form {
+			position: relative;
+			margin-top: 40px;
+			&::before {
+				content: '';
+				display: block;
+				width: 99vw;
+				height: 20px;
+				background-color: $athens-gray;
+				position: absolute;
+				top: -40px;
+				left: 50%;
+				transform: translateX(-50%);
+				
+			}
+			.form-toggle {
+				@include button;
+				@include button-color( $athens-gray, $manatee );
+				color: $manatee !important;
+			}
+		}
+
+	}
+	.action-primary {
+		@include button;
+		@include button-color( $vivid-tangerine, $sunglo );
+		display: block !important;
+		width: auto !important;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: none;
+		text-shadow: none;
+		color: $white;
+	}
+}

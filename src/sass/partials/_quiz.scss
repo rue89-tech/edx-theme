@@ -1,0 +1,41 @@
+body.view-incourse {
+	.content-wrapper {
+		.container {
+			.course-wrapper {
+				.course-content {
+					.problems-wrapper {
+						.problem-header {
+							font-family: 'Oswald';
+							font-size: 36px;
+							line-height: 30px;
+							letter-spacing: .0025em;
+							margin-bottom: 30px;
+							color: $black;
+							text-transform: uppercase;
+						}
+						.problem {
+							h2 {
+								font-family: 'Droid Sans' !important;
+								font-weight: 700;
+								font-size: 20px;
+								line-height: 30px;
+								text-transform: uppercase;
+								color: $black;
+							}
+							.choicegroup {
+								label {
+									padding: 0 10px;
+									position: relative;
+									&,
+									&:hover {
+										border: none;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
