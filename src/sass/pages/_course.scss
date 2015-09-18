@@ -80,6 +80,18 @@
 								padding-left: 10px;
 								padding-right: 10px;
 							}
+							& > span.register.disabled {
+								bottom: 3px !important;
+								padding-top: 10px !important;
+								text-transform: uppercase;
+								min-height: 100% !important;
+								height: auto !important;
+								position: relative;
+								&:hover {
+									cursor: default;
+									color: $mischka !important;
+								}
+							}
 							& > span.register.disabled.disabled,
 							& > span.register {
 								color: $white;
@@ -95,17 +107,6 @@
 									color: $vivid-tangerine;
 									background-color: transparent;
 									border: none;
-								}
-							}
-							& > span.register.disabled {
-								bottom: 0 !important;
-								padding-top: 10px !important;
-								text-transform: uppercase;
-								height: 100% !important;
-								&:hover {
-									cursor: default;
-									color: $mischka !important;
-									background-color: $athens-gray !important;
 								}
 							}
 							> a.find-courses,
@@ -371,6 +372,9 @@
 				margin-bottom: 10px;
 				cursor: pointer;
 				summary {
+					&::-webkit-details-marker {
+						display: none; // Hide details arrow on Chrome, since we've added them for everyone
+					}
 					h3 {
 						font-family: 'Droid Sans', sans-serif !important;
 						font-size: 18px !important;

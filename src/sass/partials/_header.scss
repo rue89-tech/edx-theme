@@ -185,7 +185,7 @@ body {
 							
 						}
 						li {
-							height: 50px;
+							min-height: 50px;
 							background-color: $mischka;
 							margin-bottom: 1px;
 							&:hover {
@@ -194,12 +194,16 @@ body {
 							}
 							a {
 								display: block;
-								height: 100%;
+								height: auto;
+								min-height: 50px;
 								width: 100%;
-								margin: 10px 0 0;
+								margin: 0 0;
+								padding: 10px 0;
 								color: $tuna;
 								font-size: 18px;
-								line-height: 20x;
+								line-height: 20px;
+								text-overflow: unset;
+								white-space: unset;
 								&:hover {
 									
 								}

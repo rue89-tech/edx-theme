@@ -145,7 +145,7 @@ body header.global > nav .nav-global {
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -178,7 +178,7 @@ body header.global > nav .nav-global {
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000;
+  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
@@ -274,7 +274,7 @@ body header.global > nav ol.user {
       letter-spacing: -.01em !important;
       text-transform: uppercase !important;
       text-align: center;
-      color: #000000;
+      color: #000000 !important;
       border-width: 1px 1px 4px !important;
       border-style: solid !important;
       border-radius: 0 !important;
@@ -425,7 +425,7 @@ body header.global > nav ol.user {
     body header.global-new > nav ol.user ul.dropdown-menu li,
     body header.global.slim > nav ol.user ul.dropdown-menu li,
     body header.global > nav ol.user ul.dropdown-menu li {
-      height: 50px;
+      min-height: 50px;
       background-color: #d7d6e4;
       margin-bottom: 1px; }
       .view-login header.global-new > nav ol.user ul.dropdown-menu li:hover, .view-login header.global.slim > nav ol.user ul.dropdown-menu li:hover, .view-login header.global > nav ol.user ul.dropdown-menu li:hover,
@@ -451,12 +451,16 @@ body header.global > nav ol.user {
       body header.global.slim > nav ol.user ul.dropdown-menu li a,
       body header.global > nav ol.user ul.dropdown-menu li a {
         display: block;
-        height: 100%;
+        height: auto;
+        min-height: 50px;
         width: 100%;
-        margin: 10px 0 0;
+        margin: 0 0;
+        padding: 10px 0;
         color: #35363f;
         font-size: 18px;
-        line-height: 20x; }
+        line-height: 20px;
+        text-overflow: unset;
+        white-space: unset; }
 
 .view-login footer,
 .view-login footer.global,
@@ -488,7 +492,36 @@ body footer.global {
   .view-register footer.global ul.links,
   body footer ul.links,
   body footer.global ul.links {
-    float: left; }
+    float: left;
+    margin-right: 10px; }
+    .view-login footer ul.links li:nth-child(3),
+    .view-login footer.global ul.links li:nth-child(3),
+    .view-passwordreset footer ul.links li:nth-child(3),
+    .view-passwordreset footer.global ul.links li:nth-child(3),
+    .view-register footer ul.links li:nth-child(3),
+    .view-register footer.global ul.links li:nth-child(3),
+    body footer ul.links li:nth-child(3),
+    body footer.global ul.links li:nth-child(3) {
+      display: none; }
+    .view-login footer ul.links li:nth-child(5) a,
+    .view-login footer.global ul.links li:nth-child(5) a,
+    .view-passwordreset footer ul.links li:nth-child(5) a,
+    .view-passwordreset footer.global ul.links li:nth-child(5) a,
+    .view-register footer ul.links li:nth-child(5) a,
+    .view-register footer.global ul.links li:nth-child(5) a,
+    body footer ul.links li:nth-child(5) a,
+    body footer.global ul.links li:nth-child(5) a {
+      font-size: 0; }
+      .view-login footer ul.links li:nth-child(5) a::before,
+      .view-login footer.global ul.links li:nth-child(5) a::before,
+      .view-passwordreset footer ul.links li:nth-child(5) a::before,
+      .view-passwordreset footer.global ul.links li:nth-child(5) a::before,
+      .view-register footer ul.links li:nth-child(5) a::before,
+      .view-register footer.global ul.links li:nth-child(5) a::before,
+      body footer ul.links li:nth-child(5) a::before,
+      body footer.global ul.links li:nth-child(5) a::before {
+        content: "Charte utilisateurs";
+        font-size: 12.6px; }
     .view-login footer ul.links li a,
     .view-login footer ul.links li a:hover,
     .view-login footer.global ul.links li a,
@@ -506,6 +539,16 @@ body footer.global {
     body footer.global ul.links li a,
     body footer.global ul.links li a:hover {
       color: #f0eff4; }
+    @media screen and (max-width: 769px) {
+      .view-login footer ul.links,
+      .view-login footer.global ul.links,
+      .view-passwordreset footer ul.links,
+      .view-passwordreset footer.global ul.links,
+      .view-register footer ul.links,
+      .view-register footer.global ul.links,
+      body footer ul.links,
+      body footer.global ul.links {
+        clear: both; } }
   .view-login footer .copyright,
   .view-login footer.global .copyright,
   .view-passwordreset footer .copyright,
@@ -515,8 +558,18 @@ body footer.global {
   body footer .copyright,
   body footer.global .copyright {
     float: left;
-    margin-left: 10px;
     color: #fff; }
+    @media screen and (max-width: 769px) {
+      .view-login footer .copyright,
+      .view-login footer.global .copyright,
+      .view-passwordreset footer .copyright,
+      .view-passwordreset footer.global .copyright,
+      .view-register footer .copyright,
+      .view-register footer.global .copyright,
+      body footer .copyright,
+      body footer.global .copyright {
+        margin-left: 0;
+        clear: both; } }
   .view-login footer .by-ionisx,
   .view-login footer.global .by-ionisx,
   .view-passwordreset footer .by-ionisx,
@@ -539,20 +592,13 @@ body footer.global {
       body footer .by-ionisx,
       body footer.global .by-ionisx {
         display: block !important;
-        right: 5px; } }
-    @media screen and (max-width: 321px) {
-      .view-login footer .by-ionisx,
-      .view-login footer.global .by-ionisx,
-      .view-passwordreset footer .by-ionisx,
-      .view-passwordreset footer.global .by-ionisx,
-      .view-register footer .by-ionisx,
-      .view-register footer.global .by-ionisx,
-      body footer .by-ionisx,
-      body footer.global .by-ionisx {
+        right: 5px;
         position: relative;
         float: left;
+        clear: both;
         top: 10px;
-        right: 0; } }
+        right: 0;
+        margin-bottom: 30px; } }
     .view-login footer .by-ionisx a,
     .view-login footer.global .by-ionisx a,
     .view-passwordreset footer .by-ionisx a,
@@ -679,7 +725,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
       letter-spacing: -.01em !important;
       text-transform: uppercase !important;
       text-align: center;
-      color: #000000;
+      color: #000000 !important;
       border-width: 1px 1px 4px !important;
       border-style: solid !important;
       border-radius: 0 !important;
@@ -861,7 +907,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
           letter-spacing: -.01em !important;
           text-transform: uppercase !important;
           text-align: center;
-          color: #000000;
+          color: #000000 !important;
           border-width: 1px 1px 4px !important;
           border-style: solid !important;
           border-radius: 0 !important;
@@ -896,6 +942,16 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
               width: auto !important;
               padding-left: 10px;
               padding-right: 10px; } }
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled {
+            bottom: 3px !important;
+            padding-top: 10px !important;
+            text-transform: uppercase;
+            min-height: 100% !important;
+            height: auto !important;
+            position: relative; }
+            .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled:hover {
+              cursor: default;
+              color: #d7d6e4 !important; }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled, .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register {
             color: #fff;
             font-size: 18px;
@@ -910,15 +966,6 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
               color: #ff9388;
               background-color: transparent;
               border: none; }
-          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled {
-            bottom: 0 !important;
-            padding-top: 10px !important;
-            text-transform: uppercase;
-            height: 100% !important; }
-            .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled:hover {
-              cursor: default;
-              color: #d7d6e4 !important;
-              background-color: #f0eff4 !important; }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > a.find-courses,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart {
@@ -1138,6 +1185,8 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 .content-wrapper section.course-info .faq details {
   margin-bottom: 10px;
   cursor: pointer; }
+  .content-wrapper section.course-info .faq details summary::-webkit-details-marker {
+    display: none; }
   .content-wrapper section.course-info .faq details summary h3 {
     font-family: 'Droid Sans', sans-serif !important;
     font-size: 18px !important;
@@ -1259,18 +1308,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
             margin-top: 0; }
             .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-university,
             .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-course-id {
-              position: absolute;
-              right: 10px;
-              display: block;
-              min-width: 50px;
-              height: 29px;
-              padding: 3px 10px 0;
-              background-color: #85f9d2;
-              font-family: 'Oswald';
-              font-size: 14px;
-              color: #000000;
-              text-transform: uppercase;
-              text-align: center; }
+              display: none !important; }
             .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-university {
               top: 20px; }
             .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-course-id {
@@ -1304,7 +1342,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
                 letter-spacing: -.01em !important;
                 text-transform: uppercase !important;
                 text-align: center;
-                color: #000000;
+                color: #000000 !important;
                 border-width: 1px 1px 4px !important;
                 border-style: solid !important;
                 border-radius: 0 !important;
@@ -1384,6 +1422,9 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
       margin-left: auto;
       margin-right: auto;
       margin-top: 0; } }
+.content-wrapper > .dashboard .profile-sidebar .user-info .title,
+.content-wrapper > .dashboard .profile-sidebar .user-info .copy {
+  font-size: 13px !important; }
 .content-wrapper > .dashboard .dashboard-search-bar {
   margin-bottom: 30px; }
   .content-wrapper > .dashboard .dashboard-search-bar .search-field {
@@ -1481,7 +1522,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -1510,7 +1551,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000;
+  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
@@ -1749,7 +1790,7 @@ body.discussion .course-tabs .right {
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -2097,7 +2138,7 @@ body.discussion .discussion-post .post-header-actions,
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000;
+  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
@@ -2206,7 +2247,7 @@ body.discussion .discussion-post .post-header-actions,
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000;
+  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
@@ -2244,7 +2285,7 @@ body.discussion .discussion-post .post-header-actions,
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -2317,7 +2358,7 @@ body.discussion .discussion-post .post-header-actions,
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -2495,28 +2536,13 @@ body.discussion .discussion-post .post-header-actions,
           padding-right: 150px;
           padding-left: 0;
           float: left;
-          margin-top: -40px;
           margin-bottom: 20px; }
       .courses-container .courses .courses-listing-item .course .course-name {
         overflow: hidden;
         border-bottom: 1px solid #d7d6e4; }
       .courses-container .courses .courses-listing-item .course .course-organization,
       .courses-container .courses .courses-listing-item .course .course-code {
-        background-color: #85f9d2;
-        color: #000000;
-        display: block;
-        font-family: "Oswald";
-        font-size: 14px;
-        height: 29px;
-        min-width: 50px;
-        padding: 3px 10px 0;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 400;
-        line-height: 21px;
-        margin-bottom: 10px;
-        float: right;
-        margin-left: 10px; }
+        display: none !important; }
       .courses-container .courses .courses-listing-item .course .course-date {
         color: #0cc5a6;
         font-size: 18px;
