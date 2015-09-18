@@ -372,6 +372,9 @@
 				margin-bottom: 10px;
 				cursor: pointer;
 				summary {
+					&::-webkit-details-marker {
+						display: none; // Hide details arrow on Chrome, since we've added them for everyone
+					}
 					h3 {
 						font-family: 'Droid Sans', sans-serif !important;
 						font-size: 18px !important;
