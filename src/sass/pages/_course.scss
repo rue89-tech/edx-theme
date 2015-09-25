@@ -124,6 +124,16 @@
 								padding-top: 3px;
 								@include reset-border-shadow;
 							}
+							a.register {
+								text-indent: -9999px;
+								line-height: 0;
+								&::after {
+									content: "S'inscrire";
+									text-indent: 0;
+									display: block;
+									line-height: initial;
+								}
+							}
 							span.register {
 								border: none;
 								background-color: transparent;
