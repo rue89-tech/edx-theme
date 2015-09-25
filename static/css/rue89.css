@@ -1680,7 +1680,9 @@ body.view-incourse .content-wrapper .container {
             display: none; }
           body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter h3 a {
             padding: 0;
-            position: relative; }
+            position: relative;
+            font-size: 16px;
+            font-weight: 700; }
             body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter h3 a::before {
               position: absolute;
               left: -37px;
