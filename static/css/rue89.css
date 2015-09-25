@@ -1906,6 +1906,8 @@ body.discussion .course-tabs .right {
   color: #35363f; }
   .forum-nav-browse-title:hover, .forum-nav-browse-title:focus {
     background-color: transparent; }
+  .forum-nav-browse-title:hover {
+    text-decoration: underline !important; }
 
 .forum-nav-refine-bar {
   margin-bottom: 4px;

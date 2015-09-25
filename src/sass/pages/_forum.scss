@@ -122,6 +122,9 @@ body.discussion .course-tabs .right {
 					&:focus {
 						background-color: transparent;
 					}
+					&:hover {
+						text-decoration: underline !important;
+					}
 				}
 				
 	.forum-nav-refine-bar {
