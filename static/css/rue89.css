@@ -101,6 +101,9 @@ header.global.slim .course-header {
   header.global.slim .course-header .provider {
     display: none; }
 
+body:not(.view-incourse) header.global.slim .course-header {
+  visibility: hidden; }
+
 .view-login header.global-new > nav h1.logo a, .view-login header.global.slim > nav h1.logo a, .view-login header.global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.global.slim > nav h1.logo a, .view-passwordreset header.global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.global.slim > nav h1.logo a, .view-register header.global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.global.slim > nav h1.logo a, body header.global > nav h1.logo a {
   background-image: url("../images/logo-rue89-h.svg");
   height: 55px;
