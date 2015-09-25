@@ -74,6 +74,11 @@ body {
 					&.authenticated {
 						margin-top: 17px;
 						display: block !important;
+						@include break-lg {
+							clear: both;
+							margin-top: 24px;
+							margin-left: 0;
+						}
 					}
 					@include break-lg {
 						margin-left: 276px;

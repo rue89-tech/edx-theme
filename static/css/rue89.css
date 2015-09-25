@@ -121,6 +121,11 @@ body header.global > nav .nav-global {
   body header.global > nav .nav-global.authenticated {
     margin-top: 17px;
     display: block !important; }
+    @media screen and (max-width: 1201px) {
+      body header.global > nav .nav-global.authenticated {
+        clear: both;
+        margin-top: 24px;
+        margin-left: 0; } }
   @media screen and (max-width: 1201px) {
     body header.global > nav .nav-global {
       margin-left: 276px; } }
