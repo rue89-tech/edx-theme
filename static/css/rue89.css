@@ -1033,10 +1033,16 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
           border: none; }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero img {
             min-height: 100%;
-            min-width: 100%;
+            min-width: 90%;
             height: auto;
             width: auto;
-            max-width: 100%; }
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto; }
+            @media screen and (max-width: 993px) {
+              .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero img {
+                max-width: 100%;
+                min-width: 100%; } }
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero .play-intro {
             background-color: #fff;
             background-image: none;
