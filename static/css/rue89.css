@@ -153,13 +153,13 @@ body header.global > nav .nav-global {
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
     border-color: #85f9d2 !important;
     border-bottom-color: #0cc5a6 !important;
     background-color: #85f9d2 !important;
+    color: #000 !important;
     padding-top: 12px !important;
     font-size: 16px !important; }
     body header.global > nav .nav-global a:active, body header.global > nav .nav-global a:focus {
@@ -186,13 +186,13 @@ body header.global > nav .nav-global {
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
   border-color: #ff9388 !important;
   border-bottom-color: #e27774 !important;
-  background-color: #ff9388 !important; }
+  background-color: #ff9388 !important;
+  color: #fff !important; }
   .cta-login:active, .cta-login:focus,
   .cta-register:active,
   .cta-register:focus {
@@ -282,13 +282,13 @@ body header.global > nav ol.user {
       letter-spacing: -.01em !important;
       text-transform: uppercase !important;
       text-align: center;
-      color: #000000 !important;
       border-width: 1px 1px 4px !important;
       border-style: solid !important;
       border-radius: 0 !important;
       border-color: #f0eff4 !important;
       border-bottom-color: #8d8f9e !important;
-      background-color: #f0eff4 !important; }
+      background-color: #f0eff4 !important;
+      color: #000 !important; }
       .view-login header.global-new > nav ol.user > li.primary > a:active, .view-login header.global-new > nav ol.user > li.primary > a:focus, .view-login header.global.slim > nav ol.user > li.primary > a:active, .view-login header.global.slim > nav ol.user > li.primary > a:focus, .view-login header.global > nav ol.user > li.primary > a:active, .view-login header.global > nav ol.user > li.primary > a:focus,
       .view-passwordreset header.global-new > nav ol.user > li.primary > a:active,
       .view-passwordreset header.global-new > nav ol.user > li.primary > a:focus,
@@ -733,13 +733,13 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
       letter-spacing: -.01em !important;
       text-transform: uppercase !important;
       text-align: center;
-      color: #000000 !important;
       border-width: 1px 1px 4px !important;
       border-style: solid !important;
       border-radius: 0 !important;
       border-color: #ff9388 !important;
       border-bottom-color: #e27774 !important;
       background-color: #ff9388 !important;
+      color: #000 !important;
       margin-left: auto !important;
       margin-right: auto !important;
       display: block !important; }
@@ -915,13 +915,13 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
           letter-spacing: -.01em !important;
           text-transform: uppercase !important;
           text-align: center;
-          color: #000000 !important;
           border-width: 1px 1px 4px !important;
           border-style: solid !important;
           border-radius: 0 !important;
           border-color: #ff9388 !important;
           border-bottom-color: #e27774 !important;
           background-color: #ff9388 !important;
+          color: #000 !important;
           min-height: 50px !important;
           height: auto !important;
           width: 296px !important; }
@@ -1368,13 +1368,13 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
                 letter-spacing: -.01em !important;
                 text-transform: uppercase !important;
                 text-align: center;
-                color: #000000 !important;
                 border-width: 1px 1px 4px !important;
                 border-style: solid !important;
                 border-radius: 0 !important;
                 border-color: #ff9388 !important;
                 border-bottom-color: #e27774 !important;
                 background-color: #ff9388 !important;
+                color: #fff !important;
                 height: 36px !important;
                 padding-top: 6px !important;
                 color: #fff;
@@ -1549,13 +1549,13 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
     border-color: #f0eff4 !important;
     border-bottom-color: #8d8f9e !important;
     background-color: #f0eff4 !important;
+    color: #000 !important;
     color: #8d8f9e !important; }
     .login-register .form-type .toggle-form .form-toggle:active, .login-register .form-type .toggle-form .form-toggle:focus {
       box-shadow: none !important; }
@@ -1578,13 +1578,13 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
   border-color: #ff9388 !important;
   border-bottom-color: #e27774 !important;
   background-color: #ff9388 !important;
+  color: #000 !important;
   display: block !important;
   width: auto !important;
   margin-left: auto;
@@ -1820,13 +1820,13 @@ body.discussion .course-tabs .right {
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
     border-color: #ff9388 !important;
     border-bottom-color: #e27774 !important;
     background-color: #ff9388 !important;
+    color: #fff !important;
     padding-top: 7px !important;
     background-image: none;
     color: #fff;
@@ -2194,13 +2194,13 @@ body.discussion .discussion-post .post-header-actions,
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
   border-color: #ff9388 !important;
   border-bottom-color: #e27774 !important;
   background-color: #ff9388 !important;
+  color: #000 !important;
   background-image: none !important;
   padding-top: 5px !important; }
   .add-response-btn:active, .add-response-btn:focus {
@@ -2303,16 +2303,16 @@ body.discussion .discussion-post .post-header-actions,
   letter-spacing: -.01em !important;
   text-transform: uppercase !important;
   text-align: center;
-  color: #000000 !important;
   border-width: 1px 1px 4px !important;
   border-style: solid !important;
   border-radius: 0 !important;
   border-color: #ff9388 !important;
   border-bottom-color: #e27774 !important;
   background-color: #ff9388 !important;
+  color: #fff !important;
   background-image: none !important;
   box-shadow: none !important;
-  padding-top: 4px; }
+  padding-top: 5px !important; }
   .reply-post-control .discussion-submit-post:active, .reply-post-control .discussion-submit-post:focus {
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
@@ -2341,13 +2341,13 @@ body.discussion .discussion-post .post-header-actions,
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
     border-color: #ff9388 !important;
     border-bottom-color: #e27774 !important;
     background-color: #ff9388 !important;
+    color: #000 !important;
     opacity: .6;
     box-shadow: none;
     background-image: none;
@@ -2414,7 +2414,6 @@ body.discussion .discussion-post .post-header-actions,
     letter-spacing: -.01em !important;
     text-transform: uppercase !important;
     text-align: center;
-    color: #000000 !important;
     border-width: 1px 1px 4px !important;
     border-style: solid !important;
     border-radius: 0 !important;
@@ -2440,7 +2439,8 @@ body.discussion .discussion-post .post-header-actions,
   .edit-post-form .submit {
     border-color: #ff9388 !important;
     border-bottom-color: #e27774 !important;
-    background-color: #ff9388 !important; }
+    background-color: #ff9388 !important;
+    color: #000 !important; }
     .forum-new-post-form .submit:hover,
     .edit-post-form .submit:hover {
       border-color: #e27774 !important;
@@ -2451,6 +2451,7 @@ body.discussion .discussion-post .post-header-actions,
     border-color: #d7d6e4 !important;
     border-bottom-color: #8d8f9e !important;
     background-color: #d7d6e4 !important;
+    color: #000 !important;
     color: #8d8f9e !important; }
     .forum-new-post-form .cancel:hover,
     .edit-post-form .cancel:hover {

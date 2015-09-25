@@ -152,7 +152,7 @@
 											float: left;
 											margin-top: 6px;
 											@include button;
-											@include button-color($vivid-tangerine, $sunglo);
+											@include button-color($vivid-tangerine, $sunglo, $white);
 											height: 36px !important;
 											padding-top: 6px !important;
 											color: #fff;
