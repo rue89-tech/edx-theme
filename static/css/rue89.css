@@ -2035,6 +2035,12 @@ body.discussion .discussion-post,
 .discussion-module .discussion-post,
 .discussion-user-threads .discussion-post {
   padding-top: 10px; }
+  @media screen and (max-width: 769px) {
+    body.discussion .discussion-post,
+    .discussion-module .discussion-post,
+    .discussion-user-threads .discussion-post {
+      padding-left: 0;
+      padding-right: 0; } }
 
 header {
   position: relative; }
@@ -2064,6 +2070,17 @@ body.discussion .discussion-post .post-header-actions,
   position: absolute;
   right: 0;
   top: 0; }
+  @media screen and (max-width: 769px) {
+    body.discussion .discussion-post .post-header-actions,
+    .discussion-module .discussion-post .post-header-actions,
+    .discussion-user-threads .discussion-post .post-header-actions {
+      position: relative;
+      display: block;
+      width: 100%; } }
+  body.discussion .discussion-post .post-header-actions .post-actions-list,
+  .discussion-module .discussion-post .post-header-actions .post-actions-list,
+  .discussion-user-threads .discussion-post .post-header-actions .post-actions-list {
+    text-align: left; }
   body.discussion .discussion-post .post-header-actions .action-button,
   .discussion-module .discussion-post .post-header-actions .action-button,
   .discussion-user-threads .discussion-post .post-header-actions .action-button {
@@ -2103,8 +2120,15 @@ body.discussion .discussion-post .post-header-actions,
       .discussion-module .discussion-post .post-header-actions .action-button:hover .action-label,
       .discussion-user-threads .discussion-post .post-header-actions .action-button .action-label,
       .discussion-user-threads .discussion-post .post-header-actions .action-button:hover .action-label {
-        width: 100px;
+        width: 98px;
         border-right-width: 0 !important; }
+        @media screen and (max-width: 993px) {
+          body.discussion .discussion-post .post-header-actions .action-button .action-label, body.discussion .discussion-post .post-header-actions .action-button:hover .action-label,
+          .discussion-module .discussion-post .post-header-actions .action-button .action-label,
+          .discussion-module .discussion-post .post-header-actions .action-button:hover .action-label,
+          .discussion-user-threads .discussion-post .post-header-actions .action-button .action-label,
+          .discussion-user-threads .discussion-post .post-header-actions .action-button:hover .action-label {
+            width: 96px; } }
     body.discussion .discussion-post .post-header-actions .action-button.action-vote .action-label, body.discussion .discussion-post .post-header-actions .action-button.action-vote:hover .action-label,
     .discussion-module .discussion-post .post-header-actions .action-button.action-vote .action-label,
     .discussion-module .discussion-post .post-header-actions .action-button.action-vote:hover .action-label,
