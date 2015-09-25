@@ -1073,7 +1073,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
       text-align: left;
       display: inline-block;
       background-color: #85f9d2;
-      padding: 16px 20px 18px 40px;
+      padding: 6px 14px 8px 30px;
       margin-bottom: 50px;
       position: relative; }
       @media screen and (max-width: 321px) {
@@ -1084,9 +1084,9 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
         content: "";
         height: 0;
         width: 0;
-        border-top: 38px solid transparent;
-        border-bottom: 38px solid transparent;
-        border-left: 19px solid #fff;
+        border-top: 29px solid transparent;
+        border-bottom: 29px solid transparent;
+        border-left: 17px solid #fff;
         position: absolute;
         left: 0;
         top: 0; }

@@ -226,7 +226,7 @@
 						text-align: left;
 						display: inline-block;
 						background-color: $aquamarine;
-						padding: 16px 20px 18px 40px;
+						padding: 6px 14px 8px 30px;
 						margin-bottom: 50px;
 						position: relative;
 						@include break-xs {
@@ -237,9 +237,9 @@
 							content: "";
 							height: 0;
 							width: 0;
-							border-top: 38px solid transparent;
-							border-bottom: 38px solid transparent;
-							border-left: 19px solid $white;
+							border-top: 29px solid transparent;
+							border-bottom: 29px solid transparent;
+							border-left: 17px solid $white;
 							position: absolute;
 							left: 0;
 							top: 0;
