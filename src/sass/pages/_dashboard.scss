@@ -37,10 +37,13 @@
 						margin: 0;
 						overflow: hidden;
 						.details {
-							height: 196px;
-							@include break-sm {
-								height: auto;
-							}
+//							height: 196px;
+							height: auto;
+							position: relative;
+							padding-bottom: 20px;
+							//@include break-sm {
+//								height: auto;
+//							}
 							.wrapper-course-image {
 								height: 100%;
 								width: 358px;
@@ -50,19 +53,26 @@
 								}
 								.cover {
 									height: 100%;
-									width: 100%;
+//									width: 100%;
 									border-radius: 0;
-									position: relative;
+//									position: relative;
 									border: none;
+									position: absolute;
+									width: 358px;
 									@include break-sm {
 										height: 196px;
+										width: 100%;
+										position: relative;
+										margin-bottom: 0;
 									}
 									.course-image {
 									    height: auto;
 									    width: auto;
 									    min-height: 100%;
-										max-height: unset;
-									    min-width: 100%;
+										max-height: unset;//
+//									    min-width: 100%;
+//										max-width: 100%;
+										width: 100%;
 									    position: absolute;
 									    left: 50%;
 									    top: 50%;
@@ -74,10 +84,12 @@
 								width: calc(100% - 373px);
 								height: 100%;
 								position: relative;
+								margin-left: 373px;
 								@include break-sm {
 									width: 100%;
 									height: auto;
 									padding: 10px;
+									margin-left: 0;
 								}
 								.course-title {
 									margin-top: 20px;
@@ -126,8 +138,9 @@
 								.wrapper-course-actions {
 									width: 100%;
 									float: none;
-									position: absolute;
-									bottom: 20px;
+//									position: absolute;
+//									bottom: 20px;
+									position: relative;
 									@include break-sm {
 										position: relative;
 										bottom: 0;
@@ -207,6 +220,7 @@
 									border: none;
 									border-radius: 0;
 									padding: 10px;
+									margin-top: 0;
 								}
 							}
 						}
