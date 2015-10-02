@@ -157,15 +157,17 @@ body.view-incourse .content-wrapper {
 									border: none;
 									padding-left: 50px;
 									color: $tuna;
-//									text-transform: lowercase;
 									&::first-letter {
 										text-transform: capitalize;
 									}
 								}
 								&.active {
 									a {
-										background-color: transparent;
-										color: $manatee;
+										&,
+										p.subtitle {
+											background-color: transparent;
+											color: $manatee;
+										}
 									}
 								}
 								&:last-child {
