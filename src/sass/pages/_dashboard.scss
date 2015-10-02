@@ -38,8 +38,8 @@
 						overflow: hidden;
 						.details {
 							height: auto;
+							min-height: 184px;
 							position: relative;
-							padding-bottom: 20px;
 							.wrapper-course-image {
 								height: 100%;
 								width: 358px;
@@ -75,6 +75,7 @@
 							.wrapper-course-details {
 								width: calc(100% - 373px);
 								height: 100%;
+								min-height: 184px;
 								position: relative;
 								margin-left: 373px;
 								@include break-sm {
