@@ -45,6 +45,11 @@ header.global.slim .course-header {
 	}
 }
 
+// Hides the title on the "About" page, but displays it the in logged-in pages of the course
+body:not(.view-incourse) header.global.slim .course-header {
+	visibility: hidden;
+}
+
 .view-login header.global-new > nav h1.logo a, .view-login header.global.slim > nav h1.logo a, .view-login header.global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.global.slim > nav h1.logo a, .view-passwordreset header.global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.global.slim > nav h1.logo a, .view-register header.global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.global.slim > nav h1.logo a, body header.global > nav h1.logo a {
 	background-image: url('../images/logo-rue89-h.svg');
 	height: 55px;
@@ -74,6 +79,11 @@ body {
 					&.authenticated {
 						margin-top: 17px;
 						display: block !important;
+						@include break-lg {
+							clear: both;
+							margin-top: 24px;
+							margin-left: 0;
+						}
 					}
 					@include break-lg {
 						margin-left: 276px;
@@ -103,7 +113,7 @@ body {
 .cta-register {
 	color: $white !important;
 	@include button;
-	@include button-color($vivid-tangerine, $sunglo);
+	@include button-color($vivid-tangerine, $sunglo, $white);
 }
 
 header.global {

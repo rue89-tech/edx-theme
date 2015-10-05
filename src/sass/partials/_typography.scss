@@ -6,14 +6,6 @@ p {
 	color: $tuna;
 }
 
-.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6 {
-//  Abort : it should be taken care of content-side.
-//	text-transform: lowercase;
-//	&:first-letter {
-//		text-transform: capitalize;
-//	}
-}
-
 .h1, h1, .h2, h2, .h6, h6 {
 	font-family: 'Oswald', sans-serif !important;
 }
@@ -25,12 +17,6 @@ p {
 	letter-spacing: .0025em !important;
 	color: $black !important;
 	text-transform: uppercase;
-}
-
-.h2, h2 {
-//	font-size: 36px;
-//	line-height: 30px;
-//	letter-spacing : .0025em;
 }
 
 .h3, h3 {

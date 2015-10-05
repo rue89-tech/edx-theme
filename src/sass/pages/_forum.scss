@@ -4,7 +4,7 @@ body.discussion .course-tabs .right {
 	margin-top: 20px;
 	.new-post-btn {
 		@include button;
-		@include button-color( $vivid-tangerine, $sunglo );
+		@include button-color( $vivid-tangerine, $sunglo, $white );
 		padding-top: 7px !important;
 		background-image: none;
 		color: $white;
@@ -121,6 +121,9 @@ body.discussion .course-tabs .right {
 					&:hover,
 					&:focus {
 						background-color: transparent;
+					}
+					&:hover {
+						text-decoration: underline !important;
 					}
 				}
 				
@@ -300,6 +303,10 @@ body.discussion .course-tabs .right {
 						.discussion-user-threads {
 							.discussion-post {
 								padding-top: 10px;
+								@include break-sm {
+									padding-left: 0;
+									padding-right: 0;
+								}
 							}
 						}
 						
@@ -339,6 +346,14 @@ body.discussion .course-tabs .right {
 										position: absolute;
 										right: 0;
 										top: 0;
+										@include break-sm {
+											position: relative;
+											display: block;
+											width: 100%;
+										}
+										.post-actions-list {
+											text-align: left;
+										}
 										.action-button {
 											text-align: center;
 											&,
@@ -358,8 +373,11 @@ body.discussion .course-tabs .right {
 													background-color: $white !important;
 												}
 												.action-label {
-													width: 100px;
+													width: 98px;
 													border-right-width: 0 !important;
+													@include break-md {
+														width: 96px;
+													}
 												}
 											}
 											&.action-vote {
@@ -473,13 +491,6 @@ body.discussion .course-tabs .right {
 }
 
 .discussion-reply-new {
-//	font-size: 20px !important;
-//	text-transform: uppercase;
-//	font-weight: 400 !important;
-//	margin-top: 0;
-//	margin-bottom: 0 !important;
-//	color: $black;
-//	font-family: 'Oswald';
 	h4 {
 		font-size: 20px !important;
 		text-transform: uppercase;
@@ -516,10 +527,10 @@ body.discussion .course-tabs .right {
 .reply-post-control {
 	.discussion-submit-post {
 		@include button;
-		@include button-color( $vivid-tangerine, $sunglo);
+		@include button-color( $vivid-tangerine, $sunglo, $white);
 		background-image: none !important;
 		box-shadow: none !important;
-		padding-top: 4px;
+		padding-top: 5px !important;
 		&:hover,
 		&:focus {
 			color: $vivid-tangerine !important;

@@ -37,10 +37,9 @@
 						margin: 0;
 						overflow: hidden;
 						.details {
-							height: 196px;
-							@include break-sm {
-								height: auto;
-							}
+							height: auto;
+							min-height: 184px;
+							position: relative;
 							.wrapper-course-image {
 								height: 100%;
 								width: 358px;
@@ -50,19 +49,22 @@
 								}
 								.cover {
 									height: 100%;
-									width: 100%;
 									border-radius: 0;
-									position: relative;
 									border: none;
+									position: absolute;
+									width: 358px;
 									@include break-sm {
 										height: 196px;
+										width: 100%;
+										position: relative;
+										margin-bottom: 0;
 									}
 									.course-image {
 									    height: auto;
 									    width: auto;
 									    min-height: 100%;
 										max-height: unset;
-									    min-width: 100%;
+										width: 100%;
 									    position: absolute;
 									    left: 50%;
 									    top: 50%;
@@ -73,11 +75,14 @@
 							.wrapper-course-details {
 								width: calc(100% - 373px);
 								height: 100%;
+								min-height: 184px;
 								position: relative;
+								margin-left: 373px;
 								@include break-sm {
 									width: 100%;
 									height: auto;
 									padding: 10px;
+									margin-left: 0;
 								}
 								.course-title {
 									margin-top: 20px;
@@ -97,18 +102,6 @@
 									margin-top: 0;
 									.info-university,
 									.info-course-id {
-										//position: absolute;
-//										right: 10px;
-//										display: block;
-//										min-width: 50px;
-//										height: 29px;
-//										padding: 3px 10px 0;
-//										background-color: $aquamarine;
-//										font-family: 'Oswald';
-//										font-size: 14px;
-//										color: $black;
-//										text-transform: uppercase;
-//										text-align: center;
 										display: none !important;
 									}
 									.info-university {
@@ -126,8 +119,7 @@
 								.wrapper-course-actions {
 									width: 100%;
 									float: none;
-									position: absolute;
-									bottom: 20px;
+									position: relative;
 									@include break-sm {
 										position: relative;
 										bottom: 0;
@@ -139,7 +131,7 @@
 											float: left;
 											margin-top: 6px;
 											@include button;
-											@include button-color($vivid-tangerine, $sunglo);
+											@include button-color($vivid-tangerine, $sunglo, $white);
 											height: 36px !important;
 											padding-top: 6px !important;
 											color: #fff;
@@ -207,6 +199,7 @@
 									border: none;
 									border-radius: 0;
 									padding: 10px;
+									margin-top: 0;
 								}
 							}
 						}

@@ -36,7 +36,7 @@
 	}
 	.action-primary {
 		@include button;
-		@include button-color( $vivid-tangerine, $sunglo );
+		@include button-color( $vivid-tangerine, $sunglo, $white );
 		display: block !important;
 		width: auto !important;
 		margin-left: auto;
