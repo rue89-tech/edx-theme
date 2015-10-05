@@ -1459,6 +1459,8 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     border: none !important;
     box-shadow: none !important;
     border-radius: 0; }
+.content-wrapper #unenroll_course_number {
+  display: none; }
 
 .account-settings-container .header-title {
   color: #000000 !important;
