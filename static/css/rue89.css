@@ -98,7 +98,7 @@ header.global.slim .course-header {
   @media screen and (max-width: 769px) {
     header.global.slim .course-header {
       float: none; } }
-  header.global.slim .course-header .provider {
+  header.global.slim .course-header .provider, header.global.slim .course-header .course-number {
     display: none; }
 
 body:not(.view-incourse) header.global.slim .course-header {
