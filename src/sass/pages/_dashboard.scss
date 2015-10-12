@@ -120,6 +120,7 @@
 									width: 100%;
 									float: none;
 									position: relative;
+									overflow: hidden;
 									@include break-sm {
 										position: relative;
 										bottom: 0;
@@ -141,6 +142,7 @@
 										.wrapper-action-more {
 											display: block;
 											float: right;
+											padding-bottom: 20px;
 											.action-more {
 												display: none;
 											}
