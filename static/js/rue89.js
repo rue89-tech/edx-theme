@@ -23,20 +23,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function waitForModal(){
 	if($('#modal_clone').length) {
-		console.log('found');
 		// Stop listening...
 		clearInterval(listen);
 		// Set size
 		doResize();
 		// Listen for window resize
 		waitForResize();
-		
 	}
 }
 
 function waitForResize(){
 	$(window).resize(function(){
-		console.log('resizing');
 		doResize();
 	});
 }
@@ -46,7 +43,7 @@ function doResize(){
 	$height = $('.media .hero').height();
 	$top = $('.media .hero img').offset().top;
 	var styles = {
-		backgroundColor : '#fff', 
+		backgroundColor : '#fff',
 		overflow	: 'hidden',
 		height		: $height,
 		width		: $width,
