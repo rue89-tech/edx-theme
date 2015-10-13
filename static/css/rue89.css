@@ -1243,6 +1243,9 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     .content-wrapper .course-profile + .container {
       padding: 0 15px; } }
 
+body #lean_overlay {
+  opacity: 0 !important; }
+
 @media screen and (max-width: 993px) {
   .content-wrapper > .dashboard {
     display: flex;
