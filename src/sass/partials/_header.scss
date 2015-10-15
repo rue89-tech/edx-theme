@@ -40,7 +40,7 @@ header.global.slim .course-header {
 	@include break-sm {
 		float: none;
 	} 
-	.provider {
+	.provider, .course-number {
 		display: none;
 	}
 }
