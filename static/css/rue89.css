@@ -1068,8 +1068,10 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
               text-shadow: none;
               color: #35363f;
               font-size: 3em;
-              margin-left: -15px;
-              margin-top: -19px; }
+              margin-left: -13px;
+              margin-top: -20px;
+              content: '\f04b';
+              font-family: 'FontAwesome'; }
 .content-wrapper section.course-info .details {
   width: 770px;
   max-width: 100%;
