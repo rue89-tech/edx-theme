@@ -1068,8 +1068,10 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
               text-shadow: none;
               color: #35363f;
               font-size: 3em;
-              margin-left: -15px;
-              margin-top: -19px; }
+              margin-left: -13px;
+              margin-top: -20px;
+              content: '\f04b';
+              font-family: 'FontAwesome'; }
 .content-wrapper section.course-info .details {
   width: 770px;
   max-width: 100%;
@@ -1130,17 +1132,6 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%); }
-    .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher .teacher-image::before {
-      content: "";
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #85f9d2;
-      opacity: .6;
-      z-index: 10; }
   .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher h3 {
     text-transform: uppercase;
     font-size: 24px;
@@ -1242,6 +1233,9 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   @media screen and (max-width: 321px) {
     .content-wrapper .course-profile + .container {
       padding: 0 15px; } }
+
+body #lean_overlay {
+  opacity: 0 !important; }
 
 @media screen and (max-width: 993px) {
   .content-wrapper > .dashboard {

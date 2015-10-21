@@ -211,8 +211,10 @@
 									text-shadow: none;
 									color: $tuna;
 									font-size: 3em;
-									margin-left: -15px;
-									margin-top: -19px;
+									margin-left: -13px;
+									margin-top: -20px;
+									content: '\f04b';
+									font-family: 'FontAwesome';
 								}
 							}
 						}
@@ -290,18 +292,6 @@
 								left: 50%;
 								top: 50%;
 								transform: translate(-50%, -50%);
-							}
-							&::before {
-								content: "";
-								display: block;
-								position: absolute;
-								left: 0;
-								top: 0;
-								width: 100%;
-								height: 100%;
-								background-color: $aquamarine;
-								opacity: .6;
-								z-index: 10;
 							}
 						}
 						h3 {
@@ -433,4 +423,8 @@
 			padding: 0 15px;
 		}
 	}
+}
+
+body #lean_overlay {
+	opacity: 0 !important;
 }
