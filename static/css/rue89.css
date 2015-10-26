@@ -2565,7 +2565,8 @@ body.discussion .discussion-post .post-header-actions,
             position: absolute;
             left: 50%;
             top: 50%;
-            transform: translate(-50%, -50%); }
+            transform: translate(-50%, -50%);
+            max-width: 100%; }
       .courses-container .courses .courses-listing-item .course .cover-image::before,
       .courses-container .courses .courses-listing-item .course .cover-image .learn-more, .courses-container .courses .courses-listing-item .course:focus .cover-image::before,
       .courses-container .courses .courses-listing-item .course:focus .cover-image .learn-more, .courses-container .courses .courses-listing-item .course:hover .cover-image::before,
