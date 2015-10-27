@@ -70,6 +70,7 @@
 								top: 655px;
 							}
 							@include break-sm {
+								left: -5px;
 								top: 455px;
 							}
 							@include break-xs {
@@ -419,7 +420,7 @@
 		background-color: $white;
 		margin-top: 0;
 		padding: 0 52px;
-		@include break-xs {
+		@include break-sm {
 			padding: 0 15px;
 		}
 	}

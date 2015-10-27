@@ -956,6 +956,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
               top: 655px; } }
           @media screen and (max-width: 769px) {
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
+              left: -5px;
               top: 455px; } }
           @media screen and (max-width: 321px) {
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
@@ -1245,7 +1246,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   background-color: #fff;
   margin-top: 0;
   padding: 0 52px; }
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 769px) {
     .content-wrapper .course-profile + .container {
       padding: 0 15px; } }
 
