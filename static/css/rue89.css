@@ -839,10 +839,11 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
           height: 234px;
           position: relative; }
           .content-wrapper > .home .highlighted-courses .courses .courses-listing .courses-listing-item .course .course-image .cover-image img {
-            height: auto;
+            height: 100%;
             width: auto;
             min-height: 100%;
             min-width: 100%;
+            max-width: none;
             position: absolute;
             left: 50%;
             top: 50%;
