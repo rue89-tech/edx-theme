@@ -2574,7 +2574,7 @@ body.discussion .discussion-post .post-header-actions,
           .courses-container .courses .courses-listing-item .course .course-image .cover-image img {
             min-width: 100%;
             min-height: 100%;
-            height: auto;
+            height: 100%;
             width: auto;
             position: absolute;
             left: 50%;
