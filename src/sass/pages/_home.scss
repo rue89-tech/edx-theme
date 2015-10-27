@@ -19,6 +19,8 @@
 						width: 100%;
 						min-height: 234px;
 						margin-bottom: 30px;
+						padding-left: 5px;
+						padding-right: 5px;
 						@include break-sm {
 							max-height: unset;
 						}

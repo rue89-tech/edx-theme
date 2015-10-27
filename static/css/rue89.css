@@ -775,7 +775,9 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     float: none;
     width: 100%;
     min-height: 234px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px; }
     @media screen and (max-width: 769px) {
       .content-wrapper > .home .highlighted-courses .courses .courses-listing .courses-listing-item {
         max-height: unset; } }
