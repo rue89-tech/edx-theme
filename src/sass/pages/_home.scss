@@ -19,6 +19,8 @@
 						width: 100%;
 						min-height: 234px;
 						margin-bottom: 30px;
+						padding-left: 5px;
+						padding-right: 5px;
 						@include break-sm {
 							max-height: unset;
 						}
@@ -34,6 +36,10 @@
 									border-bottom: 1px solid $mischka;
 									margin-left: 15px;
 									margin-right: 15px;
+									@include break-sm {
+										margin-left: 0;
+										margin-right: 0;
+									}
 								}
 								.course-organization,
 								.course-code {
@@ -52,11 +58,18 @@
 									line-height: 30px;
 									font-weight: 400;
 									height: auto;
+									@include break-sm {
+										padding-right: 0;
+									}
 								}
 								.course-date {
 									color: $carribean-green;
 									font-weight: 700;
 									font-size: 18px;
+									@include break-sm {
+										padding-right: 0;
+										padding-left: 0;
+									}
 								}
 							}
 							.course-info,
@@ -75,10 +88,11 @@
 									height: 234px;
 									position: relative;
 									img {
-										height: auto;
+										height: 100%;
 										width: auto;
 										min-height: 100%;
 										min-width: 100%;
+										max-width: none;
 										position: absolute;
 										left: 50%;
 										top: 50%;
