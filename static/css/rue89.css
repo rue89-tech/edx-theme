@@ -1992,8 +1992,7 @@ body.discussion .course-tabs .right {
     background-color: #fff; }
 
 .forum-nav-thread-list {
-  overflow-y: auto;
-  height: auto !important; }
+  overflow-y: auto; }
 
 .forum-nav-thread {
   border: none;
