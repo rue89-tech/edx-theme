@@ -272,9 +272,28 @@ body.view-incourse .content-wrapper {
 						h2 {
 							font-family: 'Droid Sans' !important;
 						}
+						a, a:link, a:visited {
+							color: $vivid-tangerine;
+						}
 					}
 				}
 			}
+		}
+	}
+}
+
+// Staff debug info
+.staff-modal {
+	width: 100% !important;
+	.staff_actions {
+		position: relative;
+		z-index: 100;
+	}
+	td {
+		vertical-align: middle;
+		&:first-child {
+			text-align: right;
+			padding-right: 10px;
 		}
 	}
 }
