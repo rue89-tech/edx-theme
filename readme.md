@@ -1,60 +1,37 @@
-# edx-theme
+# Rue89 Open edX Theme
 
-[![Build Status](https://travis-ci.org/IONISx/edx-theme.svg?branch=master)](https://travis-ci.org/IONISx/edx-theme)
-[![Dependencies Status](https://david-dm.org/IONISx/edx-theme.svg)](https://david-dm.org/IONISx/edx-theme)
-[![Dev Dependencies Status](https://david-dm.org/IONISx/edx-theme/dev-status.svg)](https://david-dm.org/IONISx/edx-theme#info=devDependencies)
+Open edX responsive theme using [Bootstrap](http://getbootstrap.com/), based on the [IONISx edx-theme](https://github.com/IONISx/edx-theme/)
 
-> Open edX responsive theme using [Bootstrap](http://getbootstrap.com/).
+## Developing/customizing this theme
 
-![Screenshot](https://raw.githubusercontent.com/IONISx/edx-theme/docs/images/responsive.png)
+The theme currently contains Less files and Sass files. The Less files don't match with their
+compiled versions, and the theme won't work properly if you rebuild them (this needs to be
+fixed).
 
-## About this Open edX theme
+So for now, what you need to do is:
 
-This theme is developped originally for [IONISx](https://ionisx.com).
+1. Install [sassc](https://github.com/sass/sassc) if you don't have it already (on Mac, if you use Homebrew, just type `brew install sassc`).
+2. Edit the Sass files only (in `src/sass/`)
+3. Compile the Sass files using `sassc -m src/sass/upian.scss static/css/rue89.css`
 
-As it’s based on [Bootstrap](http://getbootstrap.com/), it used [Less](http://lesscss.org/) (instead of
-Sass – which is used by Open edX).
-It is very simply customizable, you just need to change a few Less variables (see `/src/less/variables.less`).
+### Devstack usage
 
-## Getting started
-
-First of all, you need to know that the CSS output of the Less files is included in the repository.
-It’s not a very good practice, but it simplifies the (already cumbersome) deployment workflow of Open edX.
-
-This is so you will **never** need to install any of the development dependencies in your production environment.
-
-If you want to use this theme, and customize it, I recommend that you fork it, update it, build the CSS output,
-and push it all in.
-
-### Development environment
-
-First, install `grunt-cli` and `bower` globally (or not) in order to have the required build tools.
-
-    npm install -g grunt-cli bower
-
-Then fetch the local depedencies.
-
-    npm install
-    bower install
-
-Finally, run `grunt` to build the theme’s source files.
-`grunt` will watch for changes and re-build the output automatically.
-
-Run `grunt build` for a one time build.  
-Run `grunt test` to lint and check the code style your source files as well.
+1. Clone this repo into the existing "themes" folder on your host computer (usually this is a
+subfolder of your devstack folder). Then rename this folder from `rue89-theme` to `rue89`
+(important).
+2. Start your devstack, and in `~/lms.env.json`, find the `FEATURES` section and set `"USE_CUSTOM_THEME": true`, then find the `"THEME_NAME"` setting and set it to `"rue89"`.
 
 ### Production environment
 
-As said earlier, DO NOT run `npm install` nor `bower install` on your production environemnt (this will require you
-to install `nodejs`, `npm` and `bower`, and why would you need that for a bunch of static files?
+As said earlier, do not run `npm install` nor `bower install`.
 
-Just drop the files into `/edx/edxapp/themes/$WHATEVER` using your deployment tools.
+Just drop the files into `/edx/edxapp/themes/rue89` using your deployment tools.
 If you’re using Open edX’s [configuration ansible playbooks](github.com/edx/configuration), you’ll just need to set
 
 ```yml
-edxapp_theme_source_repo: https://github.com/your-user/your-repo.git
+edxapp_theme_source_repo: https://github.com/rue89-tech/edx-theme.git
 edxapp_theme_version: your-tag
-edxapp_theme_name: $WHATEVER     # from earlier
+edxapp_theme_name: rue89
 edxapp_use_custom_theme: true
 ```
 
