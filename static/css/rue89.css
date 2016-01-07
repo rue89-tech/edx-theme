@@ -696,6 +696,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   margin-bottom: 30px;
   color: #000000;
   text-transform: uppercase; }
+
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .problems-wrapper .problem h2 {
   font-family: 'Droid Sans' !important;
   font-weight: 700;
@@ -703,6 +704,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   line-height: 30px;
   text-transform: uppercase;
   color: #000000; }
+
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .problems-wrapper .problem .choicegroup label {
   padding: 0 10px;
   position: relative; }
@@ -764,8 +766,10 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 @media screen and (max-width: 993px) {
   .content-wrapper {
     width: 970px; } }
+
 .content-wrapper > .home > header {
   display: none; }
+
 .content-wrapper > .home .highlighted-courses .courses {
   margin-left: 0;
   margin-right: 0; }
@@ -976,7 +980,8 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled:hover {
               cursor: default;
               color: #d7d6e4 !important; }
-          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled, .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register {
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled,
+          .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register {
             color: #fff;
             font-size: 18px;
             letter-spacing: 0;
@@ -986,7 +991,8 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
             border: none;
             background-color: transparent;
             opacity: 1; }
-            .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled:hover, .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register:hover {
+            .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled:hover,
+            .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register:hover {
               color: #ff9388;
               background-color: transparent;
               border: none; }
@@ -1083,6 +1089,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
               margin-top: -20px;
               content: '\f04b';
               font-family: 'FontAwesome'; }
+
 .content-wrapper section.course-info .details {
   width: 770px;
   max-width: 100%;
@@ -1155,6 +1162,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
       .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher h3 {
         width: auto;
         left: 0; } }
+
 .content-wrapper section.course-info .course-sidebar {
   width: 296px;
   padding-left: 0;
@@ -1199,6 +1207,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
         .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-title {
           margin-top: 15px;
           margin-bottom: 0; }
+
 .content-wrapper section.course-info ul {
   list-style-type: none;
   padding-left: 35px;
@@ -1207,6 +1216,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   margin-bottom: 30px; }
   .content-wrapper section.course-info ul li {
     margin-bottom: 15px; }
+
 .content-wrapper section.course-info .faq details {
   margin-bottom: 10px;
   cursor: pointer; }
@@ -1237,6 +1247,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
     padding-left: 20px; }
   .content-wrapper section.course-info .faq details.open h3::before {
     transform: rotate(90deg); }
+
 .content-wrapper .course-profile + .container {
   background-color: #fff;
   margin-top: 0;
@@ -1252,6 +1263,7 @@ body #lean_overlay {
   .content-wrapper > .dashboard {
     display: flex;
     flex-direction: column-reverse; } }
+
 .content-wrapper > .dashboard .my-courses {
   float: right;
   width: 80%; }
@@ -1437,12 +1449,48 @@ body #lean_overlay {
       .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .wrapper-messages-primary {
         background: #fff;
         height: auto; }
+        .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .wrapper-messages-primary .actions .action .btn {
+          width: auto !important;
+          min-width: 177px !important;
+          height: 50px !important;
+          padding-top: 11px !important;
+          font-family: 'Montserrat' !important;
+          font-weight: 700 !important;
+          font-size: 18px !important;
+          letter-spacing: -.01em !important;
+          text-transform: uppercase !important;
+          text-align: center;
+          border-width: 1px 1px 4px !important;
+          border-style: solid !important;
+          border-radius: 0 !important;
+          border-color: #ff9388 !important;
+          border-bottom-color: #e27774 !important;
+          background-color: #ff9388 !important;
+          color: #fff !important;
+          background-image: none;
+          box-shadow: none;
+          color: #fff;
+          height: 32px !important;
+          font-size: 14px !important;
+          min-width: unset !important;
+          padding-top: 8px !important; }
+          .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .wrapper-messages-primary .actions .action .btn:active, .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .wrapper-messages-primary .actions .action .btn:focus {
+            box-shadow: none !important; }
+          @media screen and (max-width: 321px) {
+            .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .wrapper-messages-primary .actions .action .btn {
+              min-height: 50px;
+              height: auto !important; } }
+          .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .wrapper-messages-primary .actions .action .btn:hover {
+            border-color: #e27774 !important;
+            background-color: #fff !important;
+            color: #e27774 !important; }
         .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .wrapper-messages-primary .messages-list .message.message-status {
           background: #fff;
           border: none;
           border-radius: 0;
           padding: 10px;
           margin-top: 0; }
+
 .content-wrapper > .dashboard .dashboard-search-bar,
 .content-wrapper > .dashboard .profile-sidebar {
   float: left;
@@ -1457,15 +1505,18 @@ body #lean_overlay {
       margin-left: auto;
       margin-right: auto;
       margin-top: 0; } }
+
 .content-wrapper > .dashboard .profile-sidebar .user-info .title,
 .content-wrapper > .dashboard .profile-sidebar .user-info .copy {
   font-size: 13px !important; }
+
 .content-wrapper > .dashboard .dashboard-search-bar {
   margin-bottom: 30px; }
   .content-wrapper > .dashboard .dashboard-search-bar .search-field {
     border: none !important;
     box-shadow: none !important;
     border-radius: 0; }
+
 .content-wrapper #unenroll_course_number {
   display: none; }
 
@@ -1476,6 +1527,7 @@ body #lean_overlay {
   font-family: 'Oswald' !important;
   text-transform: uppercase;
   letter-spacing: .025em; }
+
 .account-settings-container .account-settings-sections .section {
   border: none !important;
   box-shadow: none !important;
@@ -1485,12 +1537,15 @@ body #lean_overlay {
     font-size: 18px;
     line-height: 26px;
     border: none; }
+
 .account-settings-container .u-field-readonly input {
   border: none !important; }
+
 .account-settings-container .u-field-title {
   max-width: 150px;
   color: #35363f !important;
   padding-top: 9px; }
+
 .account-settings-container .u-field-value {
   position: relative;
   width: 200px; }
@@ -1524,6 +1579,7 @@ body #lean_overlay {
     position: relative;
     z-index: 20;
     background-color: #fff; }
+
 .account-settings-container .u-field-message .u-field-message-help {
   color: #8d8f9e !important;
   font-size: 14px !important;
@@ -1535,6 +1591,7 @@ body #lean_overlay {
   .login-register .form-type .register-form .section-title h2 .text,
   .login-register .form-type .login-form .section-title h2 .text {
     padding: 0 !important; }
+
 .login-register .form-type .toggle-form {
   position: relative;
   margin-top: 40px; }
@@ -1577,6 +1634,7 @@ body #lean_overlay {
       border-color: #8d8f9e !important;
       background-color: #fff !important;
       color: #8d8f9e !important; }
+
 .login-register .action-primary {
   width: auto !important;
   min-width: 177px !important;
@@ -1819,6 +1877,17 @@ body.view-incourse .content-wrapper .container .info-wrapper {
     body.view-incourse .content-wrapper .container .info-wrapper .updates > section > article a, body.view-incourse .content-wrapper .container .info-wrapper .updates > section > article a:link, body.view-incourse .content-wrapper .container .info-wrapper .updates > section > article a:visited {
       color: #ff9388; }
 
+.staff-modal {
+  width: 100% !important; }
+  .staff-modal .staff_actions {
+    position: relative;
+    z-index: 100; }
+  .staff-modal td {
+    vertical-align: middle; }
+    .staff-modal td:first-child {
+      text-align: right;
+      padding-right: 10px; }
+
 body.discussion .course-tabs .right {
   margin-right: 11px;
   margin-top: 20px; }
@@ -1955,7 +2024,7 @@ body.discussion .course-tabs .right {
   border: 1px solid #85f9d2;
   height: 50px;
   position: relative;
-  width: calc( 50% - 4px ); }
+  width: calc( 50% - 4px); }
   .forum-nav-filter-main::after,
   .forum-nav-filter-cohort::after,
   .forum-nav-sort::after {
@@ -2100,6 +2169,7 @@ header {
   font-weight: 400 !important;
   margin-top: 0;
   margin-bottom: 0 !important; }
+
 .post-header-content .posted-details {
   font-size: 14px !important;
   color: #8d8f9e !important; }
@@ -2480,12 +2550,16 @@ body.discussion .discussion-post .post-header-actions,
   color: #000000;
   margin-top: 50px;
   margin-bottom: 30px; }
+
 .static-container a, .static-container a:link, .static-container a:visited {
   color: #e27774; }
+
 .static-container a:hover {
   text-decoration: underline; }
+
 .static-container ul {
   padding-left: 30px; }
+
 .static-container dl {
   font-size: 1.2;
   max-width: 700px; }
@@ -2493,9 +2567,11 @@ body.discussion .discussion-post .post-header-actions,
 .view-progress .progress-certificates .progress-certificates-title {
   font-weight: 400;
   color: #000000; }
+
 .view-progress #grade-detail-graph {
   max-width: 100%;
   overflow-x: auto; }
+
 .view-progress .chapters section h2 {
   border-right: 1px solid #85f9d2 !important;
   text-transform: uppercase;
@@ -2511,11 +2587,13 @@ body.discussion .discussion-post .post-header-actions,
       border: none !important;
       display: block !important;
       float: left !important; } }
+
 @media screen and (max-width: 769px) {
   .view-progress .chapters section .sections {
     width: 100% !important;
     display: block !important;
     float: left !important; } }
+
 .view-progress .chapters section .sections h3 {
   color: #35363f !important;
   margin-top: 30px;
@@ -2528,12 +2606,14 @@ body.discussion .discussion-post .post-header-actions,
     font-family: 'Droid Sans' !important;
     color: #8d8f9e !important;
     font-size: 18px !important; }
+
 .view-progress .chapters section .sections .scores h3 {
   margin-top: 10px !important; }
 
 .courses-container #discovery-form,
 .courses-container .search-facets {
   display: none !important; }
+
 .courses-container .courses {
   width: 100% !important;
   float: none !important;

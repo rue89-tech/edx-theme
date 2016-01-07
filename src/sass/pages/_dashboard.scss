@@ -195,6 +195,17 @@
 						.wrapper-messages-primary {
 							background: $white;
 							height: auto;
+							.actions .action .btn {
+								@include button;
+								@include button-color($vivid-tangerine, $sunglo, $white);
+								background-image: none;
+								box-shadow: none;
+								color: #fff;
+								height: 32px !important;
+								font-size: 14px !important;
+								min-width: unset !important;
+								padding-top: 8px !important;
+							}
 							.messages-list {
 								.message.message-status {
 									background: $white;
