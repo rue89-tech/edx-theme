@@ -23,6 +23,49 @@ course_mode_class = course_mode if course_mode else ''
     <style type="text/css">
         .header-app .logo { width: 12rem; }
         .layout-accomplishment .accomplishment-orgs .wrapper-orgs li:first-child { display: none; }
+
+        @media print {
+          .accomplishment-rendering .wrapper-statement-and-signatories {
+            width: 100%;
+            margin-right: 0;
+            float: none;
+          }
+          .accomplishment-rendering .accomplishment-statement {
+            text-align: center;
+          }
+          .accomplishment-rendering .accomplishment-signatories .signatory {
+            float: none;
+          }
+          .accomplishment-rendering .accomplishment-signatories .signatory:nth-child(4n+1) {
+            margin-right: 0;
+          }
+          .accomplishment-rendering .accomplishment-signatories .signatory:nth-child(4n+2) {
+            margin-right: 0;
+            margin-left: 0;
+          }
+          .accomplishment-rendering .accomplishment-orgs {
+            width: 100%;
+            float: none;
+          }
+          .accomplishment-rendering .accomplishment-orgs .wrapper-organization {
+            width: 100%;
+          }
+          .accomplishment-rendering .accomplishment-orgs .wrapper-organization:nth-child(2n+2) {
+            margin: 0;
+            height: 3rem;
+          }
+          .layout-accomplishment .accomplishment-orgs .organization {
+            position: static;
+          }
+          .layout-accomplishment .accomplishment-orgs .organization-logo {
+            position: absolute;
+            top: auto;
+            left: auto;
+            bottom: 0;
+            right: 0;
+            width: 8%;
+          }
+        }
     </style>
 </head>
 
