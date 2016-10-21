@@ -50,3 +50,9 @@
 	margin-left: auto !important;
 	margin-right: auto !important;
 }
+
+@mixin hide-text{
+	overflow:hidden;
+	text-indent:-9000px;
+	display:block;
+}

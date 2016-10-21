@@ -1,24 +1,27 @@
 // Reset
-body.view-incourse {
+body {
 	.container-footer,
 	.window-wrap {
 		min-width: 0 !important;
+		background-color: transparent;
 	}
 }
 
 // Nav , sidebar, sequence nav
-body.view-incourse .content-wrapper,
+body .content-wrapper,
 .wrapper-course-material {
 	.course-material {
-		max-width: 1170px;
+		max-width: 1180px;
 		.course-tabs {
 			li {
+				margin: 0 .5em 0 0;
 				&,
 				&:last-child {
 					margin-top: 5px;
 				}
 				a {
 					border-radius: 0;
+					border: none;
 					height: 50px;
 					padding: 14px 15px 8px;
 					color: $black;
@@ -27,22 +30,63 @@ body.view-incourse .content-wrapper,
 					font-weight: 700;
 					font-size: 16px;
 					background-color: $aquamarine;
-					&.active {
+					&.active, &:hover, &:active {
 						background-color: $white;
 						color: $black;
 						background-image: none;
 						box-shadow: none;
 						text-shadow: none;
+						border: none;
 					}
 				}
 			}
 		}
 	}
+	height: auto;
+	@include break-lg {
+		width: 920px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	@include break-md {
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	@include break-md {
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	@include break-sm {
+		width: auto;
+		padding-left: 8px !important;
+		padding-right: 8px !important;
+	}
 }
 
-body.view-incourse .content-wrapper {
+body .content-wrapper {
+	margin-left: auto;
+	margin-right: auto;
 	.container {
-		margin-top: 0;
+		border: none;
+		margin: 0;
+		padding: 0;
+		@include break-lg {
+			width: 920px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@include break-md {
+			width: 750px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@include break-md {
+			width: 750px;
+			margin-left: auto;
+			margin-right: auto;
+		}
 		.course-wrapper {
 			border: none;
 			border-width: 4px 0 0;
@@ -55,9 +99,9 @@ body.view-incourse .content-wrapper {
 				border-style: solid;
 				border-color: $white;
 				position: relative;
-				margin-top: 31px;
 				@include break-md {
 					width: 100%;
+					display: block;
 				}
 				&::before {
 					content: '';
@@ -65,21 +109,27 @@ body.view-incourse .content-wrapper {
 					position: absolute;
 					z-index: 20;
 					left: 24px;
-					top: 25px;
+					top: 33px;
 					bottom: 25px;
 					width: 2px;
 					background-color: $aquamarine;
 				}
-				#accordion {
+				.wrapper-course-modes {
+					> .courseware-bookmarks-button {
+						display: none;
+					}
+				}
+				.accordion {
 					.chapter {
 						border: none;
 						margin-bottom: 4px;
-						h3 {
+						.group-heading {
 							background-color: $frosted-mint;
 							font-family: 'Montserrat';
 							font-weight: 400;
 							color: $heavy-metal;
-							font-size: 18px;
+							font-size: 16px;
+							font-weight: 700;
 							min-height: 50px;
 							height: auto;
 							padding-top: 13px;
@@ -107,18 +157,11 @@ body.view-incourse .content-wrapper {
 								top: 16px;
 								right: 21px;
 							}
-							.ui-accordion-header-icon {
-								display: none;
-							}
-							a {
-								padding: 0;
-								position: relative;
-								font-size: 16px;
-								font-weight: 700;
+							.icon {
 								&::before {
 									position: absolute;
-									left: -37px;
-									top: 4px;
+									left: -5px;
+									top: -3px;
 									z-index: 25;
 									content: '';
 									display: block;
@@ -131,48 +174,56 @@ body.view-incourse .content-wrapper {
 							}
 						}
 						&.is-open {
-							h3 {
+							.group-heading {
 								&::after {
 									content: '\f077';
 								}
 							}
 						}
-						ul {
-							li {
-								position: relative;
+					}
+					.chapter-content-container {
+						> div {
+							position: relative;
+							padding-left: 16px;
+							a {
+								border: none;
+								padding-left: 50px;
+								color: $tuna;
+							}
+							.menu-item {
 								&::before {
 									content: '';
 									display: block;
 									height: 11px;
 									width: 11px;
 									background-color: $aquamarine;
-									position: absolute;
+									position: relative;
 									z-index: 25;
-									left: 12px;
-									top: 11px;
+									left: 3px;
+									top: 16px;
 									border: 3px solid $white;
 									border-radius: 50%;
-								}
-								a {
-									border: none;
-									padding-left: 50px;
-									color: $tuna;
-									&::first-letter {
-										text-transform: capitalize;
-									}
 								}
 								&.active {
 									a {
 										&,
-										p.subtitle {
+										p {
 											background-color: transparent;
 											color: $manatee;
+											font-weight: normal;
 										}
 									}
 								}
-								&:last-child {
-									margin-bottom: .6em;
+								a, a:hover, a:active, a:visited {
+									background-color: white;
+									padding-top: 0px;
+									padding-left: 38px;
+									padding-right: 20px;
+									padding-bottom: 0px;
 								}
+							}
+							&:last-child {
+								margin-bottom: .6em;
 							}
 						}
 					}
@@ -183,6 +234,10 @@ body.view-incourse .content-wrapper {
 				border: none;
 				@include break-md {
 					width: 100%;
+					display: block;
+				}
+				.bookmark-button-wrapper {
+					display: none;
 				}
 				.sequence-nav {
 					height: 50px;
@@ -192,6 +247,8 @@ body.view-incourse .content-wrapper {
 						border-radius: 0;
 						border-width: 0 0 2px 0;
 						border-color: $storm-gray;
+						background-image: none;
+						transition: none;
 						padding-top: 5px;
 						&.disabled {
 							background-color: $manatee;
@@ -204,16 +261,19 @@ body.view-incourse .content-wrapper {
 					}
 					.sequence-list-wrapper {
 						margin: 0 44px;
+						height: 50px;
+						background-image: none;
 						ol {
+							padding: 0;
 							li,
 							li:first-child,
 							li:last-child {
-								a {
+								button {
 									background-color: $athens-gray;
 									border-radius: 0;
 									border-width: 0 0 2px 0;
 									border-color: $mischka;
-									height: 50px;
+									height: 48px;
 									&::after {
 										margin-top: 0;
 										padding-top: 4px;
@@ -221,7 +281,13 @@ body.view-incourse .content-wrapper {
 										color: $manatee;
 									}
 								}
+								.fa.is-hidden {
+									display: none;
+								}
 							}
+						}
+						.left-shadow, .right-shadow {
+							display: none;
 						}
 					}
 				}
@@ -257,7 +323,7 @@ div.course-wrapper {
 
 
 // Infos
-body.view-incourse .content-wrapper {
+body .content-wrapper {
 	.container {
 		.info-wrapper {
 			border: none;
@@ -279,6 +345,13 @@ body.view-incourse .content-wrapper {
 				}
 			}
 		}
+	}
+}
+
+// Wiki
+body.view-wiki {
+	.wiki-wrapper header {
+		box-sizing: content-box;
 	}
 }
 
