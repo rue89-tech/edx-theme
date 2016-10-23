@@ -1,4 +1,4 @@
-.view-login header.global, .view-login header.global-new, .view-login header.global.slim, .view-passwordreset header.global, .view-passwordreset header.global-new, .view-passwordreset header.global.slim, .view-register header.global, .view-register header.global-new, .view-register header.global.slim, body header.global, body header.global-new, body header.global.slim {
+.view-login header.header-global, .view-login header.global-new, .view-login header.header-global.slim, .view-passwordreset header.header-global, .view-passwordreset header.global-new, .view-passwordreset header.header-global.slim, .view-register header.header-global, .view-register header.global-new, .view-register header.header-global.slim, body header.header-global, body header.global-new, body header.header-global.slim {
 	background: $tuna url('../images/header-bg.jpg') repeat left top;
 	background-size: 50%;
 	border-top: 10px solid $aquamarine;
@@ -8,7 +8,7 @@
 	}
 }
 
-header.global h1.logo {
+header.header-global h1.logo {
 	height: 55px;
 	@include break-md {
 		margin-right: 10px !important;
@@ -18,7 +18,7 @@ header.global h1.logo {
 	}
 }
 
-header.global.slim .course-header {
+header.header-global.slim .course-header {
 	color: #fff;
 	display: block;
 	font-size: 1.5em;
@@ -46,12 +46,12 @@ header.global.slim .course-header {
 }
 
 // Hides the title on the "About" page, but displays it the in logged-in pages of the course
-body:not(.view-incourse) header.global.slim .course-header {
+body:not(.view-incourse) header.header-global.slim .course-header {
 	visibility: hidden;
 	height: 0;
 }
 
-.view-login header.global-new > nav h1.logo a, .view-login header.global.slim > nav h1.logo a, .view-login header.global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.global.slim > nav h1.logo a, .view-passwordreset header.global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.global.slim > nav h1.logo a, .view-register header.global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.global.slim > nav h1.logo a, body header.global > nav h1.logo a {
+.view-login header.global-new > nav h1.logo a, .view-login header.header-global.slim > nav h1.logo a, .view-login header.header-global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.header-global.slim > nav h1.logo a, .view-passwordreset header.header-global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.header-global.slim > nav h1.logo a, .view-register header.header-global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.header-global.slim > nav h1.logo a, body header.header-global > nav h1.logo a {
 	background-image: url('../images/logo-rue89-h.svg');
 	height: 55px;
 	width: 265px;
@@ -59,11 +59,11 @@ body:not(.view-incourse) header.global.slim .course-header {
 	margin-bottom: 25px;
 }
 
-	.view-login header.global-new > nav h1.logo span, .view-login header.global.slim > nav h1.logo span, .view-login header.global > nav h1.logo span, .view-passwordreset header.global-new > nav h1.logo span, .view-passwordreset header.global.slim > nav h1.logo span, .view-passwordreset header.global > nav h1.logo span, .view-register header.global-new > nav h1.logo span, .view-register header.global.slim > nav h1.logo span, .view-register header.global > nav h1.logo span, body header.global-new > nav h1.logo span, body header.global.slim > nav h1.logo span, body header.global > nav h1.logo span {
+	.view-login header.global-new > nav h1.logo span, .view-login header.header-global.slim > nav h1.logo span, .view-login header.header-global > nav h1.logo span, .view-passwordreset header.global-new > nav h1.logo span, .view-passwordreset header.header-global.slim > nav h1.logo span, .view-passwordreset header.header-global > nav h1.logo span, .view-register header.global-new > nav h1.logo span, .view-register header.header-global.slim > nav h1.logo span, .view-register header.header-global > nav h1.logo span, body header.global-new > nav h1.logo span, body header.header-global.slim > nav h1.logo span, body header.header-global > nav h1.logo span {
 		background-image: none;
 	}
 
-.view-login header.global-new > nav .nav-courseware, .view-login header.global.slim > nav .nav-courseware, .view-login header.global > nav .nav-courseware, .view-passwordreset header.global-new > nav .nav-courseware, .view-passwordreset header.global.slim > nav .nav-courseware, .view-passwordreset header.global > nav .nav-courseware, .view-register header.global-new > nav .nav-courseware, .view-register header.global.slim > nav .nav-courseware, .view-register header.global > nav .nav-courseware, body header.global-new > nav .nav-courseware, body header.global.slim > nav .nav-courseware, body header.global > nav .nav-courseware {
+.view-login header.global-new > nav .nav-courseware, .view-login header.header-global.slim > nav .nav-courseware, .view-login header.header-global > nav .nav-courseware, .view-passwordreset header.global-new > nav .nav-courseware, .view-passwordreset header.header-global.slim > nav .nav-courseware, .view-passwordreset header.header-global > nav .nav-courseware, .view-register header.global-new > nav .nav-courseware, .view-register header.header-global.slim > nav .nav-courseware, .view-register header.header-global > nav .nav-courseware, body header.global-new > nav .nav-courseware, body header.header-global.slim > nav .nav-courseware, body header.header-global > nav .nav-courseware {
 	margin-top: 15px;
 }
 
@@ -71,7 +71,7 @@ body:not(.view-incourse) header.global.slim .course-header {
 // Bouton "Trouver un cours"
 body {
 	header {
-		&.global {
+		&.header-global {
 			> nav {
 				.nav-global {
 					margin-top: 17px;
@@ -117,7 +117,7 @@ body {
 	@include button-color($vivid-tangerine, $sunglo, $white);
 }
 
-header.global {
+header.header-global {
 	.nav-courseware,
 	.user {
 		@include break-lg {
@@ -135,8 +135,8 @@ header.global {
 body {
 	header {
 		&.global-new,
-		&.global.slim,
-		&.global {
+		&.header-global.slim,
+		&.header-global {
 			> nav {
 				ol.user {
 					margin-top: 17px;
