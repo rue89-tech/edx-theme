@@ -598,3 +598,51 @@ body.discussion .course-tabs .right {
 		color: $manatee !important;
 	}
 }
+
+body.discussion header.header-global nav {
+	.wrapper-user-menu {
+		height: 50px;
+		.menu-title {
+			display: none;
+		}
+		@include button;
+		@include button-color($athens-gray, $manatee);
+		.dropdown-menu {
+			position: absolute;
+			height: 44px !important;
+			width: 175px;
+			top: 0;
+			left: 0;
+			&.active {
+				color: $manatee;
+			}
+			.fa {
+				display: none;
+			}
+			&:before {
+				content: 'Mon compte';
+				text-transform: uppercase;
+				font-family: 'Montserrat';
+				font-weight: 700;
+				font-size: 16px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				display: block;
+				width: 100%;
+				height: 100%;
+				padding-top: 11px;
+				padding-left: 17px;
+				text-align: left;
+			}
+			&:after {
+				content: '\f078';
+				font-family: FontAwesome;
+				font-size: .8em;
+				position: absolute;
+				top: 11px;
+				right: 11px;
+			}
+		}
+	}
+}

@@ -1,5 +1,5 @@
 // Reset
-body.view-in-course {
+body {
 	.container-footer,
 	.window-wrap {
 		min-width: 0 !important;
@@ -7,7 +7,7 @@ body.view-in-course {
 }
 
 // Nav , sidebar, sequence nav
-body.view-in-course .content-wrapper,
+body .content-wrapper,
 .wrapper-course-material {
 	.course-material {
 		max-width: 1180px;
@@ -54,7 +54,7 @@ body.view-in-course .content-wrapper,
 	}
 }
 
-body.view-in-course .content-wrapper {
+body .content-wrapper {
 	.container {
 		margin-top: 0;
 		.course-wrapper {
@@ -206,6 +206,8 @@ body.view-in-course .content-wrapper {
 						border-radius: 0;
 						border-width: 0 0 2px 0;
 						border-color: $storm-gray;
+						background-image: none;
+						transition: none;
 						padding-top: 5px;
 						&.disabled {
 							background-color: $manatee;
@@ -218,16 +220,19 @@ body.view-in-course .content-wrapper {
 					}
 					.sequence-list-wrapper {
 						margin: 0 44px;
+						height: 50px;
+						background-image: none;
 						ol {
+							padding: 0;
 							li,
 							li:first-child,
 							li:last-child {
-								a {
+								button {
 									background-color: $athens-gray;
 									border-radius: 0;
 									border-width: 0 0 2px 0;
 									border-color: $mischka;
-									height: 50px;
+									height: 48px;
 									&::after {
 										margin-top: 0;
 										padding-top: 4px;
@@ -235,11 +240,21 @@ body.view-in-course .content-wrapper {
 										color: $manatee;
 									}
 								}
+								.fa.is-hidden {
+									display: none;
+								}
 							}
+						}
+						.left-shadow, .right-shadow {
+							display: none;
 						}
 					}
 				}
 				.sequence-bottom {
+					display: none;
+				}
+				.wrapper-course-modes > .courseware-bookmarks-button,
+				.bookmark-button-wrapper {
 					display: none;
 				}
 			}
@@ -271,7 +286,7 @@ div.course-wrapper {
 
 
 // Infos
-body.view-in-course .content-wrapper {
+body .content-wrapper {
 	.container {
 		.info-wrapper {
 			border: none;
@@ -293,6 +308,13 @@ body.view-in-course .content-wrapper {
 				}
 			}
 		}
+	}
+}
+
+// Wiki
+body.view-wiki {
+	.wiki-wrapper header {
+		box-sizing: content-box;
 	}
 }
 

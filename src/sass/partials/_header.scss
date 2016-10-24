@@ -8,7 +8,8 @@
 	}
 }
 
-body.view-in-course .header-global .wrapper-header, body.view-in-course .header-global.slim .wrapper-header {
+body .header-global .wrapper-header,
+body .header-global.slim .wrapper-header {
 	height: auto;
 }
 
@@ -46,14 +47,14 @@ header.header-global.slim .course-header {
 	}
 	@include break-sm {
 		float: none;
-	} 
+	}
 	.provider, .course-number {
 		display: none;
 	}
 }
 
 // Hides the title on the "About" page, but displays it the in logged-in pages of the course
-body:not(.view-in-course) header.header-global.slim .course-header {
+body header.header-global.slim .course-header {
 	visibility: hidden;
 	height: 0;
 }
@@ -66,6 +67,7 @@ body:not(.view-in-course) header.header-global.slim .course-header {
 	width: 265px;
 	margin-top: 10px;
 	margin-bottom: 25px;
+	display: block;
 }
 
 	.view-login header.global-new > nav h1.logo span, .view-login header.header-global.slim > nav h1.logo span, .view-login header.header-global > nav h1.logo span, .view-passwordreset header.global-new > nav h1.logo span, .view-passwordreset header.header-global.slim > nav h1.logo span, .view-passwordreset header.header-global > nav h1.logo span, .view-register header.global-new > nav h1.logo span, .view-register header.header-global.slim > nav h1.logo span, .view-register header.header-global > nav h1.logo span, body header.global-new > nav h1.logo span, body header.header-global.slim > nav h1.logo span, body header.header-global > nav h1.logo span {
@@ -144,7 +146,7 @@ header.header-global {
 			padding-top: 15px;
 		}
 	}
-} 
+}
 
 // Bouton "Profil"
 .view-login,
@@ -213,7 +215,6 @@ body {
 						border: none;
 						&.expanded {
 							padding: 0;
-							
 						}
 						li {
 							min-height: 50px;
@@ -236,9 +237,6 @@ body {
 								line-height: 20px;
 								text-overflow: unset;
 								white-space: unset;
-								&:hover {
-									
-								}
 							}
 						}
 					}
