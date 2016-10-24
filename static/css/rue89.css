@@ -511,7 +511,7 @@ body header.header-global > nav ol.user {
     body header.header-global.slim > nav ol.user ul.dropdown-menu.expanded,
     body header.header-global > nav ol.user ul.dropdown-menu.expanded {
       padding: 0; }
-    /* line 220, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 219, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .view-login header.global-new > nav ol.user ul.dropdown-menu li, .view-login header.header-global.slim > nav ol.user ul.dropdown-menu li, .view-login header.header-global > nav ol.user ul.dropdown-menu li,
     .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li,
     .view-passwordreset header.header-global.slim > nav ol.user ul.dropdown-menu li,
@@ -526,7 +526,7 @@ body header.header-global > nav ol.user {
       background-color: #d7d6e4;
       margin-bottom: 1px;
       padding: 2px 8px; }
-      /* line 225, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 224, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user ul.dropdown-menu li:hover, .view-login header.header-global.slim > nav ol.user ul.dropdown-menu li:hover, .view-login header.header-global > nav ol.user ul.dropdown-menu li:hover,
       .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li:hover,
       .view-passwordreset header.header-global.slim > nav ol.user ul.dropdown-menu li:hover,
@@ -539,7 +539,7 @@ body header.header-global > nav ol.user {
       body header.header-global > nav ol.user ul.dropdown-menu li:hover {
         background-color: #d7d6e4;
         color: #35363f !important; }
-      /* line 229, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 228, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user ul.dropdown-menu li a, .view-login header.header-global.slim > nav ol.user ul.dropdown-menu li a, .view-login header.header-global > nav ol.user ul.dropdown-menu li a,
       .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li a,
       .view-passwordreset header.header-global.slim > nav ol.user ul.dropdown-menu li a,
@@ -563,145 +563,93 @@ body header.header-global > nav ol.user {
         white-space: unset; }
 
 /* line 5, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-.view-login footer,
 .view-login footer.global,
-.view-passwordreset footer,
 .view-passwordreset footer.global,
-.view-register footer,
 .view-register footer.global,
-body footer,
 body footer.global {
   background: #35363f url("../images/header-bg.jpg") repeat left top;
   background-size: 50%;
   height: 88px; }
   @media screen and (max-width: 769px) {
     /* line 5, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-    .view-login footer,
     .view-login footer.global,
-    .view-passwordreset footer,
     .view-passwordreset footer.global,
-    .view-register footer,
     .view-register footer.global,
-    body footer,
     body footer.global {
       height: auto;
       padding-bottom: 30px; } }
-  /* line 14, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-  .view-login footer ul.links,
+  /* line 13, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
   .view-login footer.global ul.links,
-  .view-passwordreset footer ul.links,
   .view-passwordreset footer.global ul.links,
-  .view-register footer ul.links,
   .view-register footer.global ul.links,
-  body footer ul.links,
   body footer.global ul.links {
     float: left;
     margin-right: 10px; }
-    /* line 18, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-    .view-login footer ul.links li:nth-child(3),
+    /* line 17, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
     .view-login footer.global ul.links li:nth-child(3),
-    .view-passwordreset footer ul.links li:nth-child(3),
     .view-passwordreset footer.global ul.links li:nth-child(3),
-    .view-register footer ul.links li:nth-child(3),
     .view-register footer.global ul.links li:nth-child(3),
-    body footer ul.links li:nth-child(3),
     body footer.global ul.links li:nth-child(3) {
       display: none; }
-    /* line 22, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-    .view-login footer ul.links li:nth-child(5) a,
+    /* line 21, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
     .view-login footer.global ul.links li:nth-child(5) a,
-    .view-passwordreset footer ul.links li:nth-child(5) a,
     .view-passwordreset footer.global ul.links li:nth-child(5) a,
-    .view-register footer ul.links li:nth-child(5) a,
     .view-register footer.global ul.links li:nth-child(5) a,
-    body footer ul.links li:nth-child(5) a,
     body footer.global ul.links li:nth-child(5) a {
       font-size: 0; }
-      /* line 24, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-      .view-login footer ul.links li:nth-child(5) a::before,
+      /* line 23, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
       .view-login footer.global ul.links li:nth-child(5) a::before,
-      .view-passwordreset footer ul.links li:nth-child(5) a::before,
       .view-passwordreset footer.global ul.links li:nth-child(5) a::before,
-      .view-register footer ul.links li:nth-child(5) a::before,
       .view-register footer.global ul.links li:nth-child(5) a::before,
-      body footer ul.links li:nth-child(5) a::before,
       body footer.global ul.links li:nth-child(5) a::before {
         content: "Charte utilisateurs";
         font-size: 12.6px; }
-    /* line 30, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-    .view-login footer ul.links li a,
-    .view-login footer ul.links li a:hover,
+    /* line 29, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
     .view-login footer.global ul.links li a,
     .view-login footer.global ul.links li a:hover,
-    .view-passwordreset footer ul.links li a,
-    .view-passwordreset footer ul.links li a:hover,
     .view-passwordreset footer.global ul.links li a,
     .view-passwordreset footer.global ul.links li a:hover,
-    .view-register footer ul.links li a,
-    .view-register footer ul.links li a:hover,
     .view-register footer.global ul.links li a,
     .view-register footer.global ul.links li a:hover,
-    body footer ul.links li a,
-    body footer ul.links li a:hover,
     body footer.global ul.links li a,
     body footer.global ul.links li a:hover {
       color: #f0eff4; }
     @media screen and (max-width: 769px) {
-      /* line 14, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-      .view-login footer ul.links,
+      /* line 13, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
       .view-login footer.global ul.links,
-      .view-passwordreset footer ul.links,
       .view-passwordreset footer.global ul.links,
-      .view-register footer ul.links,
       .view-register footer.global ul.links,
-      body footer ul.links,
       body footer.global ul.links {
         clear: both; } }
-  /* line 39, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-  .view-login footer .copyright,
+  /* line 38, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
   .view-login footer.global .copyright,
-  .view-passwordreset footer .copyright,
   .view-passwordreset footer.global .copyright,
-  .view-register footer .copyright,
   .view-register footer.global .copyright,
-  body footer .copyright,
   body footer.global .copyright {
     float: left;
     color: #fff; }
     @media screen and (max-width: 769px) {
-      /* line 39, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-      .view-login footer .copyright,
+      /* line 38, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
       .view-login footer.global .copyright,
-      .view-passwordreset footer .copyright,
       .view-passwordreset footer.global .copyright,
-      .view-register footer .copyright,
       .view-register footer.global .copyright,
-      body footer .copyright,
       body footer.global .copyright {
         margin-left: 0;
         clear: both; } }
-  /* line 47, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-  .view-login footer .by-ionisx,
+  /* line 46, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
   .view-login footer.global .by-ionisx,
-  .view-passwordreset footer .by-ionisx,
   .view-passwordreset footer.global .by-ionisx,
-  .view-register footer .by-ionisx,
   .view-register footer.global .by-ionisx,
-  body footer .by-ionisx,
   body footer.global .by-ionisx {
     width: 126px;
     height: 26px;
     background: transparent url("../images/logo-rue89-h.svg") no-repeat left top;
     background-size: 126px 26px; }
     @media screen and (max-width: 769px) {
-      /* line 47, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-      .view-login footer .by-ionisx,
+      /* line 46, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
       .view-login footer.global .by-ionisx,
-      .view-passwordreset footer .by-ionisx,
       .view-passwordreset footer.global .by-ionisx,
-      .view-register footer .by-ionisx,
       .view-register footer.global .by-ionisx,
-      body footer .by-ionisx,
       body footer.global .by-ionisx {
         display: block !important;
         right: 5px;
@@ -711,24 +659,16 @@ body footer.global {
         top: 10px;
         right: 0;
         margin-bottom: 30px; } }
-    /* line 64, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-    .view-login footer .by-ionisx a,
+    /* line 63, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
     .view-login footer.global .by-ionisx a,
-    .view-passwordreset footer .by-ionisx a,
     .view-passwordreset footer.global .by-ionisx a,
-    .view-register footer .by-ionisx a,
     .view-register footer.global .by-ionisx a,
-    body footer .by-ionisx a,
     body footer.global .by-ionisx a {
       display: none; }
-    /* line 67, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
-    .view-login footer .by-ionisx::after,
+    /* line 66, /edx/app/edxapp/themes/rue89/src/sass/partials/_footer.scss */
     .view-login footer.global .by-ionisx::after,
-    .view-passwordreset footer .by-ionisx::after,
     .view-passwordreset footer.global .by-ionisx::after,
-    .view-register footer .by-ionisx::after,
     .view-register footer.global .by-ionisx::after,
-    body footer .by-ionisx::after,
     body footer.global .by-ionisx::after {
       content: '';
       position: absolute;
