@@ -8,6 +8,13 @@
 	}
 }
 
+body.view-in-course .header-global .wrapper-header, body.view-in-course .header-global.slim .wrapper-header {
+	height: auto;
+}
+
+header.header-global.slim h1.logo:before {
+	width: 0px;
+}
 header.header-global h1.logo {
 	height: 55px;
 	@include break-md {
@@ -46,13 +53,15 @@ header.header-global.slim .course-header {
 }
 
 // Hides the title on the "About" page, but displays it the in logged-in pages of the course
-body:not(.view-incourse) header.header-global.slim .course-header {
+body:not(.view-in-course) header.header-global.slim .course-header {
 	visibility: hidden;
 	height: 0;
 }
 
 .view-login header.global-new > nav h1.logo a, .view-login header.header-global.slim > nav h1.logo a, .view-login header.header-global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.header-global.slim > nav h1.logo a, .view-passwordreset header.header-global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.header-global.slim > nav h1.logo a, .view-register header.header-global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.header-global.slim > nav h1.logo a, body header.header-global > nav h1.logo a {
 	background-image: url('../images/logo-rue89-h.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
 	height: 55px;
 	width: 265px;
 	margin-top: 10px;
@@ -61,21 +70,26 @@ body:not(.view-incourse) header.header-global.slim .course-header {
 
 	.view-login header.global-new > nav h1.logo span, .view-login header.header-global.slim > nav h1.logo span, .view-login header.header-global > nav h1.logo span, .view-passwordreset header.global-new > nav h1.logo span, .view-passwordreset header.header-global.slim > nav h1.logo span, .view-passwordreset header.header-global > nav h1.logo span, .view-register header.global-new > nav h1.logo span, .view-register header.header-global.slim > nav h1.logo span, .view-register header.header-global > nav h1.logo span, body header.global-new > nav h1.logo span, body header.header-global.slim > nav h1.logo span, body header.header-global > nav h1.logo span {
 		background-image: none;
+		@include hide-text;
 	}
-
-.view-login header.global-new > nav .nav-courseware, .view-login header.header-global.slim > nav .nav-courseware, .view-login header.header-global > nav .nav-courseware, .view-passwordreset header.global-new > nav .nav-courseware, .view-passwordreset header.header-global.slim > nav .nav-courseware, .view-passwordreset header.header-global > nav .nav-courseware, .view-register header.global-new > nav .nav-courseware, .view-register header.header-global.slim > nav .nav-courseware, .view-register header.header-global > nav .nav-courseware, body header.global-new > nav .nav-courseware, body header.header-global.slim > nav .nav-courseware, body header.header-global > nav .nav-courseware {
-	margin-top: 15px;
-}
-
 
 // Bouton "Trouver un cours"
 body {
 	header {
 		&.header-global {
 			> nav {
+				height: auto;
+				@include break-lg {
+					width: 750px !important;
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+				@include break-sm {
+					width: auto;
+				}
+
 				.nav-global {
 					margin-top: 17px;
-					margin-left: 471px;
 					float: left;
 					&.authenticated {
 						margin-top: 17px;
@@ -102,6 +116,10 @@ body {
 						@include button-color($aquamarine, $carribean-green);
 						padding-top: 12px !important;
 						font-size: 16px !important;
+					}
+					li:first-child, li:last-child {
+						padding: 0;
+						margin: 0;
 					}
 				}
 			}
@@ -148,42 +166,43 @@ body {
 						&:first-child {
 							display: none;
 						}
-						> a {
-							@include button;
-							@include button-color($athens-gray, $manatee);
-							&.dropdown {
-								position: relative;
-								height: 50px !important;
-								&.active {
-									color: $manatee;
-								}
-								.fa {
-									display: none;
-								}
-								&::before {
-									content: 'Mon compte';
-									text-transform: uppercase;
-									font-family: 'Montserrat';
-									font-weight: 700;
-									font-size: 16px;
-									position: absolute;
-									left: 0;
-									top: 0;
-									display: block;
-									width: 100%;
-									height: 100%;
-									padding-top: 11px;
-									padding-left: 17px;
-									text-align: left;
-								}
-								&::after {
-									content: '\f078';
-									font-family: FontAwesome;
-									font-size: .8em;
-									position: absolute;
-									top: 11px;
-									right: 11px;
-								}
+						@include button;
+						@include button-color($athens-gray, $manatee);
+						.dropdown {
+							position: absolute;
+							height: 44px !important;
+							width: 175px;
+							top: 0;
+							left: 0;
+							&.active {
+								color: $manatee;
+							}
+							.fa {
+								display: none;
+							}
+							&::before {
+								content: 'Mon compte';
+								text-transform: uppercase;
+								font-family: 'Montserrat';
+								font-weight: 700;
+								font-size: 16px;
+								position: absolute;
+								left: 0;
+								top: 0;
+								display: block;
+								width: 100%;
+								height: 100%;
+								padding-top: 11px;
+								padding-left: 17px;
+								text-align: left;
+							}
+							&::after {
+								content: '\f078';
+								font-family: FontAwesome;
+								font-size: .8em;
+								position: absolute;
+								top: 11px;
+								right: 11px;
 							}
 						}
 					}
@@ -193,12 +212,14 @@ body {
 						border-radius: 0;
 						border: none;
 						&.expanded {
+							padding: 0;
 							
 						}
 						li {
 							min-height: 50px;
 							background-color: $mischka;
 							margin-bottom: 1px;
+							padding: 2px 8px;
 							&:hover {
 								background-color: $mischka;
 								color: $tuna !important;

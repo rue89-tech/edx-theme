@@ -1,5 +1,5 @@
 // Reset
-body.view-incourse {
+body.view-in-course {
 	.container-footer,
 	.window-wrap {
 		min-width: 0 !important;
@@ -7,18 +7,20 @@ body.view-incourse {
 }
 
 // Nav , sidebar, sequence nav
-body.view-incourse .content-wrapper,
+body.view-in-course .content-wrapper,
 .wrapper-course-material {
 	.course-material {
-		max-width: 1170px;
+		max-width: 1180px;
 		.course-tabs {
 			li {
+				margin: 0 .5em 0 0;
 				&,
 				&:last-child {
 					margin-top: 5px;
 				}
 				a {
 					border-radius: 0;
+					border: none;
 					height: 50px;
 					padding: 14px 15px 8px;
 					color: $black;
@@ -27,20 +29,32 @@ body.view-incourse .content-wrapper,
 					font-weight: 700;
 					font-size: 16px;
 					background-color: $aquamarine;
-					&.active {
+					&.active, &:hover, &:active {
 						background-color: $white;
 						color: $black;
 						background-image: none;
 						box-shadow: none;
 						text-shadow: none;
+						border: none;
 					}
 				}
 			}
 		}
 	}
+	height: auto;
+	@include break-lg {
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 15px !important;
+	}
+	@include break-sm {
+		width: auto;
+		padding-left: 8px !important;
+	}
 }
 
-body.view-incourse .content-wrapper {
+body.view-in-course .content-wrapper {
 	.container {
 		margin-top: 0;
 		.course-wrapper {
@@ -257,7 +271,7 @@ div.course-wrapper {
 
 
 // Infos
-body.view-incourse .content-wrapper {
+body.view-in-course .content-wrapper {
 	.container {
 		.info-wrapper {
 			border: none;
