@@ -7,6 +7,26 @@
 	}
 }
 
+.header-global.slim {
+	.wrapper-header {
+		.logo {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.wrapper-user-menu {
+			@include break-md {
+				float: left;
+				clear: both;
+			}
+			padding-top: 0;
+			margin-top: 17px;
+		}
+		.list-inline.nav-global {
+			margin-top: 17px;
+		}
+	}
+}
+
 .dropdown-menu {
 	pointer-events: none;
 	border: none;
@@ -44,11 +64,6 @@
 			}
 		}
 	}
-}
-
-.wrapper-user-menu {
-	padding-top: 0 !important;
-	margin-top: 17px !important;
 }
 
 #Usermenu {

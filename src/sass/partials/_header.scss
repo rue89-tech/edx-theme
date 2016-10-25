@@ -11,6 +11,10 @@
 body .header-global .wrapper-header,
 body .header-global.slim .wrapper-header {
 	height: auto;
+	padding-top: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
 }
 
 header.header-global.slim h1.logo:before {
@@ -92,7 +96,7 @@ body {
 
 				.nav-global {
 					height: 50px !important;
-					margin-top: 17px !important;
+					margin-top: 17px;
 					float: left;
 					&.authenticated {
 						margin-top: 17px;

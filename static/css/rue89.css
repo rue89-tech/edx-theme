@@ -67,7 +67,11 @@ a {
 
 body .header-global .wrapper-header,
 body .header-global.slim .wrapper-header {
-  height: auto; }
+  height: auto;
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 15px; }
 
 header.header-global.slim h1.logo:before {
   width: 0px; }
@@ -140,7 +144,7 @@ body header.header-global > nav {
       width: auto; } }
   body header.header-global > nav .nav-global {
     height: 50px !important;
-    margin-top: 17px !important;
+    margin-top: 17px;
     float: left; }
     body header.header-global > nav .nav-global.authenticated {
       margin-top: 17px;
@@ -1684,8 +1688,7 @@ body .content-wrapper,
     .wrapper-course-material {
       width: 750px;
       margin-left: auto;
-      margin-right: auto;
-      padding-left: 15px !important; } }
+      margin-right: auto; } }
   @media screen and (max-width: 769px) {
     body .content-wrapper,
     .wrapper-course-material {
@@ -1905,6 +1908,21 @@ body.view-wiki .wiki-wrapper header {
   text-decoration: none;
   display: block; }
 
+.header-global.slim .wrapper-header .logo {
+  margin-left: 0;
+  margin-right: 0; }
+
+.header-global.slim .wrapper-header .wrapper-user-menu {
+  padding-top: 0;
+  margin-top: 17px; }
+  @media screen and (max-width: 993px) {
+    .header-global.slim .wrapper-header .wrapper-user-menu {
+      float: left;
+      clear: both; } }
+
+.header-global.slim .wrapper-header .list-inline.nav-global {
+  margin-top: 17px; }
+
 .dropdown-menu {
   pointer-events: none;
   border: none;
@@ -1936,10 +1954,6 @@ body.view-wiki .wiki-wrapper header {
       white-space: unset;
       text-decoration: none !important;
       text-transform: none !important; }
-
-.wrapper-user-menu {
-  padding-top: 0 !important;
-  margin-top: 17px !important; }
 
 #Usermenu {
   border: none;
