@@ -91,7 +91,8 @@ body {
 				}
 
 				.nav-global {
-					margin-top: 17px;
+					height: 50px !important;
+					margin-top: 17px !important;
 					float: left;
 					&.authenticated {
 						margin-top: 17px;
