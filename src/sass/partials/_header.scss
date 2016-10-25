@@ -1,4 +1,15 @@
-.view-login header.header-global, .view-login header.global-new, .view-login header.header-global.slim, .view-passwordreset header.header-global, .view-passwordreset header.global-new, .view-passwordreset header.header-global.slim, .view-register header.header-global, .view-register header.global-new, .view-register header.header-global.slim, body header.header-global, body header.global-new, body header.header-global.slim {
+.view-login header.header-global,
+.view-login header.global-new,
+.view-login header.header-global.slim,
+.view-passwordreset header.header-global,
+.view-passwordreset header.global-new,
+.view-passwordreset header.header-global.slim,
+.view-register header.header-global,
+.view-register header.global-new,
+.view-register header.header-global.slim,
+body header.header-global,
+body header.global-new,
+body header.header-global.slim {
 	background: $tuna url('../images/header-bg.jpg') repeat left top;
 	background-size: 50%;
 	border-top: 10px solid $aquamarine;
@@ -63,7 +74,18 @@ body header.header-global.slim .course-header {
 	height: 0;
 }
 
-.view-login header.global-new > nav h1.logo a, .view-login header.header-global.slim > nav h1.logo a, .view-login header.header-global > nav h1.logo a, .view-passwordreset header.global-new > nav h1.logo a, .view-passwordreset header.header-global.slim > nav h1.logo a, .view-passwordreset header.header-global > nav h1.logo a, .view-register header.global-new > nav h1.logo a, .view-register header.header-global.slim > nav h1.logo a, .view-register header.header-global > nav h1.logo a, body header.global-new > nav h1.logo a, body header.header-global.slim > nav h1.logo a, body header.header-global > nav h1.logo a {
+.view-login header.global-new > nav h1.logo a,
+.view-login header.header-global.slim > nav h1.logo a,
+.view-login header.header-global > nav h1.logo a,
+.view-passwordreset header.global-new > nav h1.logo a,
+.view-passwordreset header.header-global.slim > nav h1.logo a,
+.view-passwordreset header.header-global > nav h1.logo a,
+.view-register header.global-new > nav h1.logo a,
+.view-register header.header-global.slim > nav h1.logo a,
+.view-register header.header-global > nav h1.logo a,
+body header.global-new > nav h1.logo a,
+body header.header-global.slim > nav h1.logo a,
+body header.header-global > nav h1.logo a {
 	background-image: url('../images/logo-rue89-h.svg');
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -74,7 +96,18 @@ body header.header-global.slim .course-header {
 	display: block;
 }
 
-	.view-login header.global-new > nav h1.logo span, .view-login header.header-global.slim > nav h1.logo span, .view-login header.header-global > nav h1.logo span, .view-passwordreset header.global-new > nav h1.logo span, .view-passwordreset header.header-global.slim > nav h1.logo span, .view-passwordreset header.header-global > nav h1.logo span, .view-register header.global-new > nav h1.logo span, .view-register header.header-global.slim > nav h1.logo span, .view-register header.header-global > nav h1.logo span, body header.global-new > nav h1.logo span, body header.header-global.slim > nav h1.logo span, body header.header-global > nav h1.logo span {
+.view-login header.global-new > nav h1.logo span,
+.view-login header.header-global.slim > nav h1.logo span,
+.view-login header.header-global > nav h1.logo span,
+.view-passwordreset header.global-new > nav h1.logo span,
+.view-passwordreset header.header-global.slim > nav h1.logo span,
+.view-passwordreset header.header-global > nav h1.logo span,
+.view-register header.global-new > nav h1.logo span,
+.view-register header.header-global.slim > nav h1.logo span,
+.view-register header.header-global > nav h1.logo span,
+body header.global-new > nav h1.logo span,
+body header.header-global.slim > nav h1.logo span,
+body header.header-global > nav h1.logo span {
 		background-image: none;
 		@include hide-text;
 	}
