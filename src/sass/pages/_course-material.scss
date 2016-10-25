@@ -3,6 +3,7 @@ body {
 	.container-footer,
 	.window-wrap {
 		min-width: 0 !important;
+		background-color: transparent;
 	}
 }
 
@@ -46,7 +47,6 @@ body .content-wrapper,
 		width: 750px;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 15px !important;
 	}
 	@include break-sm {
 		width: auto;
@@ -55,7 +55,10 @@ body .content-wrapper,
 }
 
 body .content-wrapper {
+	margin-left: auto;
+	margin-right: auto;
 	.container {
+		border: none;
 		margin-top: 0;
 		.course-wrapper {
 			border: none;
