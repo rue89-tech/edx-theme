@@ -1,5 +1,5 @@
 .content-wrapper {
-	> .dashboard {
+	.dashboard {
 		@include break-md {
 			display: flex;
 			flex-direction: column-reverse;
@@ -11,6 +11,16 @@
 				width: 100%;
 				float: none;
 			}
+            .empty-dashboard-message {
+				a {
+					color: $black;
+					text-transform: uppercase;
+					@include button;
+					@include button-color($aquamarine, $carribean-green);
+					padding-top: 12px !important;
+					font-size: 16px !important;
+				}
+            }
 			.wrapper-header-courses {
 				.header-courses {
 					color: $black !important;

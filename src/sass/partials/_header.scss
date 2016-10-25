@@ -19,6 +19,8 @@ body header.header-global.slim {
 	}
 }
 
+body.view-in-course .header-global .wrapper-header,
+body.view-in-course .header-global.slim .wrapper-header,
 body .header-global .wrapper-header,
 body .header-global.slim .wrapper-header {
 	height: auto;
@@ -114,53 +116,51 @@ body header.header-global > nav h1.logo span {
 
 // Bouton "Trouver un cours"
 body {
-	header {
-		&.header-global {
-			> nav {
-				height: auto;
+	header.header-global {
+		> nav.wrapper-header {
+			height: auto;
+			padding: 15px;
+			@include break-lg {
+				width: 750px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			@include break-sm {
+				width: auto;
+			}
+			.nav-global {
+				height: 50px !important;
+				margin-top: 17px;
+				float: left;
+				&.authenticated {
+					margin-top: 17px;
+					display: block !important;
+					@include break-lg {
+						clear: both;
+						margin-top: 24px;
+						margin-left: 0;
+					}
+				}
 				@include break-lg {
-					width: 750px !important;
-					margin-left: auto !important;
-					margin-right: auto !important;
+					margin-left: 276px;
+				}
+				@include break-md {
+					margin-left: 57px;
 				}
 				@include break-sm {
-					width: auto;
+					@include kill-float;
 				}
-
-				.nav-global {
-					height: 50px !important;
-					margin-top: 17px;
-					float: left;
-					&.authenticated {
-						margin-top: 17px;
-						display: block !important;
-						@include break-lg {
-							clear: both;
-							margin-top: 24px;
-							margin-left: 0;
-						}
-					}
-					@include break-lg {
-						margin-left: 276px;
-					}
-					@include break-md {
-						margin-left: 57px;
-					}
-					@include break-sm {
-						@include kill-float;
-					}
-					a {
-						color: $black;
-						text-transform: uppercase;
-						@include button;
-						@include button-color($aquamarine, $carribean-green);
-						padding-top: 12px !important;
-						font-size: 16px !important;
-					}
-					li:first-child, li:last-child {
-						padding: 0;
-						margin: 0;
-					}
+				a {
+					color: $black;
+					text-transform: uppercase;
+					@include button;
+					@include button-color($aquamarine, $carribean-green);
+					padding-top: 12px !important;
+					font-size: 16px !important;
+				}
+				li:first-child, li:last-child {
+					padding: 0;
+					margin: 0;
 				}
 			}
 		}
@@ -168,8 +168,8 @@ body {
 }
 
 // Bouton "Connexion"
-.cta-login,
-.cta-register {
+.btn.btn-login,
+.btn.btn-register {
 	color: $white !important;
 	@include button;
 	@include button-color($vivid-tangerine, $sunglo, $white);
@@ -179,7 +179,7 @@ header.header-global {
 	.nav-courseware,
 	.user {
 		@include break-lg {
-			@include kill-float;
+			float: none !important;
 			clear: both;
 			padding-top: 15px;
 		}
