@@ -1,6 +1,8 @@
 ## mako
-<%! from django.utils.translation import ugettext as _ %>
-<%! from microsite_configuration.templatetags.microsite import platform_name %>
+<%!
+from django.utils.translation import ugettext as _
+from openedx.core.djangoapps.site_configuration.templatetags.configuration import platform_name
+%>
 <%namespace name='static' file='static_content.html'/>
 
 <footer class="global">

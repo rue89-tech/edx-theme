@@ -1,5 +1,6 @@
 .content-wrapper {
-	> .dashboard {
+	.dashboard {
+		padding-top: 0;
 		@include break-md {
 			display: flex;
 			flex-direction: column-reverse;
@@ -11,7 +12,18 @@
 				width: 100%;
 				float: none;
 			}
+			.empty-dashboard-message {
+				a {
+					color: $black;
+					text-transform: uppercase;
+					@include button;
+					@include button-color($aquamarine, $carribean-green);
+					padding-top: 12px !important;
+					font-size: 16px !important;
+				}
+			}
 			.wrapper-header-courses {
+				border-bottom: none;
 				.header-courses {
 					color: $black !important;
 					font-family: "Oswald" !important;
@@ -36,6 +48,7 @@
 					.course {
 						margin: 0;
 						overflow: hidden;
+						background: white;
 						.details {
 							height: auto;
 							min-height: 184px;
@@ -60,15 +73,15 @@
 										margin-bottom: 0;
 									}
 									.course-image {
-									    height: auto;
-									    width: auto;
-									    min-height: 100%;
+										height: auto;
+										width: auto;
+										min-height: 100%;
 										max-height: unset;
 										width: 100%;
-									    position: absolute;
-									    left: 50%;
-									    top: 50%;
-									    transform: translate(-50%, -50%);
+										position: absolute;
+										left: 50%;
+										top: 50%;
+										transform: translate(-50%, -50%);
 									}
 								}
 							}
@@ -251,7 +264,7 @@
 		}
 	}
 
-    #unenroll_course_number {
-      display: none;
-    }
+	#unenroll_course_number {
+	  display: none;
+	}
 }
