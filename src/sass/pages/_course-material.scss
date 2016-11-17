@@ -44,7 +44,6 @@ body .content-wrapper,
 	}
 	height: auto;
 	@include break-lg {
-		width: 920px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -60,8 +59,6 @@ body .content-wrapper,
 	}
 	@include break-sm {
 		width: auto;
-		padding-left: 8px !important;
-		padding-right: 8px !important;
 	}
 }
 
@@ -284,6 +281,14 @@ body .content-wrapper {
 								.fa.is-hidden {
 									display: none;
 								}
+                                .fa::before {
+                                    font-size: 220%;
+                                    font-weight: bold;
+                                    color: #8d8f9e;
+                                }
+                                .fa.seq_other::before {
+                                    content: "\f040";
+                                }
 							}
 						}
 						.left-shadow, .right-shadow {
