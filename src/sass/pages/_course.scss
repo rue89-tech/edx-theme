@@ -7,6 +7,8 @@
 		 header.course-profile {
 		 	background-color: $athens-gray;
 		 	padding-top: 37px;
+		 	padding-left: 0;
+		 	padding-right: 0;
 		 	padding-bottom: 0;
 			overflow: visible;
 			height: auto;
@@ -142,7 +144,7 @@
 								font-weight: 400;
 								font-size: .8em;
 								position: absolute;
-								bottom: -33px;
+								bottom: -2.5em;
 								width: 100%;
 							}
 							strong {
@@ -219,13 +221,17 @@
 			}
 		}
 		.details {
-			width: 770px;
+			background-color: $white;
 			max-width: 100%;
-			padding-right: 70px;
+			min-width: 0;
+			width: 820px;
+			padding-left: 50px;
+			padding-right: 50px;
 			margin-right: 0;
 			font-size: 1.1em;
-			@include break-md {
-				padding-right: 0;
+			@include break-sm {
+				padding-left: 0px;
+				padding-right: 0px;
 			}
 			nav[aria-label="Course About"] {
 				display: none;
@@ -326,6 +332,9 @@
 					.social-sharing {
 						display: none;
 					}
+					&::after {
+						content: none;
+					}
 				}
 				.important-dates {
 					background-color: $aquamarine;
@@ -410,13 +419,21 @@
 				}
 			}
 		}
-	}
-	.course-profile + .container {
-		background-color: $white;
-		margin-top: 0;
-		padding: 0 52px;
-		@include break-sm {
-			padding: 0 15px;
+		.course-profile + .container {
+			background-color: $white;
+			margin: 0 auto !important;
+			@include break-lg {
+				width: 970px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			@include break-md {
+				width: 760px;
+			}
+			@include break-sm {
+				width: 100%;
+				padding: 0 15px;
+			}
 		}
 	}
 }

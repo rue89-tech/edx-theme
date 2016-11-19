@@ -1023,6 +1023,8 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
 .content-wrapper section.course-info header.course-profile {
   background-color: #f0eff4;
   padding-top: 37px;
+  padding-left: 0;
+  padding-right: 0;
   padding-bottom: 0;
   overflow: visible;
   height: auto;
@@ -1043,33 +1045,33 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
     /* line 7, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info header.course-profile {
       width: 100%; } }
-  /* line 26, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 28, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info header.course-profile .intro-inner-wrapper {
     background-color: #fff;
     max-width: 1170px;
     min-width: 0;
     border: none !important;
     box-shadow: none !important; }
-    /* line 31, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 33, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table {
       background-color: #fff;
       border-radius: 0; }
       @media screen and (max-width: 1201px) {
-        /* line 31, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 33, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table {
           display: block;
           padding-bottom: 50px; } }
-      /* line 38, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 40, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro {
         width: 100%;
         float: none;
         padding-top: 35px;
         padding-bottom: 0;
         display: block; }
-        /* line 44, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 46, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro hgroup {
           border: none; }
-          /* line 46, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 48, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro hgroup h1 {
             font-size: 50px;
             line-height: 66px;
@@ -1080,7 +1082,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             display: block;
             margin-left: auto;
             margin-right: auto; }
-        /* line 56, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 58, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
           background-color: #ff9388;
           position: relative;
@@ -1112,7 +1114,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:active, .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:focus {
             box-shadow: none !important; }
           @media screen and (max-width: 321px) {
-            /* line 56, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 58, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
               min-height: 50px;
               height: auto !important; } }
@@ -1122,17 +1124,17 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             background-color: #fff !important;
             color: #e27774 !important; }
           @media screen and (max-width: 1201px) {
-            /* line 56, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 58, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
               left: 30px;
               top: 655px; } }
           @media screen and (max-width: 769px) {
-            /* line 56, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 58, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
               left: -5px;
               top: 455px; } }
           @media screen and (max-width: 321px) {
-            /* line 56, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 58, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
               top: 275px;
               left: 0;
@@ -1140,7 +1142,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
               width: auto !important;
               padding-left: 10px;
               padding-right: 10px; } }
-          /* line 84, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 86, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled {
             bottom: 3px !important;
             padding-top: 10px !important;
@@ -1148,11 +1150,11 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             min-height: 100% !important;
             height: auto !important;
             position: relative; }
-            /* line 91, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 93, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled:hover {
               cursor: default;
               color: #d7d6e4 !important; }
-          /* line 96, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 98, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register {
             color: #fff;
@@ -1164,13 +1166,13 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             border: none;
             background-color: transparent;
             opacity: 1; }
-            /* line 107, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 109, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled:hover,
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register:hover {
               color: #ff9388;
               background-color: transparent;
               border: none; }
-          /* line 113, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 115, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > a.find-courses,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart {
@@ -1186,17 +1188,17 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             padding-top: 3px;
             border: none !important;
             box-shadow: none !important; }
-          /* line 128, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 130, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register {
             text-indent: -9999px;
             line-height: 0; }
-            /* line 131, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 133, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register::after {
               content: "S'inscrire";
               text-indent: 0;
               display: block;
               line-height: initial; }
-          /* line 138, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 140, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta span.register {
             border: none;
             background-color: transparent;
@@ -1204,9 +1206,9 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             font-weight: 400;
             font-size: .8em;
             position: absolute;
-            bottom: -33px;
+            bottom: -2.5em;
             width: 100%; }
-          /* line 148, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 150, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta strong {
             border: none !important;
             box-shadow: none !important;
@@ -1216,15 +1218,15 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             width: 100%;
             background: transparent;
             padding-top: 6px; }
-          /* line 158, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 160, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover > a.find-courses,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover a.register,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover a.add-to-cart {
             color: #ff9388; }
-          /* line 163, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 165, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover strong {
             color: #ff9388; }
-      /* line 169, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 171, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media {
         width: 1067px;
         height: 580px;
@@ -1234,23 +1236,23 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
         margin-left: auto;
         margin-right: auto; }
         @media screen and (max-width: 1201px) {
-          /* line 169, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 171, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media {
             width: 100%; } }
         @media screen and (max-width: 769px) {
-          /* line 169, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 171, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media {
             height: 380px; } }
         @media screen and (max-width: 321px) {
-          /* line 169, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 171, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media {
             height: 200px; } }
-        /* line 184, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 186, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero {
           padding: 0;
           height: 100%;
           border: none; }
-          /* line 188, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 190, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero img {
             min-height: 100%;
             min-width: 90%;
@@ -1258,7 +1260,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             width: auto;
             margin-left: auto;
             margin-right: auto; }
-          /* line 196, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 198, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero .play-intro {
             background-color: #fff;
             background-image: none;
@@ -1269,7 +1271,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             box-shadow: none;
             margin-left: -48px;
             margin-top: -48px; }
-            /* line 206, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 208, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero .play-intro::after {
               text-shadow: none;
               color: #35363f;
@@ -1279,24 +1281,28 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
               content: '\f04b';
               font-family: 'FontAwesome'; }
 
-/* line 221, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 223, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info .details {
-  width: 770px;
+  background-color: #fff;
   max-width: 100%;
-  padding-right: 70px;
+  min-width: 0;
+  width: 820px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-right: 0;
   font-size: 1.1em; }
-  @media screen and (max-width: 993px) {
-    /* line 221, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  @media screen and (max-width: 769px) {
+    /* line 223, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .details {
-      padding-right: 0; } }
-  /* line 230, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      padding-left: 0px;
+      padding-right: 0px; } }
+  /* line 236, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .details nav[aria-label="Course About"] {
     display: none; }
-  /* line 234, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 240, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .details .inner-wrapper section {
     margin-bottom: 60px; }
-    /* line 236, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 242, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .details .inner-wrapper section h1 {
       text-transform: uppercase;
       font-size: 27px !important;
@@ -1308,10 +1314,10 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
       margin-bottom: 50px;
       position: relative; }
       @media screen and (max-width: 321px) {
-        /* line 236, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 242, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info .details .inner-wrapper section h1 {
           font-size: 24px !important; } }
-      /* line 249, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 255, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section h1::before {
         display: block;
         content: "";
@@ -1323,14 +1329,14 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
         position: absolute;
         left: 0;
         top: 0; }
-      /* line 261, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 267, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section h1 + h3 {
         margin-top: 0; }
     @media screen and (max-width: 321px) {
-      /* line 265, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 271, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section h3 {
         font-size: 26px; } }
-  /* line 273, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 279, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher .teacher-image {
     border: none;
     margin: 55px 25px 10px 0;
@@ -1339,11 +1345,11 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
     width: 208px;
     overflow: hidden; }
     @media screen and (max-width: 769px) {
-      /* line 273, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 279, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher .teacher-image {
         width: 100%;
         margin-top: 0; } }
-    /* line 284, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 290, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher .teacher-image img {
       height: auto;
       width: 100%;
@@ -1351,7 +1357,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%); }
-  /* line 293, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 299, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher h3 {
     text-transform: uppercase;
     font-size: 24px;
@@ -1361,42 +1367,45 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
     left: -233px;
     margin-top: 0; }
     @media screen and (max-width: 769px) {
-      /* line 293, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 299, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher h3 {
         width: auto;
         left: 0; } }
 
-/* line 310, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 316, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info .course-sidebar {
   width: 296px;
   padding-left: 0;
   padding-right: 0;
   margin-top: 100px; }
   @media screen and (max-width: 1201px) {
-    /* line 310, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 316, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .course-sidebar {
       margin-top: 0;
       width: 100%; } }
-  /* line 319, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 325, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .course-sidebar .course-summary {
     margin-bottom: 0;
     padding: 0;
     border: none !important;
     box-shadow: none !important; }
-    /* line 323, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 329, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .course-sidebar .course-summary header {
       border-bottom-color: #d7d6e4;
       margin-bottom: 42px; }
-      /* line 326, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 332, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .course-sidebar .course-summary header .social-sharing {
         display: none; }
-    /* line 330, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 335, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      .content-wrapper section.course-info .course-sidebar .course-summary header::after {
+        content: none; }
+    /* line 339, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .course-sidebar .course-summary .important-dates {
       background-color: #85f9d2;
       color: rgba(19, 38, 27, 0.5);
       padding: 32px 42px 52px;
       position: relative; }
-      /* line 335, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 344, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .course-sidebar .course-summary .important-dates::before {
         content: "";
         display: block;
@@ -1405,42 +1414,42 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
         right: 0;
         border-top: 48px solid #fff;
         border-left: 48px solid rgba(12, 244, 166, 0.5); }
-      /* line 344, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 353, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li {
         border: none;
         margin-bottom: 0;
         padding-bottom: 0; }
-        /* line 348, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 357, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .icon {
           display: none; }
-        /* line 351, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 360, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-title,
         .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-text {
           float: none; }
-        /* line 355, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 364, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-title {
           margin-top: 15px;
           margin-bottom: 0; }
 
-/* line 363, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 372, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info ul {
   list-style-type: none;
   padding-left: 35px;
   border-left: 4px solid #85f9d2;
   margin-top: 10px;
   margin-bottom: 30px; }
-  /* line 369, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 378, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info ul li {
     margin-bottom: 15px; }
 
-/* line 374, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 383, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info .faq details {
   margin-bottom: 10px;
   cursor: pointer; }
-  /* line 378, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 387, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .faq details summary::-webkit-details-marker {
     display: none; }
-  /* line 381, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 390, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .faq details summary h3 {
     font-family: 'Droid Sans', sans-serif !important;
     font-size: 18px !important;
@@ -1450,7 +1459,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
     display: block !important;
     margin-top: 10px;
     margin-bottom: 0; }
-    /* line 390, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 399, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .faq details summary h3::before {
       content: "";
       display: block;
@@ -1462,25 +1471,35 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
       border-top: 8px solid transparent;
       border-bottom: 8px solid transparent;
       border-left: 8px solid #85f9d2; }
-  /* line 404, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 413, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .faq details .answer {
     margin-bottom: 20px;
     padding-left: 20px; }
-  /* line 408, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 417, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .faq details.open h3::before {
     transform: rotate(90deg); }
 
-/* line 414, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
-.content-wrapper .course-profile + .container {
+/* line 422, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+.content-wrapper section.course-info .course-profile + .container {
   background-color: #fff;
-  margin-top: 0;
-  padding: 0 52px; }
+  margin: 0 auto !important; }
+  @media screen and (max-width: 1201px) {
+    /* line 422, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    .content-wrapper section.course-info .course-profile + .container {
+      width: 970px;
+      margin-left: auto;
+      margin-right: auto; } }
+  @media screen and (max-width: 993px) {
+    /* line 422, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    .content-wrapper section.course-info .course-profile + .container {
+      width: 760px; } }
   @media screen and (max-width: 769px) {
-    /* line 414, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
-    .content-wrapper .course-profile + .container {
+    /* line 422, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    .content-wrapper section.course-info .course-profile + .container {
+      width: 100%;
       padding: 0 15px; } }
 
-/* line 424, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 441, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 body #lean_overlay {
   opacity: 0 !important; }
 
@@ -2060,7 +2079,6 @@ body .content-wrapper,
     /* line 11, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
     body .content-wrapper,
     .wrapper-course-material {
-      width: 920px;
       margin-left: auto;
       margin-right: auto; } }
   @media screen and (max-width: 993px) {
@@ -2081,45 +2099,43 @@ body .content-wrapper,
     /* line 11, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
     body .content-wrapper,
     .wrapper-course-material {
-      width: auto;
-      padding-left: 8px !important;
-      padding-right: 8px !important; } }
+      width: auto; } }
 
-/* line 68, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+/* line 65, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
 body .content-wrapper {
   margin-left: auto;
   margin-right: auto; }
-  /* line 71, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+  /* line 68, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
   body .content-wrapper .container {
     border: none;
     margin: 0;
     padding: 0; }
     @media screen and (max-width: 1201px) {
-      /* line 71, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+      /* line 68, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
       body .content-wrapper .container {
         width: 920px;
         margin-left: auto;
         margin-right: auto; } }
     @media screen and (max-width: 993px) {
-      /* line 71, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+      /* line 68, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
       body .content-wrapper .container {
         width: 750px;
         margin-left: auto;
         margin-right: auto; } }
     @media screen and (max-width: 993px) {
-      /* line 71, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+      /* line 68, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
       body .content-wrapper .container {
         width: 750px;
         margin-left: auto;
         margin-right: auto; } }
-    /* line 90, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+    /* line 87, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
     body .content-wrapper .container .course-wrapper {
       border: none;
       border-width: 4px 0 0;
       border-style: solid;
       border-color: #fff;
       border-radius: 0; }
-      /* line 96, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+      /* line 93, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
       body .content-wrapper .container .course-wrapper .course-index {
         width: 33.3333%;
         border-width: 0 0 0 4px;
@@ -2127,11 +2143,11 @@ body .content-wrapper {
         border-color: #fff;
         position: relative; }
         @media screen and (max-width: 993px) {
-          /* line 96, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 93, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-index {
             width: 100%;
             display: block; } }
-        /* line 106, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+        /* line 103, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
         body .content-wrapper .container .course-wrapper .course-index::before {
           content: '';
           display: block;
@@ -2142,14 +2158,14 @@ body .content-wrapper {
           bottom: 25px;
           width: 2px;
           background-color: #85f9d2; }
-        /* line 118, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+        /* line 115, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
         body .content-wrapper .container .course-wrapper .course-index .wrapper-course-modes > .courseware-bookmarks-button {
           display: none; }
-        /* line 123, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+        /* line 120, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
         body .content-wrapper .container .course-wrapper .course-index .accordion .chapter {
           border: none;
           margin-bottom: 4px; }
-          /* line 126, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 123, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-index .accordion .chapter .group-heading {
             background-color: #d7ffef;
             font-family: 'Montserrat';
@@ -2163,7 +2179,7 @@ body .content-wrapper {
             padding-left: 53px;
             padding-right: 45px;
             position: relative; }
-            /* line 139, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+            /* line 136, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
             body .content-wrapper .container .course-wrapper .course-index .accordion .chapter .group-heading::before {
               content: '';
               display: block;
@@ -2175,7 +2191,7 @@ body .content-wrapper {
               z-index: 30;
               left: 21px;
               top: 22px; }
-            /* line 151, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+            /* line 148, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
             body .content-wrapper .container .course-wrapper .course-index .accordion .chapter .group-heading::after {
               content: '\f078';
               font-family: 'FontAwesome';
@@ -2184,7 +2200,7 @@ body .content-wrapper {
               position: absolute;
               top: 16px;
               right: 21px; }
-            /* line 161, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+            /* line 158, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
             body .content-wrapper .container .course-wrapper .course-index .accordion .chapter .group-heading .icon::before {
               position: absolute;
               left: -5px;
@@ -2197,19 +2213,19 @@ body .content-wrapper {
               border-radius: 50%;
               background-color: #d7ffef;
               border: 3px solid #0cc5a6; }
-          /* line 178, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 175, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-index .accordion .chapter.is-open .group-heading::after {
             content: '\f077'; }
-        /* line 185, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+        /* line 182, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
         body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div {
           position: relative;
           padding-left: 16px; }
-          /* line 188, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 185, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div a {
             border: none;
             padding-left: 50px;
             color: #35363f; }
-          /* line 194, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 191, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div .menu-item::before {
             content: '';
             display: block;
@@ -2222,38 +2238,38 @@ body .content-wrapper {
             top: 16px;
             border: 3px solid #fff;
             border-radius: 50%; }
-          /* line 209, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 206, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div .menu-item.active a,
           body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div .menu-item.active a p {
             background-color: transparent;
             color: #8d8f9e;
             font-weight: normal; }
-          /* line 217, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 214, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div .menu-item a, body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div .menu-item a:hover, body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div .menu-item a:active, body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div .menu-item a:visited {
             background-color: white;
             padding-top: 0px;
             padding-left: 38px;
             padding-right: 20px;
             padding-bottom: 0px; }
-          /* line 225, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 222, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-index .accordion .chapter-content-container > div:last-child {
             margin-bottom: .6em; }
-      /* line 232, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+      /* line 229, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
       body .content-wrapper .container .course-wrapper .course-content {
         width: 66.6667%;
         border: none; }
         @media screen and (max-width: 993px) {
-          /* line 232, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 229, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-content {
             width: 100%;
             display: block; } }
-        /* line 239, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+        /* line 236, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
         body .content-wrapper .container .course-wrapper .course-content .bookmark-button-wrapper {
           display: none; }
-        /* line 242, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+        /* line 239, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
         body .content-wrapper .container .course-wrapper .course-content .sequence-nav {
           height: 50px; }
-          /* line 244, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 241, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-nav-button {
             height: 50px;
             background-color: #8d8f9e;
@@ -2263,23 +2279,23 @@ body .content-wrapper {
             background-image: none;
             transition: none;
             padding-top: 5px; }
-            /* line 253, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+            /* line 250, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
             body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-nav-button.disabled {
               background-color: #8d8f9e;
               opacity: .6; }
-            /* line 257, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+            /* line 254, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
             body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-nav-button .icon {
               color: #fff;
               font-size: 1.6em; }
-          /* line 262, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+          /* line 259, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
           body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper {
             margin: 0 44px;
             height: 50px;
             background-image: none; }
-            /* line 266, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+            /* line 263, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
             body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol {
               padding: 0; }
-              /* line 271, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+              /* line 268, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
               body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li button,
               body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:first-child button,
               body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:last-child button {
@@ -2288,7 +2304,7 @@ body .content-wrapper {
                 border-width: 0 0 2px 0;
                 border-color: #d7d6e4;
                 height: 48px; }
-                /* line 277, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+                /* line 274, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
                 body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li button::after,
                 body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:first-child button::after,
                 body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:last-child button::after {
@@ -2296,19 +2312,31 @@ body .content-wrapper {
                   padding-top: 4px;
                   font-size: 2em;
                   color: #8d8f9e; }
-              /* line 284, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+              /* line 281, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
               body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li .fa.is-hidden,
               body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:first-child .fa.is-hidden,
               body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:last-child .fa.is-hidden {
                 display: none; }
-            /* line 289, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+              /* line 284, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+              body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li .fa::before,
+              body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:first-child .fa::before,
+              body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:last-child .fa::before {
+                font-size: 220%;
+                font-weight: bold;
+                color: #8d8f9e; }
+              /* line 289, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+              body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li .fa.seq_other::before,
+              body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:first-child .fa.seq_other::before,
+              body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li:last-child .fa.seq_other::before {
+                content: "\f040"; }
+            /* line 294, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
             body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper .left-shadow, body .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper .right-shadow {
               display: none; }
-        /* line 294, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+        /* line 299, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
         body .content-wrapper .container .course-wrapper .course-content .sequence-bottom {
           display: none; }
 
-/* line 305, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+/* line 310, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
 div.course-wrapper section.course-content div#seq_content h1 {
   font-family: 'Oswald';
   color: #000000;
@@ -2317,45 +2345,45 @@ div.course-wrapper section.course-content div#seq_content h1 {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: .0025em; }
-  /* line 313, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+  /* line 318, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
   div.course-wrapper section.course-content div#seq_content h1 strong {
     font-weight: 400 !important; }
-  /* line 316, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+  /* line 321, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
   div.course-wrapper section.course-content div#seq_content h1 span {
     color: #000000 !important; }
 
-/* line 328, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+/* line 333, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
 body .content-wrapper .container .info-wrapper {
   border: none;
   border-radius: 0; }
-  /* line 333, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+  /* line 338, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
   body .content-wrapper .container .info-wrapper .updates > section > article {
     border: none;
     background-color: #f0eff4 !important;
     border-radius: 0;
     padding: 20px; }
-    /* line 338, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+    /* line 343, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
     body .content-wrapper .container .info-wrapper .updates > section > article h2 {
       font-family: 'Droid Sans' !important; }
-    /* line 341, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+    /* line 346, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
     body .content-wrapper .container .info-wrapper .updates > section > article a, body .content-wrapper .container .info-wrapper .updates > section > article a:link, body .content-wrapper .container .info-wrapper .updates > section > article a:visited {
       color: #ff9388; }
 
-/* line 353, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+/* line 358, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
 body.view-wiki .wiki-wrapper header {
   box-sizing: content-box; }
 
-/* line 359, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+/* line 364, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
 .staff-modal {
   width: 100% !important; }
-  /* line 361, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+  /* line 366, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
   .staff-modal .staff_actions {
     position: relative;
     z-index: 100; }
-  /* line 365, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+  /* line 370, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
   .staff-modal td {
     vertical-align: middle; }
-    /* line 367, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
+    /* line 372, /edx/app/edxapp/themes/rue89/src/sass/pages/_course-material.scss */
     .staff-modal td:first-child {
       text-align: right;
       padding-right: 10px; }
