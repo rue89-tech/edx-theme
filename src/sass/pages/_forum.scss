@@ -112,18 +112,26 @@ body.discussion .course-tabs .right {
 	margin-right: 11px;
 	margin-top: 20px;
 	.new-post-btn {
-		@include button;
-		@include button-color( $vivid-tangerine, $sunglo, $white );
-		padding-top: 7px !important;
-		background-image: none;
-		color: $white;
-		box-shadow: none;
-		.icon {
-			display: none;
-		}
-		&:hover {
+		// Make the actual button invisible so we can override the text using :after
+		visibility: hidden;
+		padding: 0;
+		border: none;
+		&::after {
+			@include button;
+			@include button-color( $vivid-tangerine, $sunglo, $white );
 			background-image: none;
-		}
+			color: $white;
+			box-shadow: none;
+			display: inline-block;
+			content: "Bienvenue!";
+			visibility: visible;
+			.icon {
+ 				display: none;
+			}
+			&:hover {
+				background-image: none;
+			}
+	    }
 	}
 }
 
