@@ -14,7 +14,7 @@ body .content-wrapper,
 		max-width: 1180px;
 		.course-tabs {
 			li {
-				margin: 0 .5em 0 0;
+				margin: 0 .3em 0 0;
 				&,
 				&:last-child {
 					margin-top: 5px;
@@ -44,11 +44,7 @@ body .content-wrapper,
 	}
 	height: auto;
 	@include break-lg {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	@include break-md {
-		width: 750px;
+		width: 920px;
 		margin-left: auto;
 		margin-right: auto;
 	}
