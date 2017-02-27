@@ -55,6 +55,17 @@
 								@include block-center;
 							}
 						}
+						.heading-group button {
+							margin-left: 15px;
+							margin-top: 20px;
+							color: $color-primary;
+							background: none;
+							border: none;
+							box-shadow: none;
+							text-shadow: none;
+							font: italic 700 0.6em/1em "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+							padding: 0;
+						}
 						.main-cta {
 							background-color: $vivid-tangerine;
 							position: relative;

@@ -111,27 +111,35 @@
 body.discussion .course-tabs .right {
 	margin-right: 11px;
 	margin-top: 20px;
-	.new-post-btn {
-		// Make the actual button invisible so we can override the text using :after
-		visibility: hidden;
-		padding: 0;
-		border: none;
-		&::after {
-			@include button;
-			@include button-color( $vivid-tangerine, $sunglo, $white );
+}
+
+.form-actions button.new-post-btn {
+	// Make the actual button invisible so we can override the text using :after
+	visibility: hidden;
+	padding: 0;
+	border: none;
+	width: 0;
+	height: 0;
+	float: right;
+	&::after {
+		@include button;
+		@include button-color( $vivid-tangerine, $sunglo, $white );
+		background-image: none;
+		color: $white;
+		box-shadow: none;
+		display: inline-block;
+		position: relative;
+		right: 0;
+		float: right;
+		content: "Bienvenue!";
+		margin-top: -84px;
+		visibility: visible;
+		.icon {
+			display: none;
+		}
+		&:hover {
 			background-image: none;
-			color: $white;
-			box-shadow: none;
-			display: inline-block;
-			content: "Bienvenue!";
-			visibility: visible;
-			.icon {
- 				display: none;
-			}
-			&:hover {
-				background-image: none;
-			}
-	    }
+		}
 	}
 }
 
@@ -143,10 +151,23 @@ body.discussion .course-tabs .right {
 	padding-bottom: 15px !important;
 }
 
+.page-content {
+	padding: 0 !important;
+}
+
 .container .discussion-body {
 	background-color: $white;
 	border-radius: 0;
 	padding: 4px;
+	max-width: none;
+}
+
+.discussion-board .page-header {
+	padding: 0;
+	margin: 4px 4px 0 4px;
+	border: none;
+	background-color: $aquamarine;
+	width: calc(33.33333% - 1rem - 2px);
 }
 
 // Left col (filters...)
@@ -154,6 +175,8 @@ body.discussion .course-tabs .right {
 	border: none;
 	border-radius: 0;
 	height: auto !important;
+	padding: 0 !important;
+	margin: 0 !important;
 	@include break-md {
 		width: 100%;
 	}
@@ -286,10 +309,6 @@ body.discussion .course-tabs .right {
 			}
 		}
 
-		.forum-nav-filter-main {
-			left: -8px;
-		}
-
 			.forum-nav-filter-main-control,
 			.forum-nav-filter-cohort-control,
 			.forum-nav-sort-control {
@@ -363,6 +382,7 @@ body.discussion .course-tabs .right {
 	@include break-md {
 		width: 100% !important;
 	}
+	min-height: 400px !important;
 }
 .forum-content {
 	overflow: hidden !important;
