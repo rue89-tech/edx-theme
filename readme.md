@@ -12,14 +12,15 @@ So for now, what you need to do is:
 
 1. Install [sassc](https://github.com/sass/sassc) if you don't have it already (on Mac, if you use Homebrew, just type `brew install sassc`).
 2. Edit the Sass files only (in `src/sass/`)
-3. Compile the Sass files using `sassc -m src/sass/upian.scss static/css/rue89.css`
+3. Compile the Sass files using `sassc -m src/sass/upian.scss lms/static/css/rue89.css`
 
 ### Devstack usage
 
 1. Clone this repo into the existing "themes" folder on your host computer (usually this is a
 subfolder of your devstack folder). Then rename this folder from `rue89-theme` to `rue89`
 (important).
-2. Start your devstack, and in `~/lms.env.json`, find the `FEATURES` section and set `"USE_CUSTOM_THEME": true`, then find the `"THEME_NAME"` setting and set it to `"rue89"`.
+2. Start your devstack, and in `~/lms.env.json`, find the `FEATURES` section and set `"ENABLE_COMPREHENSIVE_THEMING": true`,
+   find the `"DEFAULT_SITE_THEME"` setting and set it to `"rue89"`, and add `"/edx/app/edxapp/themes"` to the list of `COMPREHENSIVE_THEME_DIRS`.
 
 ### Production environment
 
