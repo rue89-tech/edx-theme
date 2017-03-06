@@ -10,6 +10,15 @@ body {
 // Nav , sidebar, sequence nav
 body .content-wrapper,
 .wrapper-course-material {
+	.page-title, .info-wrapper h4 {
+	    font-family: 'Oswald', sans-serif !important;
+	    font-size: 36px !important;
+	    line-height: 44px !important;
+	    font-weight: 400;
+	    letter-spacing: .0025em !important;
+	    color: $black !important;
+	    text-transform: uppercase;
+	}
 	.course-material {
 		max-width: 1180px;
 		.course-tabs {
