@@ -250,6 +250,7 @@ body .content-wrapper {
 						border-width: 0 0 2px 0;
 						border-color: $storm-gray;
 						background-image: none;
+						min-width: auto;
 						transition: none;
 						padding-top: 5px;
 						&.disabled {
@@ -261,8 +262,15 @@ body .content-wrapper {
 							font-size: 1.6em;
 						}
 					}
+					.sequence-nav-button.button-next span:nth-child(1),
+					.sequence-nav-button.button-previous span:nth-child(2) {
+					    display: none;
+					}
+					.sequence-nav-button span:not(:last-child) {
+					    padding-right: 0;
+					}
 					.sequence-list-wrapper {
-						margin: 0 44px;
+						margin: 0 2px;
 						height: 50px;
 						background-image: none;
 						ol {
@@ -270,6 +278,7 @@ body .content-wrapper {
 							li,
 							li:first-child,
 							li:last-child {
+								border-style: solid;
 								button {
 									background-color: $athens-gray;
 									border-radius: 0;
@@ -286,14 +295,14 @@ body .content-wrapper {
 								.fa.is-hidden {
 									display: none;
 								}
-                                .fa::before {
-                                    font-size: 220%;
-                                    font-weight: bold;
-                                    color: #8d8f9e;
-                                }
-                                .fa.seq_other::before {
-                                    content: "\f040";
-                                }
+								.fa::before {
+								    font-size: 220%;
+								    font-weight: bold;
+								    color: #8d8f9e;
+								}
+								.fa.seq_other::before {
+								    content: "\f040";
+								}
 							}
 						}
 						.left-shadow, .right-shadow {
