@@ -170,6 +170,9 @@ body {
 					margin: 0;
 				}
 			}
+			.doc-link {
+				display: none;
+			}
 		}
 	}
 }
@@ -258,6 +261,7 @@ body {
 						top: 50px;
 						border-radius: 0;
 						border: none;
+						z-index: 10;
 						&.expanded {
 							padding: 0;
 						}
@@ -266,6 +270,7 @@ body {
 							background-color: $mischka;
 							margin-bottom: 1px;
 							padding: 2px 8px;
+							pointer-events: all !important;
 							&:hover {
 								background-color: $mischka;
 								color: $tuna !important;
@@ -282,6 +287,8 @@ body {
 								line-height: 20px;
 								text-overflow: unset;
 								white-space: unset;
+								text-transform: none;
+								background: none;
 							}
 						}
 					}

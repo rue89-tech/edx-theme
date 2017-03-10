@@ -30,8 +30,7 @@
 				}
 				.course-image {
 					float: left !important;
-					width: 33.333% !important;
-					max-width: 430px;
+					width: 357px;
 					height: 100% !important;
 					display: block;
 					@include break-sm {
@@ -68,7 +67,7 @@
 				}
 				.course-info {
 					float: left;
-					width: 66.6667%;
+					width: calc(100% - 373px);
 					height: 100%;
 					position: relative;
 					padding: 0 15px 15px;
