@@ -1,0 +1,14 @@
+body .content-wrapper {
+        .file-browse.btn.btn-primary {
+            background-color: transparent;
+            border-color: transparent;
+
+            .browse {
+                position: relative;
+                top: 5px;
+                font-size: 70%;
+                font-weight: normal;
+                text-shadow: none;
+            }
+        }
+}
