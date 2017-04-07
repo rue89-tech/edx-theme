@@ -113,38 +113,86 @@ body.discussion .course-tabs .right {
 	margin-top: 20px;
 }
 
-.form-actions button.new-post-btn {
-	// Make the actual button invisible so we can override the text using :after
-	visibility: hidden;
-	padding: 0;
-	border: none;
-	width: 0;
-	height: 0;
-	float: right;
-	&::after {
-		@include button;
-		@include button-color( $vivid-tangerine, $sunglo, $white );
-		background-image: none;
-		color: $white;
-		box-shadow: none;
-		display: inline-block;
-		position: relative;
+.form-actions  {
+	@include break-md {
+        text-align: right;
+    }
+    button.new-post-btn {
+        // Make the actual button invisible so we can override the text using :after
+        visibility: hidden;
+        padding: 0;
+        border: none;
+        width: 0;
+        height: 0;
+        float: right;
+        @include break-md {
+            text-align: right;
+            width: auto;
+            height: auto;
+            float: none;
+        }
+        &::after {
+            @include button;
+            @include button-color( $vivid-tangerine, $sunglo, $white );
+            background-image: none;
+            color: $white;
+            box-shadow: none;
+            display: inline-block;
+            position: relative;
+            right: 0;
+            float: right;
+            content: "Bienvenue!";
+            margin-top: -84px;
+            visibility: visible;
+            @include break-md {
+                margin-top: auto;
+                float: none;
+            }
+            .icon {
+                display: none;
+            }
+            &:hover {
+                background-image: none;
+            }
+        }
+    }
+}
+
+// Forum search button
+.forum-search {
+    margin-left: 4px;
+    .search-input {
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+	.input-text[type="search"] + button {
+		// Make the actual button invisible so we can override the text using :after
+		visibility: hidden;
+		padding: 0;
+		border: none;
+		width: 0;
+		height: 0;
 		right: 0;
-		float: right;
-		content: "Bienvenue!";
-		margin-top: -84px;
-		visibility: visible;
-		.icon {
-			display: none;
-		}
-		&:hover {
-			background-image: none;
+		&::after {
+			   font: normal normal normal 14px/1 FontAwesome;
+			   font-size: inherit;
+			   text-rendering: auto;
+			   -webkit-font-smoothing: antialiased;
+			   -moz-osx-font-smoothing: grayscale;
+			   content: '\f002';
+			   visibility: visible;
+			   top: 0px;
+			   position: absolute;
+			   right: 0;
+			   width: 30px;
+			   height: 30px;
+			   padding-top: 14px;
 		}
 	}
 }
 
 .discussion-post {
-	padding: 40px 40px 20px 40px !important;
+	padding: 20px 40px 20px 40px !important;
 }
 
 .tabs {
@@ -163,11 +211,15 @@ body.discussion .course-tabs .right {
 }
 
 .discussion-board .page-header {
-	padding: 0;
-	margin: 4px 4px 0 4px;
+	padding: 4px 4px;
+	margin: 4px 4px 4px 4px;
 	border: none;
 	background-color: $aquamarine;
-	width: calc(33.33333% - 1rem - 2px);
+
+    .nav-item {
+        font-size: 12pt;
+        font-weight: normal;
+    }
 }
 
 // Left col (filters...)
@@ -242,23 +294,26 @@ body.discussion .course-tabs .right {
 		.forum-nav-browse-filter {
 			border: none;
 			background-color: $aquamarine;
-			padding: 5px 15px 15px;
 			.icon {
 				display: none;
 			}
 		}
 
-			.forum-nav-browse-filter-input {
-				border: none !important;
-				border-radius: 0 !important;
-			}
+        .forum-nav-browse-filter-input {
+            border: none !important;
+            border-radius: 0 !important;
+            font-size: 14px !important;
+        }
 
-		.forum-nav-browse-menu {
+		.forum-nav-browse-menu,
+        .forum-nav-browse-submenu {
 			overflow-y: auto;
+			background-color: $white;
 		}
 
 			.forum-nav-browse-menu-item {
 				background-color: $frosted-mint;
+				margin-bottom: 4px;
 			}
 
 				.forum-nav-browse-title {
@@ -334,8 +389,8 @@ body.discussion .course-tabs .right {
 					&:last-child {
 						border-bottom: none;
 					}
-				}
 					.forum-nav-thread-link {
+                        border: 0;
 						height: 50px;
 						background-color: $frosted-mint;
 						padding-top: 11px;
@@ -353,6 +408,11 @@ body.discussion .course-tabs .right {
 						}
 						.forum-nav-thread-labels {
 							display: none;
+						}
+						.forum-nav-thread-wrapper-1 {
+							.thread-preview-body {
+								display: none;
+							}
 						}
 						.forum-nav-thread-wrapper-2 {
 							.forum-nav-thread-comments-count {
@@ -372,16 +432,13 @@ body.discussion .course-tabs .right {
 								}
 							}
 						}
-
 					}
+				}
 
 // Forum content
 .discussion-column {
 	@include reset-border-shadow;
 	border-radius: 0;
-	@include break-md {
-		width: 100% !important;
-	}
 	min-height: 400px !important;
 }
 .forum-content {
@@ -474,7 +531,7 @@ body.discussion .course-tabs .right {
 								}
 
 								.post-header-content {
-									h1 {
+									h4 {
 										font-size: 20px !important;
 										text-transform: uppercase;
 										font-weight: 400 !important;
@@ -503,9 +560,6 @@ body.discussion .course-tabs .right {
 											position: relative;
 											display: block;
 											width: 100%;
-										}
-										.post-actions-list {
-											text-align: left;
 										}
 										.action-button {
 											text-align: center;
@@ -545,10 +599,10 @@ body.discussion .course-tabs .right {
 									}
 								}
 
-							.post-body {
-								font-size: 18px !important;
-								line-height: 26px;
-							}
+                                .post-body {
+                                    font-size: 18px !important;
+                                    line-height: 26px;
+                                }
 
 // Replies
 .response-count {
@@ -562,6 +616,10 @@ body.discussion .course-tabs .right {
 	padding-right: 30px;
 }
 
+.response-body {
+    font-size: 16px !important;
+    line-height: 22px;
+}
 .add-response {
 	margin-top: 20px;
 	padding: 0 30px !important;
@@ -602,6 +660,9 @@ body.discussion .course-tabs .right {
 				.posted-details {
 					color: $manatee !important;
 					font-size: 14px;
+                    .timeago {
+                        font-size: 10px;
+                    }
 				}
 			}
 		}
@@ -703,6 +764,15 @@ body.discussion .course-tabs .right {
 .forum-new-post-form,
 .edit-post-form {
 	border-radius: 0 !important;
+    h3 {
+        font-size: 20px !important;
+        text-transform: uppercase;
+        font-weight: 400 !important;
+        margin-top: 0;
+        margin-bottom: 0 !important;
+		color: $black;
+		font-family: 'Oswald';
+    }
 	.post-type-label {
 		@include button;
 		@include button-color($vivid-tangerine, $sunglo);
@@ -733,7 +803,7 @@ body.discussion .course-tabs .right {
 	}
 	.post-field {
 		.field-input {
-			@include reset-border-shadow;
+		    box-shadow: none !important;
 			border-radius: none;
 		}
 	}
