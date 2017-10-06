@@ -839,7 +839,7 @@ body.discussion header.header-global nav {
 		}
 		@include button;
 		@include button-color($athens-gray, $manatee);
-		.dropdown-menu {
+		.user-dropdown-menu {
 			position: absolute;
 			height: 44px !important;
 			width: 175px;

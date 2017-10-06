@@ -218,7 +218,7 @@ body {
 						}
 						@include button;
 						@include button-color($athens-gray, $manatee);
-						.dropdown {
+						.user-dropdown {
 							position: absolute;
 							height: 44px !important;
 							width: 175px;
@@ -256,7 +256,7 @@ body {
 							}
 						}
 					}
-					ul.dropdown-menu {
+					ul.user-dropdown-menu {
 						left: 0;
 						top: 50px;
 						border-radius: 0;
