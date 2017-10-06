@@ -170,28 +170,21 @@ body header.header-global.slim .course-header {
   height: 0; }
 
 /* line 79, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-.view-login header.global-new > nav h1.logo a,
-.view-login header.header-global.slim > nav h1.logo a,
-.view-login header.header-global > nav h1.logo a,
-.view-passwordreset header.global-new > nav h1.logo a,
-.view-passwordreset header.header-global.slim > nav h1.logo a,
-.view-passwordreset header.header-global > nav h1.logo a,
-.view-register header.global-new > nav h1.logo a,
-.view-register header.header-global.slim > nav h1.logo a,
-.view-register header.header-global > nav h1.logo a,
-body header.global-new > nav h1.logo a,
-body header.header-global.slim > nav h1.logo a,
-body header.header-global > nav h1.logo a {
-  background-image: url("../images/logo-rue89-h.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 55px;
-  width: 265px;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  display: block; }
+.view-login header.global-new > nav .logo,
+.view-login header.header-global.slim > nav .logo,
+.view-login header.header-global > nav .logo,
+.view-passwordreset header.global-new > nav .logo,
+.view-passwordreset header.header-global.slim > nav .logo,
+.view-passwordreset header.header-global > nav .logo,
+.view-register header.global-new > nav .logo,
+.view-register header.header-global.slim > nav .logo,
+.view-register header.header-global > nav .logo,
+body header.global-new > nav .logo,
+body header.header-global.slim > nav .logo,
+body header.header-global > nav .logo {
+  margin-top: 10px; }
 
-/* line 101, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+/* line 94, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
 .view-login header.global-new > nav h1.logo span,
 .view-login header.header-global.slim > nav h1.logo span,
 .view-login header.header-global > nav h1.logo span,
@@ -209,58 +202,58 @@ body header.header-global > nav h1.logo span {
   text-indent: -9000px;
   display: block; }
 
-/* line 120, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+/* line 113, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
 body header.header-global > nav.wrapper-header {
   height: auto;
   padding: 15px; }
   @media screen and (max-width: 1201px) {
-    /* line 120, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 113, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header {
       width: 920px;
       margin-left: auto;
       margin-right: auto; } }
   @media screen and (max-width: 993px) {
-    /* line 120, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 113, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header {
       width: 750px;
       margin-left: auto;
       margin-right: auto; } }
   @media screen and (max-width: 769px) {
-    /* line 120, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 113, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header {
       width: auto;
       padding-left: 8px !important;
       padding-right: 8px !important; } }
-  /* line 138, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  /* line 131, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
   body header.header-global > nav.wrapper-header .nav-global {
     height: 50px !important;
     margin-top: 17px;
     float: left; }
-    /* line 142, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 135, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header .nav-global.authenticated {
       margin-top: 17px;
       display: block !important; }
       @media screen and (max-width: 1201px) {
-        /* line 142, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+        /* line 135, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
         body header.header-global > nav.wrapper-header .nav-global.authenticated {
           clear: both;
           margin-top: 24px;
           margin-left: 0; } }
     @media screen and (max-width: 1201px) {
-      /* line 138, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 131, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       body header.header-global > nav.wrapper-header .nav-global {
         margin-left: 276px; } }
     @media screen and (max-width: 993px) {
-      /* line 138, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 131, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       body header.header-global > nav.wrapper-header .nav-global {
         margin-left: 57px; } }
     @media screen and (max-width: 769px) {
-      /* line 138, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 131, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       body header.header-global > nav.wrapper-header .nav-global {
         float: none !important;
         margin-left: auto !important;
         margin-right: auto !important; } }
-    /* line 160, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 153, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header .nav-global a {
       color: #000000;
       text-transform: uppercase;
@@ -287,7 +280,7 @@ body header.header-global > nav.wrapper-header {
       body header.header-global > nav.wrapper-header .nav-global a:active, body header.header-global > nav.wrapper-header .nav-global a:focus {
         box-shadow: none !important; }
       @media screen and (max-width: 321px) {
-        /* line 160, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+        /* line 153, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
         body header.header-global > nav.wrapper-header .nav-global a {
           min-height: 50px;
           height: auto !important; } }
@@ -296,15 +289,15 @@ body header.header-global > nav.wrapper-header {
         border-color: #0cc5a6 !important;
         background-color: #fff !important;
         color: #0cc5a6 !important; }
-    /* line 168, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 161, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header .nav-global li:first-child, body header.header-global > nav.wrapper-header .nav-global li:last-child {
       padding: 0;
       margin: 0; }
-  /* line 173, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  /* line 166, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
   body header.header-global > nav.wrapper-header .doc-link {
     display: none; }
 
-/* line 181, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+/* line 174, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
 .btn.btn-login,
 .btn.btn-register {
   color: #fff !important;
@@ -331,7 +324,7 @@ body header.header-global > nav.wrapper-header {
   .btn.btn-register:focus {
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
-    /* line 181, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 174, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .btn.btn-login,
     .btn.btn-register {
       min-height: 50px;
@@ -344,14 +337,14 @@ body header.header-global > nav.wrapper-header {
     color: #e27774 !important; }
 
 @media screen and (max-width: 1201px) {
-  /* line 189, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  /* line 182, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
   header.header-global .nav-courseware,
   header.header-global .user {
     float: none !important;
     clear: both;
     padding-top: 15px; } }
 
-/* line 209, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+/* line 202, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
 .view-login header.global-new > nav ol.user, .view-login header.header-global.slim > nav ol.user, .view-login header.header-global > nav ol.user,
 .view-passwordreset header.global-new > nav ol.user,
 .view-passwordreset header.header-global.slim > nav ol.user,
@@ -364,7 +357,7 @@ body header.header-global.slim > nav ol.user,
 body header.header-global > nav ol.user {
   margin-top: 17px; }
   @media screen and (max-width: 769px) {
-    /* line 209, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 202, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .view-login header.global-new > nav ol.user, .view-login header.header-global.slim > nav ol.user, .view-login header.header-global > nav ol.user,
     .view-passwordreset header.global-new > nav ol.user,
     .view-passwordreset header.header-global.slim > nav ol.user,
@@ -376,7 +369,7 @@ body header.header-global > nav ol.user {
     body header.header-global.slim > nav ol.user,
     body header.header-global > nav ol.user {
       padding: 0; } }
-  /* line 214, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  /* line 207, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
   .view-login header.global-new > nav ol.user > li.primary, .view-login header.header-global.slim > nav ol.user > li.primary, .view-login header.header-global > nav ol.user > li.primary,
   .view-passwordreset header.global-new > nav ol.user > li.primary,
   .view-passwordreset header.header-global.slim > nav ol.user > li.primary,
@@ -405,7 +398,7 @@ body header.header-global > nav ol.user {
     border-bottom-color: #8d8f9e !important;
     background-color: #f0eff4 !important;
     color: #000 !important; }
-    /* line 216, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 209, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .view-login header.global-new > nav ol.user > li.primary:first-child, .view-login header.header-global.slim > nav ol.user > li.primary:first-child, .view-login header.header-global > nav ol.user > li.primary:first-child,
     .view-passwordreset header.global-new > nav ol.user > li.primary:first-child,
     .view-passwordreset header.header-global.slim > nav ol.user > li.primary:first-child,
@@ -439,7 +432,7 @@ body header.header-global > nav ol.user {
     body header.header-global > nav ol.user > li.primary:focus {
       box-shadow: none !important; }
     @media screen and (max-width: 321px) {
-      /* line 214, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 207, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user > li.primary, .view-login header.header-global.slim > nav ol.user > li.primary, .view-login header.header-global > nav ol.user > li.primary,
       .view-passwordreset header.global-new > nav ol.user > li.primary,
       .view-passwordreset header.header-global.slim > nav ol.user > li.primary,
@@ -466,7 +459,7 @@ body header.header-global > nav ol.user {
       border-color: #8d8f9e !important;
       background-color: #fff !important;
       color: #8d8f9e !important; }
-    /* line 221, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 214, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .view-login header.global-new > nav ol.user > li.primary .user-dropdown, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown, .view-login header.header-global > nav ol.user > li.primary .user-dropdown,
     .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown,
     .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown,
@@ -482,7 +475,7 @@ body header.header-global > nav ol.user {
       width: 175px;
       top: 0;
       left: 0; }
-      /* line 227, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 220, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user > li.primary .user-dropdown.active, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown.active, .view-login header.header-global > nav ol.user > li.primary .user-dropdown.active,
       .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown.active,
       .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown.active,
@@ -494,7 +487,7 @@ body header.header-global > nav ol.user {
       body header.header-global.slim > nav ol.user > li.primary .user-dropdown.active,
       body header.header-global > nav ol.user > li.primary .user-dropdown.active {
         color: #8d8f9e; }
-      /* line 230, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 223, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user > li.primary .user-dropdown .fa, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown .fa, .view-login header.header-global > nav ol.user > li.primary .user-dropdown .fa,
       .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown .fa,
       .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown .fa,
@@ -506,7 +499,7 @@ body header.header-global > nav ol.user {
       body header.header-global.slim > nav ol.user > li.primary .user-dropdown .fa,
       body header.header-global > nav ol.user > li.primary .user-dropdown .fa {
         display: none; }
-      /* line 233, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 226, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user > li.primary .user-dropdown::before, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown::before, .view-login header.header-global > nav ol.user > li.primary .user-dropdown::before,
       .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown::before,
       .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown::before,
@@ -531,7 +524,7 @@ body header.header-global > nav ol.user {
         padding-top: 11px;
         padding-left: 17px;
         text-align: left; }
-      /* line 249, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 242, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user > li.primary .user-dropdown::after, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown::after, .view-login header.header-global > nav ol.user > li.primary .user-dropdown::after,
       .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown::after,
       .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown::after,
@@ -548,7 +541,7 @@ body header.header-global > nav ol.user {
         position: absolute;
         top: 11px;
         right: 11px; }
-  /* line 259, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  /* line 252, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
   .view-login header.global-new > nav ol.user ul.user-dropdown-menu, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu, .view-login header.header-global > nav ol.user ul.user-dropdown-menu,
   .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu,
   .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu,
@@ -564,7 +557,7 @@ body header.header-global > nav ol.user {
     border-radius: 0;
     border: none;
     z-index: 10; }
-    /* line 265, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 258, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .view-login header.global-new > nav ol.user ul.user-dropdown-menu.expanded, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu.expanded, .view-login header.header-global > nav ol.user ul.user-dropdown-menu.expanded,
     .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu.expanded,
     .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu.expanded,
@@ -576,7 +569,7 @@ body header.header-global > nav ol.user {
     body header.header-global.slim > nav ol.user ul.user-dropdown-menu.expanded,
     body header.header-global > nav ol.user ul.user-dropdown-menu.expanded {
       padding: 0; }
-    /* line 268, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 261, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .view-login header.global-new > nav ol.user ul.user-dropdown-menu li, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu li, .view-login header.header-global > nav ol.user ul.user-dropdown-menu li,
     .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu li,
     .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu li,
@@ -592,7 +585,7 @@ body header.header-global > nav ol.user {
       margin-bottom: 1px;
       padding: 2px 8px;
       pointer-events: all !important; }
-      /* line 274, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 267, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user ul.user-dropdown-menu li:hover, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu li:hover, .view-login header.header-global > nav ol.user ul.user-dropdown-menu li:hover,
       .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu li:hover,
       .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu li:hover,
@@ -605,7 +598,7 @@ body header.header-global > nav ol.user {
       body header.header-global > nav ol.user ul.user-dropdown-menu li:hover {
         background-color: #d7d6e4;
         color: #35363f !important; }
-      /* line 278, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 271, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user ul.user-dropdown-menu li a, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu li a, .view-login header.header-global > nav ol.user ul.user-dropdown-menu li a,
       .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu li a,
       .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu li a,

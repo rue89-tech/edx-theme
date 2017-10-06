@@ -76,26 +76,19 @@ body header.header-global.slim .course-header {
 	height: 0;
 }
 
-.view-login header.global-new > nav h1.logo a,
-.view-login header.header-global.slim > nav h1.logo a,
-.view-login header.header-global > nav h1.logo a,
-.view-passwordreset header.global-new > nav h1.logo a,
-.view-passwordreset header.header-global.slim > nav h1.logo a,
-.view-passwordreset header.header-global > nav h1.logo a,
-.view-register header.global-new > nav h1.logo a,
-.view-register header.header-global.slim > nav h1.logo a,
-.view-register header.header-global > nav h1.logo a,
-body header.global-new > nav h1.logo a,
-body header.header-global.slim > nav h1.logo a,
-body header.header-global > nav h1.logo a {
-	background-image: url('../images/logo-rue89-h.svg');
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 55px;
-	width: 265px;
+.view-login header.global-new > nav .logo,
+.view-login header.header-global.slim > nav .logo,
+.view-login header.header-global > nav .logo,
+.view-passwordreset header.global-new > nav .logo,
+.view-passwordreset header.header-global.slim > nav .logo,
+.view-passwordreset header.header-global > nav .logo,
+.view-register header.global-new > nav .logo,
+.view-register header.header-global.slim > nav .logo,
+.view-register header.header-global > nav .logo,
+body header.global-new > nav .logo,
+body header.header-global.slim > nav .logo,
+body header.header-global > nav .logo {
 	margin-top: 10px;
-	margin-bottom: 25px;
-	display: block;
 }
 
 .view-login header.global-new > nav h1.logo span,
