@@ -2456,7 +2456,7 @@ body.view-wiki .wiki-wrapper header {
   margin-top: 17px; }
 
 /* line 30, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-.dropdown-menu {
+.user-dropdown-menu, .dropdown-menu {
   pointer-events: none;
   border: none;
   width: auto;
@@ -2465,7 +2465,7 @@ body.view-wiki .wiki-wrapper header {
   z-index: 10;
   background-color: #fff; }
   /* line 39, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-  .dropdown-menu .dropdown-item {
+  .user-dropdown-menu .dropdown-item, .dropdown-menu .dropdown-item {
     pointer-events: all;
     min-height: 50px;
     background-color: #d7d6e4;
@@ -2474,7 +2474,7 @@ body.view-wiki .wiki-wrapper header {
     border-bottom: 2px solid #e5e9eb;
     padding: 2px 8px; }
     /* line 49, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    .dropdown-menu .dropdown-item .action, .dropdown-menu .dropdown-item .action:hover, .dropdown-menu .dropdown-item .action:focus, .dropdown-menu .dropdown-item .action:active {
+    .user-dropdown-menu .dropdown-item .action, .user-dropdown-menu .dropdown-item .action:hover, .user-dropdown-menu .dropdown-item .action:focus, .user-dropdown-menu .dropdown-item .action:active, .dropdown-menu .dropdown-item .action, .dropdown-menu .dropdown-item .action:hover, .dropdown-menu .dropdown-item .action:focus, .dropdown-menu .dropdown-item .action:active {
       background: none;
       display: block;
       height: auto;
@@ -3423,8 +3423,8 @@ body.discussion .discussion-post .post-header-actions,
       background-color: #fff !important;
       color: #8d8f9e !important; }
 
-/* line 835, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-body.discussion header.header-global nav .wrapper-user-menu {
+/* line 837, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+body header.header-global nav .wrapper-user-menu {
   height: 50px;
   width: auto !important;
   min-width: 177px !important;
@@ -3443,37 +3443,37 @@ body.discussion header.header-global nav .wrapper-user-menu {
   border-bottom-color: #8d8f9e !important;
   background-color: #f0eff4 !important;
   color: #000 !important; }
-  /* line 837, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-  body.discussion header.header-global nav .wrapper-user-menu .menu-title {
+  /* line 839, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  body header.header-global nav .wrapper-user-menu .menu-title {
     display: none; }
   /* line 21, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
-  body.discussion header.header-global nav .wrapper-user-menu:active, body.discussion header.header-global nav .wrapper-user-menu:focus {
+  body header.header-global nav .wrapper-user-menu:active, body header.header-global nav .wrapper-user-menu:focus {
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
-    /* line 835, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu {
+    /* line 837, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu {
       min-height: 50px;
       height: auto !important; } }
   /* line 36, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
-  body.discussion header.header-global nav .wrapper-user-menu:hover {
+  body header.header-global nav .wrapper-user-menu:hover {
     border-color: #8d8f9e !important;
     background-color: #fff !important;
     color: #8d8f9e !important; }
-  /* line 842, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-  body.discussion header.header-global nav .wrapper-user-menu .user-dropdown-menu {
+  /* line 844, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  body header.header-global nav .wrapper-user-menu .dropdown-menu {
     position: absolute;
     height: 44px !important;
     width: 175px;
     top: 0;
     left: 0; }
-    /* line 848, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu .user-dropdown-menu.active {
+    /* line 850, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu .dropdown-menu.active {
       color: #8d8f9e; }
-    /* line 851, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu .user-dropdown-menu .fa {
+    /* line 853, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu .dropdown-menu .fa {
       display: none; }
-    /* line 854, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu .user-dropdown-menu:before {
+    /* line 856, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu .dropdown-menu:before {
       content: 'Mon compte';
       text-transform: uppercase;
       font-family: 'Montserrat';
@@ -3488,8 +3488,8 @@ body.discussion header.header-global nav .wrapper-user-menu {
       padding-top: 11px;
       padding-left: 17px;
       text-align: left; }
-    /* line 870, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu .user-dropdown-menu:after {
+    /* line 872, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu .dropdown-menu:after {
       content: '\f078';
       font-family: FontAwesome;
       font-size: .8em;

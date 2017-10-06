@@ -27,7 +27,7 @@
 	}
 }
 
-.dropdown-menu {
+.user-dropdown-menu, .dropdown-menu {
 	pointer-events: none;
 	border: none;
 	width: auto;
@@ -831,7 +831,9 @@ body.discussion .course-tabs .right {
 	}
 }
 
-body.discussion header.header-global nav {
+// previously: body.discussion header.header-global nav
+// But these classes are not only used in Discussion but also in courseware
+body header.header-global nav {
 	.wrapper-user-menu {
 		height: 50px;
 		.menu-title {
@@ -839,7 +841,7 @@ body.discussion header.header-global nav {
 		}
 		@include button;
 		@include button-color($athens-gray, $manatee);
-		.user-dropdown-menu {
+		.dropdown-menu {
 			position: absolute;
 			height: 44px !important;
 			width: 175px;
