@@ -447,6 +447,13 @@
 			}
 		}
 	}
+
+	.form-actions {
+		.action-resume-course {
+			@include button;
+			@include button-color($vivid-tangerine, $sunglo, $white);
+		}
+	}
 }
 
 body #lean_overlay {

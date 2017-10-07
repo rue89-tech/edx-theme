@@ -1513,6 +1513,39 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
       padding: 0 15px; } }
 
 /* line 452, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+.content-wrapper .form-actions .action-resume-course {
+  width: auto !important;
+  min-width: 177px !important;
+  height: 50px !important;
+  padding-top: 11px !important;
+  font-family: 'Montserrat' !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  letter-spacing: -.01em !important;
+  text-transform: uppercase !important;
+  text-align: center;
+  border-width: 1px 1px 4px !important;
+  border-style: solid !important;
+  border-radius: 0 !important;
+  border-color: #ff9388 !important;
+  border-bottom-color: #e27774 !important;
+  background-color: #ff9388 !important;
+  color: #fff !important; }
+  /* line 21, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
+  .content-wrapper .form-actions .action-resume-course:active, .content-wrapper .form-actions .action-resume-course:focus {
+    box-shadow: none !important; }
+  @media screen and (max-width: 321px) {
+    /* line 452, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    .content-wrapper .form-actions .action-resume-course {
+      min-height: 50px;
+      height: auto !important; } }
+  /* line 36, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
+  .content-wrapper .form-actions .action-resume-course:hover {
+    border-color: #e27774 !important;
+    background-color: #fff !important;
+    color: #e27774 !important; }
+
+/* line 459, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 body #lean_overlay {
   opacity: 0 !important; }
 
