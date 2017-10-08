@@ -3376,42 +3376,46 @@ body.discussion .discussion-post .post-header-actions,
       display: none !important;
       width: 1px !important;
       height: 1px !important; }
-  /* line 796, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 795, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    .forum-new-post-form .post-type-label .field-input-label,
+    .edit-post-form .post-type-label .field-input-label {
+      color: black !important; }
+  /* line 799, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .post-type-label .input-radio + .field-input-label,
   .edit-post-form .post-type-label .input-radio + .field-input-label {
     opacity: 0.6; }
-  /* line 799, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 802, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .post-type-label .input-radio:checked + .field-input-label,
   .edit-post-form .post-type-label .input-radio:checked + .field-input-label {
     opacity: 1; }
-  /* line 803, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 806, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .post-topic-button,
   .edit-post-form .post-topic-button {
     border: none !important;
     box-shadow: none !important;
     border-radius: none; }
-    /* line 806, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 809, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-new-post-form .post-topic-button, .forum-new-post-form .post-topic-button:hover, .forum-new-post-form .post-topic-button:focus,
     .edit-post-form .post-topic-button,
     .edit-post-form .post-topic-button:hover,
     .edit-post-form .post-topic-button:focus {
       background-image: none; }
-  /* line 813, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 816, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .post-field .field-input,
   .edit-post-form .post-field .field-input {
     box-shadow: none !important;
     border-radius: none; }
-  /* line 818, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 821, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .post-option,
   .edit-post-form .post-option {
     color: #8d8f9e !important; }
-    /* line 820, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 823, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-new-post-form .post-option:hover, .forum-new-post-form .post-option.is-enabled,
     .edit-post-form .post-option:hover,
     .edit-post-form .post-option.is-enabled {
       border-color: #8d8f9e !important;
       color: #000000 !important; }
-  /* line 826, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 829, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .submit,
   .forum-new-post-form .cancel,
   .edit-post-form .submit,
@@ -3442,14 +3446,14 @@ body.discussion .discussion-post .post-header-actions,
     .edit-post-form .cancel:focus {
       box-shadow: none !important; }
     @media screen and (max-width: 321px) {
-      /* line 826, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 829, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       .forum-new-post-form .submit,
       .forum-new-post-form .cancel,
       .edit-post-form .submit,
       .edit-post-form .cancel {
         min-height: 50px;
         height: auto !important; } }
-  /* line 833, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 836, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .submit,
   .edit-post-form .submit {
     border-color: #ff9388 !important;
@@ -3462,7 +3466,7 @@ body.discussion .discussion-post .post-header-actions,
       border-color: #e27774 !important;
       background-color: #fff !important;
       color: #e27774 !important; }
-  /* line 836, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 839, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .cancel,
   .edit-post-form .cancel {
     border-color: #d7d6e4 !important;
@@ -3477,7 +3481,7 @@ body.discussion .discussion-post .post-header-actions,
       background-color: #fff !important;
       color: #8d8f9e !important; }
 
-/* line 845, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 848, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 body header.header-global nav .wrapper-user-menu {
   height: 50px;
   width: auto !important;
@@ -3497,14 +3501,14 @@ body header.header-global nav .wrapper-user-menu {
   border-bottom-color: #8d8f9e !important;
   background-color: #f0eff4 !important;
   color: #000 !important; }
-  /* line 847, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 850, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   body header.header-global nav .wrapper-user-menu .menu-title {
     display: none; }
   /* line 21, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
   body header.header-global nav .wrapper-user-menu:active, body header.header-global nav .wrapper-user-menu:focus {
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
-    /* line 845, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 848, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     body header.header-global nav .wrapper-user-menu {
       min-height: 50px;
       height: auto !important; } }
@@ -3513,20 +3517,20 @@ body header.header-global nav .wrapper-user-menu {
     border-color: #8d8f9e !important;
     background-color: #fff !important;
     color: #8d8f9e !important; }
-  /* line 852, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 855, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   body header.header-global nav .wrapper-user-menu .dropdown-menu {
     position: absolute;
     height: 44px !important;
     width: 175px;
     top: 0;
     left: 0; }
-    /* line 858, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 861, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     body header.header-global nav .wrapper-user-menu .dropdown-menu.active {
       color: #8d8f9e; }
-    /* line 861, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 864, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     body header.header-global nav .wrapper-user-menu .dropdown-menu .fa {
       display: none; }
-    /* line 864, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 867, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     body header.header-global nav .wrapper-user-menu .dropdown-menu:before {
       content: 'Mon compte';
       text-transform: uppercase;
@@ -3542,7 +3546,7 @@ body header.header-global nav .wrapper-user-menu {
       padding-top: 11px;
       padding-left: 17px;
       text-align: left; }
-    /* line 880, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 883, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     body header.header-global nav .wrapper-user-menu .dropdown-menu:after {
       content: '\f078';
       font-family: FontAwesome;
