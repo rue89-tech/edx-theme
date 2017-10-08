@@ -782,10 +782,16 @@ body.discussion .course-tabs .right {
 		min-width: 0 !important;
 		width: 120px;
 		height: 40px !important;
-		padding-top: 1px !important;
+		padding: 10px !important;
 		font-size: .9em !important;
+		vertical-align: middle !important;
 		.icon {
 			display: none !important;
+		}
+		input {
+			display: none !important;
+			width:1px !important;
+			height:1px !important;
 		}
 	}
 	.post-type-input:checked + .post-type-label {
