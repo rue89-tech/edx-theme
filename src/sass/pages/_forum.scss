@@ -776,7 +776,6 @@ body.discussion .course-tabs .right {
 	.post-type-label {
 		@include button;
 		@include button-color($vivid-tangerine, $sunglo);
-		opacity: .6;
 		box-shadow: none;
 		background-image: none;
 		min-width: 0 !important;
@@ -794,10 +793,13 @@ body.discussion .course-tabs .right {
 			height:1px !important;
 		}
 	}
-	.post-type-input:checked + .post-type-label {
-		opacity: 1;
-		box-shadow: none;
+	.post-type-label .input-radio + .field-input-label {
+		opacity: 0.6;
 	}
+	.post-type-label .input-radio:checked + .field-input-label {
+		opacity: 1;
+	}
+
 	.post-topic-button {
 		@include reset-border-shadow;
 		border-radius: none;
