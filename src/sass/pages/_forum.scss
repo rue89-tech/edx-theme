@@ -139,8 +139,9 @@ body.discussion .course-tabs .right {
             box-shadow: none;
             display: inline-block;
             position: relative;
-            right: 0;
-            float: right;
+            right: 8px;
+            top: -22px;
+            float: left;
             content: "Bienvenue!";
             margin-top: -84px;
             visibility: visible;
