@@ -27,7 +27,7 @@
 	}
 }
 
-.dropdown-menu {
+.user-dropdown-menu, .dropdown-menu {
 	pointer-events: none;
 	border: none;
 	width: auto;
@@ -139,8 +139,9 @@ body.discussion .course-tabs .right {
             box-shadow: none;
             display: inline-block;
             position: relative;
-            right: 0;
-            float: right;
+            right: 8px;
+            top: -22px;
+            float: left;
             content: "Bienvenue!";
             margin-top: -84px;
             visibility: visible;
@@ -776,22 +777,33 @@ body.discussion .course-tabs .right {
 	.post-type-label {
 		@include button;
 		@include button-color($vivid-tangerine, $sunglo);
-		opacity: .6;
 		box-shadow: none;
 		background-image: none;
 		min-width: 0 !important;
 		width: 120px;
 		height: 40px !important;
-		padding-top: 1px !important;
+		padding: 10px !important;
 		font-size: .9em !important;
+		vertical-align: middle !important;
 		.icon {
 			display: none !important;
 		}
+		input {
+			display: none !important;
+			width:1px !important;
+			height:1px !important;
+		}
+		.field-input-label {
+			color: black !important;
+		}
 	}
-	.post-type-input:checked + .post-type-label {
+	.post-type-label .input-radio + .field-input-label {
+		opacity: 0.6;
+	}
+	.post-type-label .input-radio:checked + .field-input-label {
 		opacity: 1;
-		box-shadow: none;
 	}
+
 	.post-topic-button {
 		@include reset-border-shadow;
 		border-radius: none;
@@ -831,7 +843,9 @@ body.discussion .course-tabs .right {
 	}
 }
 
-body.discussion header.header-global nav {
+// previously: body.discussion header.header-global nav
+// But these classes are not only used in Discussion but also in courseware
+body header.header-global nav {
 	.wrapper-user-menu {
 		height: 50px;
 		.menu-title {

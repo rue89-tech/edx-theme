@@ -3,6 +3,21 @@
 }
 
 .content-wrapper {
+
+	header form.search-form {
+		button.search-button {
+			margin-left: 2px;
+			border-radius: 3px;
+			color: #0079bc;
+			border-color: #0079bc;
+			background-color: white;
+			&:hover {
+				color: white;
+				background-color: #0079bc;
+			}
+		}
+	}
+
 	section.course-info {
 		 header.course-profile {
 		 	background-color: $athens-gray;
@@ -445,6 +460,13 @@
 				width: 100%;
 				padding: 0 15px;
 			}
+		}
+	}
+
+	.form-actions {
+		.action-resume-course {
+			@include button;
+			@include button-color($vivid-tangerine, $sunglo, $white);
 		}
 	}
 }

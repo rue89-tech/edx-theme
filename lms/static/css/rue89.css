@@ -170,28 +170,21 @@ body header.header-global.slim .course-header {
   height: 0; }
 
 /* line 79, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-.view-login header.global-new > nav h1.logo a,
-.view-login header.header-global.slim > nav h1.logo a,
-.view-login header.header-global > nav h1.logo a,
-.view-passwordreset header.global-new > nav h1.logo a,
-.view-passwordreset header.header-global.slim > nav h1.logo a,
-.view-passwordreset header.header-global > nav h1.logo a,
-.view-register header.global-new > nav h1.logo a,
-.view-register header.header-global.slim > nav h1.logo a,
-.view-register header.header-global > nav h1.logo a,
-body header.global-new > nav h1.logo a,
-body header.header-global.slim > nav h1.logo a,
-body header.header-global > nav h1.logo a {
-  background-image: url("../images/logo-rue89-h.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 55px;
-  width: 265px;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  display: block; }
+.view-login header.global-new > nav .logo,
+.view-login header.header-global.slim > nav .logo,
+.view-login header.header-global > nav .logo,
+.view-passwordreset header.global-new > nav .logo,
+.view-passwordreset header.header-global.slim > nav .logo,
+.view-passwordreset header.header-global > nav .logo,
+.view-register header.global-new > nav .logo,
+.view-register header.header-global.slim > nav .logo,
+.view-register header.header-global > nav .logo,
+body header.global-new > nav .logo,
+body header.header-global.slim > nav .logo,
+body header.header-global > nav .logo {
+  margin-top: 10px; }
 
-/* line 101, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+/* line 94, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
 .view-login header.global-new > nav h1.logo span,
 .view-login header.header-global.slim > nav h1.logo span,
 .view-login header.header-global > nav h1.logo span,
@@ -209,58 +202,58 @@ body header.header-global > nav h1.logo span {
   text-indent: -9000px;
   display: block; }
 
-/* line 120, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+/* line 113, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
 body header.header-global > nav.wrapper-header {
   height: auto;
   padding: 15px; }
   @media screen and (max-width: 1201px) {
-    /* line 120, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 113, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header {
       width: 920px;
       margin-left: auto;
       margin-right: auto; } }
   @media screen and (max-width: 993px) {
-    /* line 120, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 113, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header {
       width: 750px;
       margin-left: auto;
       margin-right: auto; } }
   @media screen and (max-width: 769px) {
-    /* line 120, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 113, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header {
       width: auto;
       padding-left: 8px !important;
       padding-right: 8px !important; } }
-  /* line 138, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  /* line 131, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
   body header.header-global > nav.wrapper-header .nav-global {
     height: 50px !important;
     margin-top: 17px;
     float: left; }
-    /* line 142, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 135, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header .nav-global.authenticated {
       margin-top: 17px;
       display: block !important; }
       @media screen and (max-width: 1201px) {
-        /* line 142, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+        /* line 135, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
         body header.header-global > nav.wrapper-header .nav-global.authenticated {
           clear: both;
           margin-top: 24px;
           margin-left: 0; } }
     @media screen and (max-width: 1201px) {
-      /* line 138, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 131, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       body header.header-global > nav.wrapper-header .nav-global {
         margin-left: 276px; } }
     @media screen and (max-width: 993px) {
-      /* line 138, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 131, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       body header.header-global > nav.wrapper-header .nav-global {
         margin-left: 57px; } }
     @media screen and (max-width: 769px) {
-      /* line 138, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 131, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       body header.header-global > nav.wrapper-header .nav-global {
         float: none !important;
         margin-left: auto !important;
         margin-right: auto !important; } }
-    /* line 160, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 153, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header .nav-global a {
       color: #000000;
       text-transform: uppercase;
@@ -287,7 +280,7 @@ body header.header-global > nav.wrapper-header {
       body header.header-global > nav.wrapper-header .nav-global a:active, body header.header-global > nav.wrapper-header .nav-global a:focus {
         box-shadow: none !important; }
       @media screen and (max-width: 321px) {
-        /* line 160, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+        /* line 153, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
         body header.header-global > nav.wrapper-header .nav-global a {
           min-height: 50px;
           height: auto !important; } }
@@ -296,15 +289,15 @@ body header.header-global > nav.wrapper-header {
         border-color: #0cc5a6 !important;
         background-color: #fff !important;
         color: #0cc5a6 !important; }
-    /* line 168, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 161, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     body header.header-global > nav.wrapper-header .nav-global li:first-child, body header.header-global > nav.wrapper-header .nav-global li:last-child {
       padding: 0;
       margin: 0; }
-  /* line 173, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  /* line 166, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
   body header.header-global > nav.wrapper-header .doc-link {
     display: none; }
 
-/* line 181, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+/* line 174, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
 .btn.btn-login,
 .btn.btn-register {
   color: #fff !important;
@@ -331,7 +324,7 @@ body header.header-global > nav.wrapper-header {
   .btn.btn-register:focus {
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
-    /* line 181, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 174, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .btn.btn-login,
     .btn.btn-register {
       min-height: 50px;
@@ -344,14 +337,14 @@ body header.header-global > nav.wrapper-header {
     color: #e27774 !important; }
 
 @media screen and (max-width: 1201px) {
-  /* line 189, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  /* line 182, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
   header.header-global .nav-courseware,
   header.header-global .user {
     float: none !important;
     clear: both;
     padding-top: 15px; } }
 
-/* line 209, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+/* line 202, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
 .view-login header.global-new > nav ol.user, .view-login header.header-global.slim > nav ol.user, .view-login header.header-global > nav ol.user,
 .view-passwordreset header.global-new > nav ol.user,
 .view-passwordreset header.header-global.slim > nav ol.user,
@@ -364,7 +357,7 @@ body header.header-global.slim > nav ol.user,
 body header.header-global > nav ol.user {
   margin-top: 17px; }
   @media screen and (max-width: 769px) {
-    /* line 209, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 202, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .view-login header.global-new > nav ol.user, .view-login header.header-global.slim > nav ol.user, .view-login header.header-global > nav ol.user,
     .view-passwordreset header.global-new > nav ol.user,
     .view-passwordreset header.header-global.slim > nav ol.user,
@@ -376,7 +369,7 @@ body header.header-global > nav ol.user {
     body header.header-global.slim > nav ol.user,
     body header.header-global > nav ol.user {
       padding: 0; } }
-  /* line 214, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  /* line 207, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
   .view-login header.global-new > nav ol.user > li.primary, .view-login header.header-global.slim > nav ol.user > li.primary, .view-login header.header-global > nav ol.user > li.primary,
   .view-passwordreset header.global-new > nav ol.user > li.primary,
   .view-passwordreset header.header-global.slim > nav ol.user > li.primary,
@@ -405,7 +398,7 @@ body header.header-global > nav ol.user {
     border-bottom-color: #8d8f9e !important;
     background-color: #f0eff4 !important;
     color: #000 !important; }
-    /* line 216, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    /* line 209, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
     .view-login header.global-new > nav ol.user > li.primary:first-child, .view-login header.header-global.slim > nav ol.user > li.primary:first-child, .view-login header.header-global > nav ol.user > li.primary:first-child,
     .view-passwordreset header.global-new > nav ol.user > li.primary:first-child,
     .view-passwordreset header.header-global.slim > nav ol.user > li.primary:first-child,
@@ -439,7 +432,7 @@ body header.header-global > nav ol.user {
     body header.header-global > nav ol.user > li.primary:focus {
       box-shadow: none !important; }
     @media screen and (max-width: 321px) {
-      /* line 214, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      /* line 207, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
       .view-login header.global-new > nav ol.user > li.primary, .view-login header.header-global.slim > nav ol.user > li.primary, .view-login header.header-global > nav ol.user > li.primary,
       .view-passwordreset header.global-new > nav ol.user > li.primary,
       .view-passwordreset header.header-global.slim > nav ol.user > li.primary,
@@ -466,57 +459,57 @@ body header.header-global > nav ol.user {
       border-color: #8d8f9e !important;
       background-color: #fff !important;
       color: #8d8f9e !important; }
-    /* line 221, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-    .view-login header.global-new > nav ol.user > li.primary .dropdown, .view-login header.header-global.slim > nav ol.user > li.primary .dropdown, .view-login header.header-global > nav ol.user > li.primary .dropdown,
-    .view-passwordreset header.global-new > nav ol.user > li.primary .dropdown,
-    .view-passwordreset header.header-global.slim > nav ol.user > li.primary .dropdown,
-    .view-passwordreset header.header-global > nav ol.user > li.primary .dropdown,
-    .view-register header.global-new > nav ol.user > li.primary .dropdown,
-    .view-register header.header-global.slim > nav ol.user > li.primary .dropdown,
-    .view-register header.header-global > nav ol.user > li.primary .dropdown,
-    body header.global-new > nav ol.user > li.primary .dropdown,
-    body header.header-global.slim > nav ol.user > li.primary .dropdown,
-    body header.header-global > nav ol.user > li.primary .dropdown {
+    /* line 214, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    .view-login header.global-new > nav ol.user > li.primary .user-dropdown, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown, .view-login header.header-global > nav ol.user > li.primary .user-dropdown,
+    .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown,
+    .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown,
+    .view-passwordreset header.header-global > nav ol.user > li.primary .user-dropdown,
+    .view-register header.global-new > nav ol.user > li.primary .user-dropdown,
+    .view-register header.header-global.slim > nav ol.user > li.primary .user-dropdown,
+    .view-register header.header-global > nav ol.user > li.primary .user-dropdown,
+    body header.global-new > nav ol.user > li.primary .user-dropdown,
+    body header.header-global.slim > nav ol.user > li.primary .user-dropdown,
+    body header.header-global > nav ol.user > li.primary .user-dropdown {
       position: absolute;
       height: 44px !important;
       width: 175px;
       top: 0;
       left: 0; }
-      /* line 227, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-      .view-login header.global-new > nav ol.user > li.primary .dropdown.active, .view-login header.header-global.slim > nav ol.user > li.primary .dropdown.active, .view-login header.header-global > nav ol.user > li.primary .dropdown.active,
-      .view-passwordreset header.global-new > nav ol.user > li.primary .dropdown.active,
-      .view-passwordreset header.header-global.slim > nav ol.user > li.primary .dropdown.active,
-      .view-passwordreset header.header-global > nav ol.user > li.primary .dropdown.active,
-      .view-register header.global-new > nav ol.user > li.primary .dropdown.active,
-      .view-register header.header-global.slim > nav ol.user > li.primary .dropdown.active,
-      .view-register header.header-global > nav ol.user > li.primary .dropdown.active,
-      body header.global-new > nav ol.user > li.primary .dropdown.active,
-      body header.header-global.slim > nav ol.user > li.primary .dropdown.active,
-      body header.header-global > nav ol.user > li.primary .dropdown.active {
+      /* line 220, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      .view-login header.global-new > nav ol.user > li.primary .user-dropdown.active, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown.active, .view-login header.header-global > nav ol.user > li.primary .user-dropdown.active,
+      .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown.active,
+      .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown.active,
+      .view-passwordreset header.header-global > nav ol.user > li.primary .user-dropdown.active,
+      .view-register header.global-new > nav ol.user > li.primary .user-dropdown.active,
+      .view-register header.header-global.slim > nav ol.user > li.primary .user-dropdown.active,
+      .view-register header.header-global > nav ol.user > li.primary .user-dropdown.active,
+      body header.global-new > nav ol.user > li.primary .user-dropdown.active,
+      body header.header-global.slim > nav ol.user > li.primary .user-dropdown.active,
+      body header.header-global > nav ol.user > li.primary .user-dropdown.active {
         color: #8d8f9e; }
-      /* line 230, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-      .view-login header.global-new > nav ol.user > li.primary .dropdown .fa, .view-login header.header-global.slim > nav ol.user > li.primary .dropdown .fa, .view-login header.header-global > nav ol.user > li.primary .dropdown .fa,
-      .view-passwordreset header.global-new > nav ol.user > li.primary .dropdown .fa,
-      .view-passwordreset header.header-global.slim > nav ol.user > li.primary .dropdown .fa,
-      .view-passwordreset header.header-global > nav ol.user > li.primary .dropdown .fa,
-      .view-register header.global-new > nav ol.user > li.primary .dropdown .fa,
-      .view-register header.header-global.slim > nav ol.user > li.primary .dropdown .fa,
-      .view-register header.header-global > nav ol.user > li.primary .dropdown .fa,
-      body header.global-new > nav ol.user > li.primary .dropdown .fa,
-      body header.header-global.slim > nav ol.user > li.primary .dropdown .fa,
-      body header.header-global > nav ol.user > li.primary .dropdown .fa {
+      /* line 223, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      .view-login header.global-new > nav ol.user > li.primary .user-dropdown .fa, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown .fa, .view-login header.header-global > nav ol.user > li.primary .user-dropdown .fa,
+      .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown .fa,
+      .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown .fa,
+      .view-passwordreset header.header-global > nav ol.user > li.primary .user-dropdown .fa,
+      .view-register header.global-new > nav ol.user > li.primary .user-dropdown .fa,
+      .view-register header.header-global.slim > nav ol.user > li.primary .user-dropdown .fa,
+      .view-register header.header-global > nav ol.user > li.primary .user-dropdown .fa,
+      body header.global-new > nav ol.user > li.primary .user-dropdown .fa,
+      body header.header-global.slim > nav ol.user > li.primary .user-dropdown .fa,
+      body header.header-global > nav ol.user > li.primary .user-dropdown .fa {
         display: none; }
-      /* line 233, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-      .view-login header.global-new > nav ol.user > li.primary .dropdown::before, .view-login header.header-global.slim > nav ol.user > li.primary .dropdown::before, .view-login header.header-global > nav ol.user > li.primary .dropdown::before,
-      .view-passwordreset header.global-new > nav ol.user > li.primary .dropdown::before,
-      .view-passwordreset header.header-global.slim > nav ol.user > li.primary .dropdown::before,
-      .view-passwordreset header.header-global > nav ol.user > li.primary .dropdown::before,
-      .view-register header.global-new > nav ol.user > li.primary .dropdown::before,
-      .view-register header.header-global.slim > nav ol.user > li.primary .dropdown::before,
-      .view-register header.header-global > nav ol.user > li.primary .dropdown::before,
-      body header.global-new > nav ol.user > li.primary .dropdown::before,
-      body header.header-global.slim > nav ol.user > li.primary .dropdown::before,
-      body header.header-global > nav ol.user > li.primary .dropdown::before {
+      /* line 226, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      .view-login header.global-new > nav ol.user > li.primary .user-dropdown::before, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown::before, .view-login header.header-global > nav ol.user > li.primary .user-dropdown::before,
+      .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown::before,
+      .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown::before,
+      .view-passwordreset header.header-global > nav ol.user > li.primary .user-dropdown::before,
+      .view-register header.global-new > nav ol.user > li.primary .user-dropdown::before,
+      .view-register header.header-global.slim > nav ol.user > li.primary .user-dropdown::before,
+      .view-register header.header-global > nav ol.user > li.primary .user-dropdown::before,
+      body header.global-new > nav ol.user > li.primary .user-dropdown::before,
+      body header.header-global.slim > nav ol.user > li.primary .user-dropdown::before,
+      body header.header-global > nav ol.user > li.primary .user-dropdown::before {
         content: 'Mon compte';
         text-transform: uppercase;
         font-family: 'Montserrat';
@@ -531,91 +524,91 @@ body header.header-global > nav ol.user {
         padding-top: 11px;
         padding-left: 17px;
         text-align: left; }
-      /* line 249, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-      .view-login header.global-new > nav ol.user > li.primary .dropdown::after, .view-login header.header-global.slim > nav ol.user > li.primary .dropdown::after, .view-login header.header-global > nav ol.user > li.primary .dropdown::after,
-      .view-passwordreset header.global-new > nav ol.user > li.primary .dropdown::after,
-      .view-passwordreset header.header-global.slim > nav ol.user > li.primary .dropdown::after,
-      .view-passwordreset header.header-global > nav ol.user > li.primary .dropdown::after,
-      .view-register header.global-new > nav ol.user > li.primary .dropdown::after,
-      .view-register header.header-global.slim > nav ol.user > li.primary .dropdown::after,
-      .view-register header.header-global > nav ol.user > li.primary .dropdown::after,
-      body header.global-new > nav ol.user > li.primary .dropdown::after,
-      body header.header-global.slim > nav ol.user > li.primary .dropdown::after,
-      body header.header-global > nav ol.user > li.primary .dropdown::after {
+      /* line 242, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      .view-login header.global-new > nav ol.user > li.primary .user-dropdown::after, .view-login header.header-global.slim > nav ol.user > li.primary .user-dropdown::after, .view-login header.header-global > nav ol.user > li.primary .user-dropdown::after,
+      .view-passwordreset header.global-new > nav ol.user > li.primary .user-dropdown::after,
+      .view-passwordreset header.header-global.slim > nav ol.user > li.primary .user-dropdown::after,
+      .view-passwordreset header.header-global > nav ol.user > li.primary .user-dropdown::after,
+      .view-register header.global-new > nav ol.user > li.primary .user-dropdown::after,
+      .view-register header.header-global.slim > nav ol.user > li.primary .user-dropdown::after,
+      .view-register header.header-global > nav ol.user > li.primary .user-dropdown::after,
+      body header.global-new > nav ol.user > li.primary .user-dropdown::after,
+      body header.header-global.slim > nav ol.user > li.primary .user-dropdown::after,
+      body header.header-global > nav ol.user > li.primary .user-dropdown::after {
         content: '\f078';
         font-family: FontAwesome;
         font-size: .8em;
         position: absolute;
         top: 11px;
         right: 11px; }
-  /* line 259, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-  .view-login header.global-new > nav ol.user ul.dropdown-menu, .view-login header.header-global.slim > nav ol.user ul.dropdown-menu, .view-login header.header-global > nav ol.user ul.dropdown-menu,
-  .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu,
-  .view-passwordreset header.header-global.slim > nav ol.user ul.dropdown-menu,
-  .view-passwordreset header.header-global > nav ol.user ul.dropdown-menu,
-  .view-register header.global-new > nav ol.user ul.dropdown-menu,
-  .view-register header.header-global.slim > nav ol.user ul.dropdown-menu,
-  .view-register header.header-global > nav ol.user ul.dropdown-menu,
-  body header.global-new > nav ol.user ul.dropdown-menu,
-  body header.header-global.slim > nav ol.user ul.dropdown-menu,
-  body header.header-global > nav ol.user ul.dropdown-menu {
+  /* line 252, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+  .view-login header.global-new > nav ol.user ul.user-dropdown-menu, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu, .view-login header.header-global > nav ol.user ul.user-dropdown-menu,
+  .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu,
+  .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu,
+  .view-passwordreset header.header-global > nav ol.user ul.user-dropdown-menu,
+  .view-register header.global-new > nav ol.user ul.user-dropdown-menu,
+  .view-register header.header-global.slim > nav ol.user ul.user-dropdown-menu,
+  .view-register header.header-global > nav ol.user ul.user-dropdown-menu,
+  body header.global-new > nav ol.user ul.user-dropdown-menu,
+  body header.header-global.slim > nav ol.user ul.user-dropdown-menu,
+  body header.header-global > nav ol.user ul.user-dropdown-menu {
     left: 0;
     top: 50px;
     border-radius: 0;
     border: none;
     z-index: 10; }
-    /* line 265, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-    .view-login header.global-new > nav ol.user ul.dropdown-menu.expanded, .view-login header.header-global.slim > nav ol.user ul.dropdown-menu.expanded, .view-login header.header-global > nav ol.user ul.dropdown-menu.expanded,
-    .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu.expanded,
-    .view-passwordreset header.header-global.slim > nav ol.user ul.dropdown-menu.expanded,
-    .view-passwordreset header.header-global > nav ol.user ul.dropdown-menu.expanded,
-    .view-register header.global-new > nav ol.user ul.dropdown-menu.expanded,
-    .view-register header.header-global.slim > nav ol.user ul.dropdown-menu.expanded,
-    .view-register header.header-global > nav ol.user ul.dropdown-menu.expanded,
-    body header.global-new > nav ol.user ul.dropdown-menu.expanded,
-    body header.header-global.slim > nav ol.user ul.dropdown-menu.expanded,
-    body header.header-global > nav ol.user ul.dropdown-menu.expanded {
+    /* line 258, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    .view-login header.global-new > nav ol.user ul.user-dropdown-menu.expanded, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu.expanded, .view-login header.header-global > nav ol.user ul.user-dropdown-menu.expanded,
+    .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu.expanded,
+    .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu.expanded,
+    .view-passwordreset header.header-global > nav ol.user ul.user-dropdown-menu.expanded,
+    .view-register header.global-new > nav ol.user ul.user-dropdown-menu.expanded,
+    .view-register header.header-global.slim > nav ol.user ul.user-dropdown-menu.expanded,
+    .view-register header.header-global > nav ol.user ul.user-dropdown-menu.expanded,
+    body header.global-new > nav ol.user ul.user-dropdown-menu.expanded,
+    body header.header-global.slim > nav ol.user ul.user-dropdown-menu.expanded,
+    body header.header-global > nav ol.user ul.user-dropdown-menu.expanded {
       padding: 0; }
-    /* line 268, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-    .view-login header.global-new > nav ol.user ul.dropdown-menu li, .view-login header.header-global.slim > nav ol.user ul.dropdown-menu li, .view-login header.header-global > nav ol.user ul.dropdown-menu li,
-    .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li,
-    .view-passwordreset header.header-global.slim > nav ol.user ul.dropdown-menu li,
-    .view-passwordreset header.header-global > nav ol.user ul.dropdown-menu li,
-    .view-register header.global-new > nav ol.user ul.dropdown-menu li,
-    .view-register header.header-global.slim > nav ol.user ul.dropdown-menu li,
-    .view-register header.header-global > nav ol.user ul.dropdown-menu li,
-    body header.global-new > nav ol.user ul.dropdown-menu li,
-    body header.header-global.slim > nav ol.user ul.dropdown-menu li,
-    body header.header-global > nav ol.user ul.dropdown-menu li {
+    /* line 261, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+    .view-login header.global-new > nav ol.user ul.user-dropdown-menu li, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu li, .view-login header.header-global > nav ol.user ul.user-dropdown-menu li,
+    .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu li,
+    .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu li,
+    .view-passwordreset header.header-global > nav ol.user ul.user-dropdown-menu li,
+    .view-register header.global-new > nav ol.user ul.user-dropdown-menu li,
+    .view-register header.header-global.slim > nav ol.user ul.user-dropdown-menu li,
+    .view-register header.header-global > nav ol.user ul.user-dropdown-menu li,
+    body header.global-new > nav ol.user ul.user-dropdown-menu li,
+    body header.header-global.slim > nav ol.user ul.user-dropdown-menu li,
+    body header.header-global > nav ol.user ul.user-dropdown-menu li {
       min-height: 50px;
       background-color: #d7d6e4;
       margin-bottom: 1px;
       padding: 2px 8px;
       pointer-events: all !important; }
-      /* line 274, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-      .view-login header.global-new > nav ol.user ul.dropdown-menu li:hover, .view-login header.header-global.slim > nav ol.user ul.dropdown-menu li:hover, .view-login header.header-global > nav ol.user ul.dropdown-menu li:hover,
-      .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li:hover,
-      .view-passwordreset header.header-global.slim > nav ol.user ul.dropdown-menu li:hover,
-      .view-passwordreset header.header-global > nav ol.user ul.dropdown-menu li:hover,
-      .view-register header.global-new > nav ol.user ul.dropdown-menu li:hover,
-      .view-register header.header-global.slim > nav ol.user ul.dropdown-menu li:hover,
-      .view-register header.header-global > nav ol.user ul.dropdown-menu li:hover,
-      body header.global-new > nav ol.user ul.dropdown-menu li:hover,
-      body header.header-global.slim > nav ol.user ul.dropdown-menu li:hover,
-      body header.header-global > nav ol.user ul.dropdown-menu li:hover {
+      /* line 267, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      .view-login header.global-new > nav ol.user ul.user-dropdown-menu li:hover, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu li:hover, .view-login header.header-global > nav ol.user ul.user-dropdown-menu li:hover,
+      .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu li:hover,
+      .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu li:hover,
+      .view-passwordreset header.header-global > nav ol.user ul.user-dropdown-menu li:hover,
+      .view-register header.global-new > nav ol.user ul.user-dropdown-menu li:hover,
+      .view-register header.header-global.slim > nav ol.user ul.user-dropdown-menu li:hover,
+      .view-register header.header-global > nav ol.user ul.user-dropdown-menu li:hover,
+      body header.global-new > nav ol.user ul.user-dropdown-menu li:hover,
+      body header.header-global.slim > nav ol.user ul.user-dropdown-menu li:hover,
+      body header.header-global > nav ol.user ul.user-dropdown-menu li:hover {
         background-color: #d7d6e4;
         color: #35363f !important; }
-      /* line 278, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
-      .view-login header.global-new > nav ol.user ul.dropdown-menu li a, .view-login header.header-global.slim > nav ol.user ul.dropdown-menu li a, .view-login header.header-global > nav ol.user ul.dropdown-menu li a,
-      .view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li a,
-      .view-passwordreset header.header-global.slim > nav ol.user ul.dropdown-menu li a,
-      .view-passwordreset header.header-global > nav ol.user ul.dropdown-menu li a,
-      .view-register header.global-new > nav ol.user ul.dropdown-menu li a,
-      .view-register header.header-global.slim > nav ol.user ul.dropdown-menu li a,
-      .view-register header.header-global > nav ol.user ul.dropdown-menu li a,
-      body header.global-new > nav ol.user ul.dropdown-menu li a,
-      body header.header-global.slim > nav ol.user ul.dropdown-menu li a,
-      body header.header-global > nav ol.user ul.dropdown-menu li a {
+      /* line 271, /edx/app/edxapp/themes/rue89/src/sass/partials/_header.scss */
+      .view-login header.global-new > nav ol.user ul.user-dropdown-menu li a, .view-login header.header-global.slim > nav ol.user ul.user-dropdown-menu li a, .view-login header.header-global > nav ol.user ul.user-dropdown-menu li a,
+      .view-passwordreset header.global-new > nav ol.user ul.user-dropdown-menu li a,
+      .view-passwordreset header.header-global.slim > nav ol.user ul.user-dropdown-menu li a,
+      .view-passwordreset header.header-global > nav ol.user ul.user-dropdown-menu li a,
+      .view-register header.global-new > nav ol.user ul.user-dropdown-menu li a,
+      .view-register header.header-global.slim > nav ol.user ul.user-dropdown-menu li a,
+      .view-register header.header-global > nav ol.user ul.user-dropdown-menu li a,
+      body header.global-new > nav ol.user ul.user-dropdown-menu li a,
+      body header.header-global.slim > nav ol.user ul.user-dropdown-menu li a,
+      body header.header-global > nav ol.user ul.user-dropdown-menu li a {
         display: block;
         height: auto;
         min-height: 50px;
@@ -1028,7 +1021,19 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
 .container {
   min-width: 0 !important; }
 
-/* line 7, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 8, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+.content-wrapper header form.search-form button.search-button {
+  margin-left: 2px;
+  border-radius: 3px;
+  color: #0079bc;
+  border-color: #0079bc;
+  background-color: white; }
+  /* line 14, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  .content-wrapper header form.search-form button.search-button:hover {
+    color: white;
+    background-color: #0079bc; }
+
+/* line 22, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info header.course-profile {
   background-color: #f0eff4;
   padding-top: 37px;
@@ -1041,46 +1046,46 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
   border: none !important;
   box-shadow: none !important; }
   @media screen and (max-width: 1201px) {
-    /* line 7, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 22, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info header.course-profile {
       width: 970px;
       margin-left: auto;
       margin-right: auto; } }
   @media screen and (max-width: 993px) {
-    /* line 7, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 22, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info header.course-profile {
       width: 760px; } }
   @media screen and (max-width: 769px) {
-    /* line 7, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 22, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info header.course-profile {
       width: 100%; } }
-  /* line 28, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 43, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info header.course-profile .intro-inner-wrapper {
     background-color: #fff;
     max-width: 1170px;
     min-width: 0;
     border: none !important;
     box-shadow: none !important; }
-    /* line 33, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 48, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table {
       background-color: #fff;
       border-radius: 0; }
       @media screen and (max-width: 1201px) {
-        /* line 33, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 48, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table {
           display: block;
           padding-bottom: 50px; } }
-      /* line 40, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 55, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro {
         width: 100%;
         float: none;
         padding-top: 35px;
         padding-bottom: 0;
         display: block; }
-        /* line 46, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 61, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro hgroup {
           border: none; }
-          /* line 48, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 63, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro hgroup h1 {
             font-size: 50px;
             line-height: 66px;
@@ -1091,7 +1096,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             display: block;
             margin-left: auto;
             margin-right: auto; }
-        /* line 58, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 73, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .heading-group button {
           margin-left: 15px;
           margin-top: 20px;
@@ -1102,7 +1107,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
           text-shadow: none;
           font: italic 700 0.6em/1em "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
           padding: 0; }
-        /* line 69, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 84, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
           background-color: #ff9388;
           position: relative;
@@ -1134,7 +1139,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:active, .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:focus {
             box-shadow: none !important; }
           @media screen and (max-width: 321px) {
-            /* line 69, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 84, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
               min-height: 50px;
               height: auto !important; } }
@@ -1144,17 +1149,17 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             background-color: #fff !important;
             color: #e27774 !important; }
           @media screen and (max-width: 1201px) {
-            /* line 69, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 84, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
               left: 30px;
               top: 655px; } }
           @media screen and (max-width: 769px) {
-            /* line 69, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 84, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
               left: -5px;
               top: 455px; } }
           @media screen and (max-width: 321px) {
-            /* line 69, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 84, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta {
               top: 275px;
               left: 0;
@@ -1162,7 +1167,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
               width: auto !important;
               padding-left: 10px;
               padding-right: 10px; } }
-          /* line 97, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 112, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled {
             bottom: 3px !important;
             padding-top: 10px !important;
@@ -1170,11 +1175,11 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             min-height: 100% !important;
             height: auto !important;
             position: relative; }
-            /* line 104, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 119, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled:hover {
               cursor: default;
               color: #d7d6e4 !important; }
-          /* line 109, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 124, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register {
             color: #fff;
@@ -1186,13 +1191,13 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             border: none;
             background-color: transparent;
             opacity: 1; }
-            /* line 120, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 135, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register.disabled.disabled:hover,
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > span.register:hover {
               color: #ff9388;
               background-color: transparent;
               border: none; }
-          /* line 126, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 141, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta > a.find-courses,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart {
@@ -1208,17 +1213,17 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             padding-top: 3px;
             border: none !important;
             box-shadow: none !important; }
-          /* line 141, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 156, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register {
             text-indent: -9999px;
             line-height: 0; }
-            /* line 144, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 159, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register::after {
               content: "S'inscrire";
               text-indent: 0;
               display: block;
               line-height: initial; }
-          /* line 151, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 166, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta span.register {
             border: none;
             background-color: transparent;
@@ -1228,7 +1233,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             position: absolute;
             bottom: -2.5em;
             width: 100%; }
-          /* line 161, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 176, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta strong {
             border: none !important;
             box-shadow: none !important;
@@ -1238,15 +1243,15 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             width: 100%;
             background: transparent;
             padding-top: 6px; }
-          /* line 171, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 186, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover > a.find-courses,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover a.register,
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover a.add-to-cart {
             color: #ff9388; }
-          /* line 176, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 191, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta:hover strong {
             color: #ff9388; }
-      /* line 182, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 197, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media {
         width: 1067px;
         height: 580px;
@@ -1256,23 +1261,23 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
         margin-left: auto;
         margin-right: auto; }
         @media screen and (max-width: 1201px) {
-          /* line 182, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 197, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media {
             width: 100%; } }
         @media screen and (max-width: 769px) {
-          /* line 182, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 197, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media {
             height: 380px; } }
         @media screen and (max-width: 321px) {
-          /* line 182, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 197, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media {
             height: 200px; } }
-        /* line 197, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 212, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero {
           padding: 0;
           height: 100%;
           border: none; }
-          /* line 201, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 216, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero img {
             min-height: 100%;
             min-width: 90%;
@@ -1280,7 +1285,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             width: auto;
             margin-left: auto;
             margin-right: auto; }
-          /* line 209, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+          /* line 224, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
           .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero .play-intro {
             background-color: #fff;
             background-image: none;
@@ -1291,7 +1296,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
             box-shadow: none;
             margin-left: -48px;
             margin-top: -48px; }
-            /* line 219, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+            /* line 234, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
             .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .media .hero .play-intro::after {
               text-shadow: none;
               color: #35363f;
@@ -1301,7 +1306,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
               content: '\f04b';
               font-family: 'FontAwesome'; }
 
-/* line 234, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 249, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info .details {
   background-color: #fff;
   max-width: 100%;
@@ -1312,17 +1317,17 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
   margin-right: 0;
   font-size: 1.1em; }
   @media screen and (max-width: 769px) {
-    /* line 234, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 249, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .details {
       padding-left: 0px;
       padding-right: 0px; } }
-  /* line 247, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 262, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .details nav[aria-label="Course About"] {
     display: none; }
-  /* line 251, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 266, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .details .inner-wrapper section {
     margin-bottom: 60px; }
-    /* line 253, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 268, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .details .inner-wrapper section h1 {
       text-transform: uppercase;
       font-size: 27px !important;
@@ -1334,10 +1339,10 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
       margin-bottom: 50px;
       position: relative; }
       @media screen and (max-width: 321px) {
-        /* line 253, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 268, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info .details .inner-wrapper section h1 {
           font-size: 24px !important; } }
-      /* line 266, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 281, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section h1::before {
         display: block;
         content: "";
@@ -1349,14 +1354,14 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
         position: absolute;
         left: 0;
         top: 0; }
-      /* line 278, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 293, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section h1 + h3 {
         margin-top: 0; }
     @media screen and (max-width: 321px) {
-      /* line 282, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 297, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section h3 {
         font-size: 26px; } }
-  /* line 290, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 305, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher .teacher-image {
     border: none;
     margin: 55px 25px 10px 0;
@@ -1365,11 +1370,11 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
     width: 208px;
     overflow: hidden; }
     @media screen and (max-width: 769px) {
-      /* line 290, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 305, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher .teacher-image {
         width: 100%;
         margin-top: 0; } }
-    /* line 301, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 316, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher .teacher-image img {
       height: auto;
       width: 100%;
@@ -1377,7 +1382,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%); }
-  /* line 310, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 325, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher h3 {
     text-transform: uppercase;
     font-size: 24px;
@@ -1387,45 +1392,45 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
     left: -233px;
     margin-top: 0; }
     @media screen and (max-width: 769px) {
-      /* line 310, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 325, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .details .inner-wrapper section.course-staff .teacher h3 {
         width: auto;
         left: 0; } }
 
-/* line 327, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 342, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info .course-sidebar {
   width: 296px;
   padding-left: 0;
   padding-right: 0;
   margin-top: 100px; }
   @media screen and (max-width: 1201px) {
-    /* line 327, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 342, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .course-sidebar {
       margin-top: 0;
       width: 100%; } }
-  /* line 336, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 351, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .course-sidebar .course-summary {
     margin-bottom: 0;
     padding: 0;
     border: none !important;
     box-shadow: none !important; }
-    /* line 340, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 355, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .course-sidebar .course-summary header {
       border-bottom-color: #d7d6e4;
       margin-bottom: 42px; }
-      /* line 343, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 358, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .course-sidebar .course-summary header .social-sharing {
         display: none; }
-      /* line 346, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 361, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .course-sidebar .course-summary header::after {
         content: none; }
-    /* line 350, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 365, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .course-sidebar .course-summary .important-dates {
       background-color: #85f9d2;
       color: rgba(19, 38, 27, 0.5);
       padding: 32px 42px 52px;
       position: relative; }
-      /* line 355, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 370, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .course-sidebar .course-summary .important-dates::before {
         content: "";
         display: block;
@@ -1434,42 +1439,42 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
         right: 0;
         border-top: 48px solid #fff;
         border-left: 48px solid rgba(12, 244, 166, 0.5); }
-      /* line 364, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+      /* line 379, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
       .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li {
         border: none;
         margin-bottom: 0;
         padding-bottom: 0; }
-        /* line 368, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 383, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .icon {
           display: none; }
-        /* line 371, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 386, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-title,
         .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-text {
           float: none; }
-        /* line 375, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+        /* line 390, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
         .content-wrapper section.course-info .course-sidebar .course-summary .important-dates li .important-dates-item-title {
           margin-top: 15px;
           margin-bottom: 0; }
 
-/* line 383, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 398, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info ul {
   list-style-type: none;
   padding-left: 35px;
   border-left: 4px solid #85f9d2;
   margin-top: 10px;
   margin-bottom: 30px; }
-  /* line 389, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 404, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info ul li {
     margin-bottom: 15px; }
 
-/* line 394, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 409, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info .faq details {
   margin-bottom: 10px;
   cursor: pointer; }
-  /* line 398, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 413, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .faq details summary::-webkit-details-marker {
     display: none; }
-  /* line 401, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 416, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .faq details summary h3 {
     font-family: 'Droid Sans', sans-serif !important;
     font-size: 18px !important;
@@ -1479,7 +1484,7 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
     display: block !important;
     margin-top: 10px;
     margin-bottom: 0; }
-    /* line 410, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 425, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .faq details summary h3::before {
       content: "";
       display: block;
@@ -1491,35 +1496,68 @@ body .content-wrapper .container .course-wrapper .course-content .problems-wrapp
       border-top: 8px solid transparent;
       border-bottom: 8px solid transparent;
       border-left: 8px solid #85f9d2; }
-  /* line 424, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 439, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .faq details .answer {
     margin-bottom: 20px;
     padding-left: 20px; }
-  /* line 428, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+  /* line 443, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
   .content-wrapper section.course-info .faq details.open h3::before {
     transform: rotate(90deg); }
 
-/* line 433, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 448, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 .content-wrapper section.course-info .course-profile + .container {
   background-color: #fff;
   margin: 0 auto !important; }
   @media screen and (max-width: 1201px) {
-    /* line 433, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 448, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .course-profile + .container {
       width: 970px;
       margin-left: auto;
       margin-right: auto; } }
   @media screen and (max-width: 993px) {
-    /* line 433, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 448, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .course-profile + .container {
       width: 760px; } }
   @media screen and (max-width: 769px) {
-    /* line 433, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    /* line 448, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
     .content-wrapper section.course-info .course-profile + .container {
       width: 100%;
       padding: 0 15px; } }
 
-/* line 452, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+/* line 467, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+.content-wrapper .form-actions .action-resume-course {
+  width: auto !important;
+  min-width: 177px !important;
+  height: 50px !important;
+  padding-top: 11px !important;
+  font-family: 'Montserrat' !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  letter-spacing: -.01em !important;
+  text-transform: uppercase !important;
+  text-align: center;
+  border-width: 1px 1px 4px !important;
+  border-style: solid !important;
+  border-radius: 0 !important;
+  border-color: #ff9388 !important;
+  border-bottom-color: #e27774 !important;
+  background-color: #ff9388 !important;
+  color: #fff !important; }
+  /* line 21, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
+  .content-wrapper .form-actions .action-resume-course:active, .content-wrapper .form-actions .action-resume-course:focus {
+    box-shadow: none !important; }
+  @media screen and (max-width: 321px) {
+    /* line 467, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
+    .content-wrapper .form-actions .action-resume-course {
+      min-height: 50px;
+      height: auto !important; } }
+  /* line 36, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
+  .content-wrapper .form-actions .action-resume-course:hover {
+    border-color: #e27774 !important;
+    background-color: #fff !important;
+    color: #e27774 !important; }
+
+/* line 474, /edx/app/edxapp/themes/rue89/src/sass/pages/_course.scss */
 body #lean_overlay {
   opacity: 0 !important; }
 
@@ -2463,7 +2501,7 @@ body.view-wiki .wiki-wrapper header {
   margin-top: 17px; }
 
 /* line 30, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-.dropdown-menu {
+.user-dropdown-menu, .dropdown-menu {
   pointer-events: none;
   border: none;
   width: auto;
@@ -2472,7 +2510,7 @@ body.view-wiki .wiki-wrapper header {
   z-index: 10;
   background-color: #fff; }
   /* line 39, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-  .dropdown-menu .dropdown-item {
+  .user-dropdown-menu .dropdown-item, .dropdown-menu .dropdown-item {
     pointer-events: all;
     min-height: 50px;
     background-color: #d7d6e4;
@@ -2481,7 +2519,7 @@ body.view-wiki .wiki-wrapper header {
     border-bottom: 2px solid #e5e9eb;
     padding: 2px 8px; }
     /* line 49, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    .dropdown-menu .dropdown-item .action, .dropdown-menu .dropdown-item .action:hover, .dropdown-menu .dropdown-item .action:focus, .dropdown-menu .dropdown-item .action:active {
+    .user-dropdown-menu .dropdown-item .action, .user-dropdown-menu .dropdown-item .action:hover, .user-dropdown-menu .dropdown-item .action:focus, .user-dropdown-menu .dropdown-item .action:active, .dropdown-menu .dropdown-item .action, .dropdown-menu .dropdown-item .action:hover, .dropdown-menu .dropdown-item .action:focus, .dropdown-menu .dropdown-item .action:active {
       background: none;
       display: block;
       height: auto;
@@ -2582,8 +2620,9 @@ body.discussion .course-tabs .right {
     box-shadow: none;
     display: inline-block;
     position: relative;
-    right: 0;
-    float: right;
+    right: 8px;
+    top: -22px;
+    float: left;
     content: "Bienvenue!";
     margin-top: -84px;
     visibility: visible; }
@@ -2605,21 +2644,21 @@ body.discussion .course-tabs .right {
       .form-actions button.new-post-btn::after {
         margin-top: auto;
         float: none; } }
-    /* line 151, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 152, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .form-actions button.new-post-btn::after .icon {
       display: none; }
-    /* line 154, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 155, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .form-actions button.new-post-btn::after:hover {
       background-image: none; }
 
-/* line 162, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 163, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-search {
   margin-left: 4px; }
-  /* line 164, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 165, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-search .search-input {
     margin-top: 2px;
     margin-right: 2px; }
-  /* line 168, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 169, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-search .input-text[type="search"] + button {
     visibility: hidden;
     padding: 0;
@@ -2627,7 +2666,7 @@ body.discussion .course-tabs .right {
     width: 0;
     height: 0;
     right: 0; }
-    /* line 176, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 177, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-search .input-text[type="search"] + button::after {
       font: normal normal normal 14px/1 FontAwesome;
       font-size: inherit;
@@ -2643,37 +2682,37 @@ body.discussion .course-tabs .right {
       height: 30px;
       padding-top: 14px; }
 
-/* line 194, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 195, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .discussion-post {
   padding: 20px 40px 20px 40px !important; }
 
-/* line 198, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 199, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .tabs {
   padding-bottom: 15px !important; }
 
-/* line 202, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 203, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .page-content {
   padding: 0 !important; }
 
-/* line 206, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 207, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .container .discussion-body {
   background-color: #fff;
   border-radius: 0;
   padding: 4px;
   max-width: none; }
 
-/* line 213, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 214, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .discussion-board .page-header {
   padding: 4px 4px;
   margin: 4px 4px 4px 4px;
   border: none;
   background-color: #85f9d2; }
-  /* line 219, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 220, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .discussion-board .page-header .nav-item {
     font-size: 12pt;
     font-weight: normal; }
 
-/* line 226, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 227, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav {
   border: none;
   border-radius: 0;
@@ -2681,32 +2720,32 @@ body.discussion .course-tabs .right {
   padding: 0 !important;
   margin: 0 !important; }
   @media screen and (max-width: 993px) {
-    /* line 226, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 227, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-nav {
       width: 100%; } }
 
-/* line 237, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 238, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-header {
   background-color: #85f9d2;
   margin-bottom: 4px;
   border: none; }
 
-/* line 243, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 244, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-browse {
   text-align: left;
   color: #000000;
   height: 50px;
   padding: 1px 6px 1px 20px; }
-  /* line 248, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 249, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-browse .icon {
     display: none; }
-  /* line 251, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 252, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-browse:hover {
     background-color: #fff; }
-  /* line 254, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 255, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-browse:focus, .forum-nav-browse.is-active {
     background-color: transparent; }
-  /* line 258, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 259, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-browse::after {
     content: '\f078';
     font-family: 'FontAwesome';
@@ -2714,80 +2753,80 @@ body.discussion .course-tabs .right {
     color: #0cc5a6;
     padding-left: 5px; }
 
-/* line 267, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 268, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-browse-current {
   font-size: 16px; }
 
-/* line 271, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 272, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-browse-drop-arrow {
   display: none; }
 
-/* line 275, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 276, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-search {
   padding: 5px 10px 5px 5px; }
 
-/* line 279, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 280, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-search-input {
   border: none !important;
   border-radius: 0 !important; }
 
-/* line 284, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 285, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-thread-list-wrapper {
   overflow: hidden; }
 
-/* line 288, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 289, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-browse-menu-wrapper {
   border: none;
   background-color: #d7ffef;
   margin-top: -4px; }
 
-/* line 294, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 295, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-browse-filter {
   border: none;
   background-color: #85f9d2; }
-  /* line 297, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 298, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-browse-filter .icon {
     display: none; }
 
-/* line 302, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 303, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-browse-filter-input {
   border: none !important;
   border-radius: 0 !important;
   font-size: 14px !important; }
 
-/* line 308, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 309, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-browse-menu,
 .forum-nav-browse-submenu {
   overflow-y: auto;
   background-color: #fff; }
 
-/* line 314, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 315, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-browse-menu-item {
   background-color: #d7ffef;
   margin-bottom: 4px; }
 
-/* line 319, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 320, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-browse-title {
   border: none;
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 18px;
   color: #35363f; }
-  /* line 325, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 326, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-browse-title:hover, .forum-nav-browse-title:focus {
     background-color: transparent; }
-  /* line 329, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 330, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-browse-title:hover {
     text-decoration: underline !important; }
 
-/* line 334, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 335, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-refine-bar {
   margin-bottom: 4px;
   padding: 0;
   background-color: #fff;
   border: none; }
 
-/* line 341, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 342, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-filter-main,
 .forum-nav-filter-cohort,
 .forum-nav-sort {
@@ -2795,7 +2834,7 @@ body.discussion .course-tabs .right {
   height: 50px;
   position: relative;
   width: calc( 50% - 4px); }
-  /* line 348, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 349, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-filter-main::after,
   .forum-nav-filter-cohort::after,
   .forum-nav-sort::after {
@@ -2815,7 +2854,7 @@ body.discussion .course-tabs .right {
     background-color: #fff;
     border-bottom: 1px solid #85f9d2; }
 
-/* line 367, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 368, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-filter-main-control,
 .forum-nav-filter-cohort-control,
 .forum-nav-sort-control {
@@ -2823,7 +2862,7 @@ body.discussion .course-tabs .right {
   color: #35363f;
   height: 49px;
   width: 100%; }
-  /* line 374, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 375, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-filter-main-control option,
   .forum-nav-filter-cohort-control option,
   .forum-nav-sort-control option {
@@ -2832,40 +2871,40 @@ body.discussion .course-tabs .right {
     padding-top: 15px;
     background-color: #fff; }
 
-/* line 383, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 384, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-thread-list {
   overflow-y: auto; }
 
-/* line 386, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 387, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-nav-thread {
   border: none;
   border-bottom: 4px solid #fff; }
-  /* line 389, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 390, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-thread:last-child {
     border-bottom: none; }
-  /* line 392, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 393, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-nav-thread .forum-nav-thread-link {
     border: 0;
     height: 50px;
     background-color: #d7ffef;
     padding-top: 11px; }
-    /* line 397, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 398, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-nav-thread .forum-nav-thread-link.is-active, .forum-nav-thread .forum-nav-thread-link:hover, .forum-nav-thread .forum-nav-thread-link:focus {
       height: 50px;
       background-color: #d7ffef; }
-    /* line 403, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 404, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-nav-thread .forum-nav-thread-link .forum-nav-thread-wrapper-0 {
       display: none; }
-    /* line 406, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 407, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-nav-thread .forum-nav-thread-link .forum-nav-thread-title {
       font-size: 18px; }
-    /* line 409, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 410, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-nav-thread .forum-nav-thread-link .forum-nav-thread-labels {
       display: none; }
-    /* line 413, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 414, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-nav-thread .forum-nav-thread-link .forum-nav-thread-wrapper-1 .thread-preview-body {
       display: none; }
-    /* line 418, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 419, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-nav-thread .forum-nav-thread-link .forum-nav-thread-wrapper-2 .forum-nav-thread-comments-count {
       background-color: #85f9d2;
       height: 28px;
@@ -2874,7 +2913,7 @@ body.discussion .course-tabs .right {
       font-family: 'Montserrat';
       font-size: 18px;
       color: #1d1d1b; }
-      /* line 426, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 427, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       .forum-nav-thread .forum-nav-thread-link .forum-nav-thread-wrapper-2 .forum-nav-thread-comments-count::after {
         border-color: #85f9d2 transparent transparent;
         border-width: 13px 12px 0 0;
@@ -2882,31 +2921,31 @@ body.discussion .course-tabs .right {
         left: 5px;
         right: auto; }
 
-/* line 439, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 440, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .discussion-column {
   border: none !important;
   box-shadow: none !important;
   border-radius: 0;
   min-height: 400px !important; }
 
-/* line 444, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 445, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-content {
   overflow: hidden !important; }
 
-/* line 448, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 449, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .discussion-article {
   background-image: none !important;
   padding-top: 0 !important; }
   @media screen and (max-width: 993px) {
-    /* line 448, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 449, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .discussion-article {
       padding-left: 10px !important;
       padding-right: 10px !important;
       overflow-x: auto !important; } }
-  /* line 457, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 458, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .discussion-article .home-header .home-title {
     margin-top: 0 !important; }
-  /* line 461, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 462, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .discussion-article .label {
     color: #000000;
     font-size: 14px !important;
@@ -2914,21 +2953,21 @@ body.discussion .course-tabs .right {
     text-align: left;
     font-weight: 400;
     padding-left: 0; }
-  /* line 469, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 470, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .discussion-article .home-helpgrid {
     border: none !important;
     box-shadow: none !important; }
-    /* line 472, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 473, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .discussion-article .home-helpgrid .helpgrid-row .row-title {
       background-color: #d7d6e4; }
-    /* line 475, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 476, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .discussion-article .home-helpgrid .helpgrid-row .row-item {
       background-color: #f0eff4; }
-    /* line 479, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 480, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .discussion-article .home-helpgrid .notification-checkbox {
       border: none !important;
       border-radius: 0 !important; }
-  /* line 484, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 485, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .discussion-article .post-context {
     margin-top: 20px;
     font-size: 12px;
@@ -2937,37 +2976,37 @@ body.discussion .course-tabs .right {
     background-color: #f8f8f8;
     border-radius: 3px; }
 
-/* line 501, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 502, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 body.discussion .forum-thread-main-wrapper,
 .discussion-thread.expanded .forum-thread-main-wrapper {
   border: none !important;
   box-shadow: none !important;
   border-radius: 0; }
 
-/* line 514, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 515, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 body.discussion .discussion-post,
 .discussion-module .discussion-post,
 .discussion-user-threads .discussion-post {
   padding-top: 10px; }
   @media screen and (max-width: 769px) {
-    /* line 514, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 515, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     body.discussion .discussion-post,
     .discussion-module .discussion-post,
     .discussion-user-threads .discussion-post {
       padding-left: 0;
       padding-right: 0; } }
 
-/* line 523, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 524, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 header {
   position: relative; }
 
-/* line 527, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 528, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .group-visibility-label {
   font-family: 'Oswald';
   font-size: 12px;
   color: #8d8f9e; }
 
-/* line 534, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 535, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .post-header-content h4 {
   font-size: 20px !important;
   text-transform: uppercase;
@@ -2975,16 +3014,16 @@ header {
   margin-top: 0;
   margin-bottom: 0 !important; }
 
-/* line 541, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 542, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .post-header-content .posted-details {
   font-size: 14px !important;
   color: #8d8f9e !important; }
-  /* line 544, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 545, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .post-header-content .posted-details a {
     color: #ff9388;
     font-weight: 400 !important; }
 
-/* line 554, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 555, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 body.discussion .discussion-post .post-header-actions,
 .discussion-module .discussion-post .post-header-actions,
 .discussion-user-threads .discussion-post .post-header-actions {
@@ -2993,26 +3032,26 @@ body.discussion .discussion-post .post-header-actions,
   right: 0;
   top: 0; }
   @media screen and (max-width: 769px) {
-    /* line 554, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 555, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     body.discussion .discussion-post .post-header-actions,
     .discussion-module .discussion-post .post-header-actions,
     .discussion-user-threads .discussion-post .post-header-actions {
       position: relative;
       display: block;
       width: 100%; } }
-  /* line 564, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 565, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   body.discussion .discussion-post .post-header-actions .action-button,
   .discussion-module .discussion-post .post-header-actions .action-button,
   .discussion-user-threads .discussion-post .post-header-actions .action-button {
     text-align: center; }
-    /* line 566, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 567, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     body.discussion .discussion-post .post-header-actions .action-button, body.discussion .discussion-post .post-header-actions .action-button:hover,
     .discussion-module .discussion-post .post-header-actions .action-button,
     .discussion-module .discussion-post .post-header-actions .action-button:hover,
     .discussion-user-threads .discussion-post .post-header-actions .action-button,
     .discussion-user-threads .discussion-post .post-header-actions .action-button:hover {
       border: none !important; }
-      /* line 569, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 570, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       body.discussion .discussion-post .post-header-actions .action-button .action-label,
       body.discussion .discussion-post .post-header-actions .action-button .action-icon, body.discussion .discussion-post .post-header-actions .action-button:hover .action-label,
       body.discussion .discussion-post .post-header-actions .action-button:hover .action-icon,
@@ -3030,7 +3069,7 @@ body.discussion .discussion-post .post-header-actions,
         border: 1px solid #d7d6e4 !important;
         height: 29px;
         padding-top: 4px; }
-      /* line 578, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 579, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       body.discussion .discussion-post .post-header-actions .action-button .action-icon, body.discussion .discussion-post .post-header-actions .action-button:hover .action-icon,
       .discussion-module .discussion-post .post-header-actions .action-button .action-icon,
       .discussion-module .discussion-post .post-header-actions .action-button:hover .action-icon,
@@ -3038,7 +3077,7 @@ body.discussion .discussion-post .post-header-actions,
       .discussion-user-threads .discussion-post .post-header-actions .action-button:hover .action-icon {
         width: 29px;
         background-color: #fff !important; }
-      /* line 582, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 583, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       body.discussion .discussion-post .post-header-actions .action-button .action-label, body.discussion .discussion-post .post-header-actions .action-button:hover .action-label,
       .discussion-module .discussion-post .post-header-actions .action-button .action-label,
       .discussion-module .discussion-post .post-header-actions .action-button:hover .action-label,
@@ -3047,14 +3086,14 @@ body.discussion .discussion-post .post-header-actions,
         width: 98px;
         border-right-width: 0 !important; }
         @media screen and (max-width: 993px) {
-          /* line 582, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+          /* line 583, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
           body.discussion .discussion-post .post-header-actions .action-button .action-label, body.discussion .discussion-post .post-header-actions .action-button:hover .action-label,
           .discussion-module .discussion-post .post-header-actions .action-button .action-label,
           .discussion-module .discussion-post .post-header-actions .action-button:hover .action-label,
           .discussion-user-threads .discussion-post .post-header-actions .action-button .action-label,
           .discussion-user-threads .discussion-post .post-header-actions .action-button:hover .action-label {
             width: 96px; } }
-    /* line 593, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 594, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     body.discussion .discussion-post .post-header-actions .action-button.action-vote .action-label, body.discussion .discussion-post .post-header-actions .action-button.action-vote:hover .action-label,
     .discussion-module .discussion-post .post-header-actions .action-button.action-vote .action-label,
     .discussion-module .discussion-post .post-header-actions .action-button.action-vote:hover .action-label,
@@ -3062,12 +3101,12 @@ body.discussion .discussion-post .post-header-actions,
     .discussion-user-threads .discussion-post .post-header-actions .action-button.action-vote:hover .action-label {
       border: none !important; }
 
-/* line 602, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 603, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .post-body {
   font-size: 18px !important;
   line-height: 26px; }
 
-/* line 608, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 609, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .response-count {
   font-size: 20px !important;
   text-transform: uppercase;
@@ -3078,17 +3117,17 @@ body.discussion .discussion-post .post-header-actions,
   font-family: 'Oswald';
   padding-right: 30px; }
 
-/* line 619, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 620, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .response-body {
   font-size: 16px !important;
   line-height: 22px; }
 
-/* line 623, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 624, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .add-response {
   margin-top: 20px;
   padding: 0 30px !important; }
 
-/* line 628, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 629, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .add-response-btn {
   border: none !important;
   box-shadow: none !important;
@@ -3117,7 +3156,7 @@ body.discussion .discussion-post .post-header-actions,
   .add-response-btn:active, .add-response-btn:focus {
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
-    /* line 628, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 629, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .add-response-btn {
       min-height: 50px;
       height: auto !important; } }
@@ -3126,78 +3165,78 @@ body.discussion .discussion-post .post-header-actions,
     border-color: #e27774 !important;
     background-color: #fff !important;
     color: #e27774 !important; }
-  /* line 635, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 636, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .add-response-btn .icon {
     display: none; }
-  /* line 638, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 639, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .add-response-btn:hover, .add-response-btn:focus {
     color: #ff9388 !important; }
 
-/* line 645, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 646, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .responses {
   padding: 0 30px !important;
   margin-top: 20px !important; }
-  /* line 648, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 649, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .responses .forum-response {
     border: none !important;
     box-shadow: none !important;
     border-radius: 0 !important;
     margin: 0 !important; }
-    /* line 652, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 653, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .responses .forum-response .discussion-response {
       background-color: #f0eff4 !important; }
-      /* line 655, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 656, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       .responses .forum-response .discussion-response .response-header-content .username {
         font-weight: 700 !important;
         color: #ff9388 !important;
         font-size: 18px !important; }
-      /* line 660, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 661, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       .responses .forum-response .discussion-response .response-header-content .posted-details {
         color: #8d8f9e !important;
         font-size: 14px; }
-        /* line 663, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+        /* line 664, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
         .responses .forum-response .discussion-response .response-header-content .posted-details .timeago {
           font-size: 10px; }
-    /* line 669, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 670, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .responses .forum-response .comments {
       background-color: #fff !important;
       border-radius: 0;
       box-shadow: none;
       margin-top: 32px; }
-      /* line 670, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 671, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       .responses .forum-response .comments > li {
         border-top: 1px solid #e3e3e3 !important; }
-      /* line 677, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 678, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       .responses .forum-response .comments .new-comment {
         border: none;
         padding: 0; }
-        /* line 680, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+        /* line 681, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
         .responses .forum-response .comments .new-comment .comment-form {
           padding: 0 !important; }
-          /* line 682, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+          /* line 683, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
           .responses .forum-response .comments .new-comment .comment-form .wmd-panel {
             min-width: unset; }
-          /* line 685, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+          /* line 686, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
           .responses .forum-response .comments .new-comment .comment-form .wmd-input {
             border: 1px solid #d7d6e4 !important;
             border-radius: 0 !important;
             box-shadow: none !important;
             height: 50px !important; }
-            /* line 690, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+            /* line 691, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
             .responses .forum-response .comments .new-comment .comment-form .wmd-input, .responses .forum-response .comments .new-comment .comment-form .wmd-input::-webkit-input-placeholder, .responses .forum-response .comments .new-comment .comment-form .wmd-input-ms-input-placeholder, .responses .forum-response .comments .new-comment .comment-form .wmd-input::placeholder, .responses .forum-response .comments .new-comment .comment-form .wmd-input::-moz-placeholder {
               font-size: 18px;
               line-height: 26px;
               color: #8d8f9e; }
 
-/* line 706, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 707, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .response-pagination {
   background-color: #fff;
   box-shadow: none; }
-  /* line 709, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 710, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .response-pagination .response-display-count {
     color: #8d8f9e; }
 
-/* line 715, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 716, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .discussion-reply-new h4 {
   font-size: 20px !important;
   text-transform: uppercase;
@@ -3207,7 +3246,7 @@ body.discussion .discussion-post .post-header-actions,
   color: #000000;
   font-family: 'Oswald'; }
 
-/* line 726, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 727, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .wmd-button-row {
   background-color: #f0eff4;
   padding: 5px;
@@ -3215,21 +3254,21 @@ body.discussion .discussion-post .post-header-actions,
   margin-left: 0 !important;
   margin-right: 0 !important; }
 
-/* line 734, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 735, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .wmd-input {
   border: 1px solid #d7d6e4 !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   height: 50px !important; }
 
-/* line 741, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 742, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .wmd-preview-container {
   border: none !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   margin-top: 20px; }
 
-/* line 749, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 750, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .reply-post-control .discussion-submit-post {
   width: auto !important;
   min-width: 177px !important;
@@ -3256,7 +3295,7 @@ body.discussion .discussion-post .post-header-actions,
   .reply-post-control .discussion-submit-post:active, .reply-post-control .discussion-submit-post:focus {
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
-    /* line 749, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 750, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .reply-post-control .discussion-submit-post {
       min-height: 50px;
       height: auto !important; } }
@@ -3265,15 +3304,15 @@ body.discussion .discussion-post .post-header-actions,
     border-color: #e27774 !important;
     background-color: #fff !important;
     color: #e27774 !important; }
-  /* line 756, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 757, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .reply-post-control .discussion-submit-post:hover, .reply-post-control .discussion-submit-post:focus {
     color: #ff9388 !important; }
 
-/* line 764, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+/* line 765, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
 .forum-new-post-form,
 .edit-post-form {
   border-radius: 0 !important; }
-  /* line 767, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 768, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form h3,
   .edit-post-form h3 {
     font-size: 20px !important;
@@ -3283,7 +3322,7 @@ body.discussion .discussion-post .post-header-actions,
     margin-bottom: 0 !important;
     color: #000000;
     font-family: 'Oswald'; }
-  /* line 776, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 777, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .post-type-label,
   .edit-post-form .post-type-label {
     width: auto !important;
@@ -3303,21 +3342,21 @@ body.discussion .discussion-post .post-header-actions,
     border-bottom-color: #e27774 !important;
     background-color: #ff9388 !important;
     color: #000 !important;
-    opacity: .6;
     box-shadow: none;
     background-image: none;
     min-width: 0 !important;
     width: 120px;
     height: 40px !important;
-    padding-top: 1px !important;
-    font-size: .9em !important; }
+    padding: 10px !important;
+    font-size: .9em !important;
+    vertical-align: middle !important; }
     /* line 21, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
     .forum-new-post-form .post-type-label:active, .forum-new-post-form .post-type-label:focus,
     .edit-post-form .post-type-label:active,
     .edit-post-form .post-type-label:focus {
       box-shadow: none !important; }
     @media screen and (max-width: 321px) {
-      /* line 776, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 777, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       .forum-new-post-form .post-type-label,
       .edit-post-form .post-type-label {
         min-height: 50px;
@@ -3328,43 +3367,56 @@ body.discussion .discussion-post .post-header-actions,
       border-color: #e27774 !important;
       background-color: #fff !important;
       color: #e27774 !important; }
-    /* line 787, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 788, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-new-post-form .post-type-label .icon,
     .edit-post-form .post-type-label .icon {
       display: none !important; }
-  /* line 791, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-  .forum-new-post-form .post-type-input:checked + .post-type-label,
-  .edit-post-form .post-type-input:checked + .post-type-label {
-    opacity: 1;
-    box-shadow: none; }
-  /* line 795, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 791, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    .forum-new-post-form .post-type-label input,
+    .edit-post-form .post-type-label input {
+      display: none !important;
+      width: 1px !important;
+      height: 1px !important; }
+    /* line 796, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    .forum-new-post-form .post-type-label .field-input-label,
+    .edit-post-form .post-type-label .field-input-label {
+      color: black !important; }
+  /* line 800, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  .forum-new-post-form .post-type-label .input-radio + .field-input-label,
+  .edit-post-form .post-type-label .input-radio + .field-input-label {
+    opacity: 0.6; }
+  /* line 803, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  .forum-new-post-form .post-type-label .input-radio:checked + .field-input-label,
+  .edit-post-form .post-type-label .input-radio:checked + .field-input-label {
+    opacity: 1; }
+  /* line 807, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .post-topic-button,
   .edit-post-form .post-topic-button {
     border: none !important;
     box-shadow: none !important;
     border-radius: none; }
-    /* line 798, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 810, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-new-post-form .post-topic-button, .forum-new-post-form .post-topic-button:hover, .forum-new-post-form .post-topic-button:focus,
     .edit-post-form .post-topic-button,
     .edit-post-form .post-topic-button:hover,
     .edit-post-form .post-topic-button:focus {
       background-image: none; }
-  /* line 805, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 817, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .post-field .field-input,
   .edit-post-form .post-field .field-input {
     box-shadow: none !important;
     border-radius: none; }
-  /* line 810, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 822, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .post-option,
   .edit-post-form .post-option {
     color: #8d8f9e !important; }
-    /* line 812, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    /* line 824, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
     .forum-new-post-form .post-option:hover, .forum-new-post-form .post-option.is-enabled,
     .edit-post-form .post-option:hover,
     .edit-post-form .post-option.is-enabled {
       border-color: #8d8f9e !important;
       color: #000000 !important; }
-  /* line 818, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 830, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .submit,
   .forum-new-post-form .cancel,
   .edit-post-form .submit,
@@ -3395,14 +3447,14 @@ body.discussion .discussion-post .post-header-actions,
     .edit-post-form .cancel:focus {
       box-shadow: none !important; }
     @media screen and (max-width: 321px) {
-      /* line 818, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+      /* line 830, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
       .forum-new-post-form .submit,
       .forum-new-post-form .cancel,
       .edit-post-form .submit,
       .edit-post-form .cancel {
         min-height: 50px;
         height: auto !important; } }
-  /* line 825, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 837, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .submit,
   .edit-post-form .submit {
     border-color: #ff9388 !important;
@@ -3415,7 +3467,7 @@ body.discussion .discussion-post .post-header-actions,
       border-color: #e27774 !important;
       background-color: #fff !important;
       color: #e27774 !important; }
-  /* line 828, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  /* line 840, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
   .forum-new-post-form .cancel,
   .edit-post-form .cancel {
     border-color: #d7d6e4 !important;
@@ -3430,8 +3482,8 @@ body.discussion .discussion-post .post-header-actions,
       background-color: #fff !important;
       color: #8d8f9e !important; }
 
-/* line 835, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-body.discussion header.header-global nav .wrapper-user-menu {
+/* line 849, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+body header.header-global nav .wrapper-user-menu {
   height: 50px;
   width: auto !important;
   min-width: 177px !important;
@@ -3450,37 +3502,37 @@ body.discussion header.header-global nav .wrapper-user-menu {
   border-bottom-color: #8d8f9e !important;
   background-color: #f0eff4 !important;
   color: #000 !important; }
-  /* line 837, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-  body.discussion header.header-global nav .wrapper-user-menu .menu-title {
+  /* line 851, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  body header.header-global nav .wrapper-user-menu .menu-title {
     display: none; }
   /* line 21, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
-  body.discussion header.header-global nav .wrapper-user-menu:active, body.discussion header.header-global nav .wrapper-user-menu:focus {
+  body header.header-global nav .wrapper-user-menu:active, body header.header-global nav .wrapper-user-menu:focus {
     box-shadow: none !important; }
   @media screen and (max-width: 321px) {
-    /* line 835, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu {
+    /* line 849, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu {
       min-height: 50px;
       height: auto !important; } }
   /* line 36, /edx/app/edxapp/themes/rue89/src/sass/modules/_mixins.scss */
-  body.discussion header.header-global nav .wrapper-user-menu:hover {
+  body header.header-global nav .wrapper-user-menu:hover {
     border-color: #8d8f9e !important;
     background-color: #fff !important;
     color: #8d8f9e !important; }
-  /* line 842, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-  body.discussion header.header-global nav .wrapper-user-menu .dropdown-menu {
+  /* line 856, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+  body header.header-global nav .wrapper-user-menu .dropdown-menu {
     position: absolute;
     height: 44px !important;
     width: 175px;
     top: 0;
     left: 0; }
-    /* line 848, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu .dropdown-menu.active {
+    /* line 862, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu .dropdown-menu.active {
       color: #8d8f9e; }
-    /* line 851, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu .dropdown-menu .fa {
+    /* line 865, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu .dropdown-menu .fa {
       display: none; }
-    /* line 854, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu .dropdown-menu:before {
+    /* line 868, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu .dropdown-menu:before {
       content: 'Mon compte';
       text-transform: uppercase;
       font-family: 'Montserrat';
@@ -3495,8 +3547,8 @@ body.discussion header.header-global nav .wrapper-user-menu {
       padding-top: 11px;
       padding-left: 17px;
       text-align: left; }
-    /* line 870, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
-    body.discussion header.header-global nav .wrapper-user-menu .dropdown-menu:after {
+    /* line 884, /edx/app/edxapp/themes/rue89/src/sass/pages/_forum.scss */
+    body header.header-global nav .wrapper-user-menu .dropdown-menu:after {
       content: '\f078';
       font-family: FontAwesome;
       font-size: .8em;
@@ -3712,4 +3764,4 @@ body .content-wrapper .file-browse.btn.btn-primary {
 header.header-global > nav.wrapper-header .nav-global {
   display: none; }
 
-/*# sourceMappingURL=rue89.css.map */
+/*# sourceMappingURL=../../lms/static/css/rue89.css.map */
