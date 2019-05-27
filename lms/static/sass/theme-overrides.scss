@@ -316,3 +316,7 @@
     color: $rue89-orange !important;
   }
 }
+/* Expand the course info page hero section to fit the image/video size */
+.course-info header.course-profile {
+  height: auto !important;
+}
