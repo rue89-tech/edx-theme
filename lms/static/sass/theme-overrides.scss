@@ -155,7 +155,13 @@
 
 /* Rue89 customizations */
 
-.courses-container .highlighted-courses .courses .course .course-info {
+.btn-brand:hover, .btn-primary:hover {
+    color: $rue89-orange !important;
+    border: 1px solid $rue89-orange !important;
+    background-color: #fff !important;
+}
+
+.courses-container .courses .course .course-info {
   .course-name
   {
     .course-title {
@@ -167,7 +173,7 @@
     }
   }
   .course-date {
-    color: $rue89-green;
+    color: $rue89-darker-green;
     font-weight: bold;
   }
 }
@@ -180,6 +186,7 @@
   a.sign-in-btn:hover, a.register-btn:hover {
     color: $rue89-orange !important;
     background-color: #ffff !important;
+    border: 1px solid $rue89-orange !important;
   }
 }
 .content-wrapper .course-tabs {
@@ -245,7 +252,7 @@
         .account-settings-section-body .u-field {
             .field {
                 select ~ .icon-caret-down::after {
-                    border-top:7px solid $rue89-green !important;
+                    border-top:7px solid $rue89-orange !important;
                 }
                 button.u-field-link:disabled {
                     border: 1px solid #ddd;
@@ -287,4 +294,7 @@
     border: 1px solid $rue89-orange !important;
     background-color: $rue89-orange !important;
   }
+}
+.courses-container .courses .course {
+    border-bottom: 3px solid $rue89-darker-green !important;
 }
