@@ -155,10 +155,16 @@
 
 /* Rue89 customizations */
 
+.btn-brand, .btn-primary {
+  color: #fff !important;
+  border: 1px solid $rue89-orange !important;
+  background-color: $rue89-orange !important;
+}
+
 .btn-brand:hover, .btn-primary:hover {
-    color: $rue89-orange !important;
-    border: 1px solid $rue89-orange !important;
-    background-color: #fff !important;
+  color: $rue89-orange !important;
+  border: 1px solid $rue89-orange !important;
+  background-color: #fff !important;
 }
 
 .courses-container .courses .course .course-info {
@@ -296,5 +302,5 @@
   }
 }
 .courses-container .courses .course {
-    border-bottom: 3px solid $rue89-darker-green !important;
+  border-bottom: 3px solid $rue89-darker-green !important;
 }
