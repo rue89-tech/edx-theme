@@ -149,11 +149,16 @@
   border: 0;
 }
 
- .fa-chevron-right:before {
+.fa-chevron-right:before {
   color: $main-color !important;
 }
 
 /* Rue89 customizations */
+
+/* Hide the marketing banner in a gray box */
+.main-container section.home header .outer-wrapper {
+  display: none !important;
+}
 
 .btn-brand, .btn-primary {
   color: #fff !important;
@@ -303,4 +308,11 @@
 }
 .courses-container .courses .course {
   border-bottom: 3px solid $rue89-darker-green !important;
+}
+
+.sequence .sequence-nav-button {
+  &.button-previous:not([disabled="disabled"]) .fa.fa-chevron-prev,
+  &.button-next:not([disabled="disabled"]) .fa.fa-chevron-next {
+    color: $rue89-orange !important;
+  }
 }
