@@ -155,11 +155,6 @@
 
 /* Rue89 customizations */
 
-/* Hide the marketing banner in a gray box */
-.main-container section.home header .outer-wrapper {
-  display: none !important;
-}
-
 .btn-brand, .btn-primary {
   color: #fff !important;
   border: 1px solid $rue89-orange !important;
