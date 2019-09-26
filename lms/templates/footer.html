@@ -14,29 +14,35 @@
     <footer>
       <div class="row">
         <div class="col-md-9">
-          <nav class="navbar site-nav navbar-expand-sm" aria-label="${_('About')}">
-            <ul class="navbar-nav">
-              % for item_num, link in enumerate(footer['navigation_links'], start=1):
-                <li class="nav-item">
-                  <a class="nav-link" href="${link['url']}">${link['title']}</a>
-                </li>
-              % endfor
-            </ul>
-          </nav>
 
           ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
           <p class="copyright">${footer['copyright']} ${u" | {icp}".format(icp=getattr(settings,'ICP_LICENSE')) if getattr(settings,'ICP_LICENSE',False) else ""}</p>
 
           <nav class="navbar legal-nav navbar-expand-sm" aria-label="${_('Legal')}">
             <ul class="navbar-nav">
-              % for item_num, link in enumerate(footer['legal_links'], start=1):
-                <li class="nav-item">
-                  <a class="nav-link" href="${link['url']}">${link['title']}</a>
-                </li>
-              % endfor
               <li class="nav-item">
-                <a class="nav-link" href="${footer['edx_org_link']['url']}">${footer['edx_org_link']['text']}</a>
+                <a class="nav-link" href="http://formation.rue89.com/index.php/qui-sommes-nous/" target="_blank">${_("About")}</a>
               </li>
+              %if settings.MKTG_URL_LINK_MAP.get('FAQ'):
+                <li class="nav-item">
+                  <a class="nav-link" href="${marketing_link('FAQ')}">${_("FAQ")}</a>
+                </li>
+              %endif
+              %if settings.MKTG_URL_LINK_MAP.get('TOS'):
+                <li class="nav-item">
+                  <a class="nav-link" href="${marketing_link('TOS')}">Mentions légales</a>
+                </li>
+              %endif
+              %if settings.MKTG_URL_LINK_MAP.get('HONOR'):
+                <li class="nav-item">
+                  <a class="nav-link" href="${marketing_link('HONOR')}">${_("Honor Code")}</a>
+                </li>
+              %endif
+              %if settings.MKTG_URL_LINK_MAP.get('PRIVACY'):
+              <li class="nav-item">
+                <a class="nav-link" href="${marketing_link('PRIVACY')}">${_("Privacy Policy")}</a>
+              </li>
+              %endif
             </ul>
           </nav>
         </div>
